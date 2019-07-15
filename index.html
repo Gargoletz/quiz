@@ -7,15 +7,99 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        canvas{
-            width: 100%;
-            height: 100%;
+        body {
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        canvas {
+            /* border: 1px solid black; */
+        }
+
+        h1 {
+            position: absolute;
         }
     </style>
+    <script>
+        let canvas, ctx, img;
+        let entities = [];
+        let images = [];
+        images[0] = new Image(64, 64);
+        images[0].src = "heart0.png";
+        images[1] = new Image(64, 64);
+        images[1].src = "heart1.png";
+        images[2] = new Image(64, 64);
+        images[2].src = "heart2.png";
+
+        class Heart {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.speed = 8;
+                this.image = images[Math.floor(Math.random() * images.length)];
+            }
+
+            update() {
+                this.y -= this.speed;
+
+                if (this.y <= -50)
+                    this.destroyed = true;
+            }
+
+            draw() {
+                ctx.drawImage(this.image, this.x, this.y);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function (e) {
+            canvas = document.getElementById("root");
+            ctx = canvas.getContext("2d");
+            canvas.width = document.body.scrollWidth;
+            canvas.height = window.innerHeight;
+
+            img = new Image(64, 64);
+            img.src = "heart.png";
+
+            function tick() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                for (let i = 0; i < entities.length; i++) {
+                    entities[i].update();
+                    entities[i].draw();
+                }
+
+                let _temp = [];
+                for (let i = 0; i < entities.length; i++) {
+                    if (!entities[i].destroyed)
+                        _temp.push(entities[i]);
+                }
+                entities = _temp;
+            }
+
+            setInterval(tick, 1000 / 60);
+
+            function spawn() {
+                // for (let i = 0; i < 50; i++) {
+                entities.push(new Heart(Math.floor(Math.random() * canvas.width), canvas.height + Math.floor(Math.random() * 100) + 150));
+                // }
+            }
+
+            function start() {
+                setInterval(spawn, 5);
+            }
+
+            start();
+
+            document.addEventListener("keyup", (e) => {
+                if (e.keyCode == 38)
+                    start();
+            })
+        })
+    </script>
 </head>
 
 <body>
-    <h1>TEST 1234</h1>
     <canvas id="root"></canvas>
 </body>
 
