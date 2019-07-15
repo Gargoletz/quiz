@@ -10,15 +10,60 @@
         body {
             display: flex;
             justify-content: center;
+            align-items: center;
             overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
         }
 
         canvas {
             /* border: 1px solid black; */
+            position: absolute;
+            z-index: -10;
         }
 
         h1 {
-            position: absolute;
+            text-align: center;
+            margin: 0;
+            margin-bottom: 12px;
+        }
+
+        #quiz {
+            width: 500px;
+            border: 4px solid #bbb;
+            padding: 25px;
+            border-radius: 20px;
+            background-color: #eee;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .button {
+            width: 120px;
+            height: 32px;
+            justify-content: center;
+            color: black;
+            background-color: #aaa;
+            border: 3px solid #999;
+            margin: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            border-radius: 6px;
+        }
+
+        .button:hover{
+            background-color: #ccc;
+            cursor: pointer;
+        }
+
+        #answers {
+            display: flex;
+            justify-content: center;
         }
     </style>
     <script>
@@ -81,7 +126,7 @@
 
             function spawn() {
                 // for (let i = 0; i < 50; i++) {
-                entities.push(new Heart(Math.floor(Math.random() * canvas.width), canvas.height + Math.floor(Math.random() * 100) + 150));
+                entities.push(new Heart(Math.floor(Math.random() * canvas.width) - 50, canvas.height + Math.floor(Math.random() * 100) + 150));
                 // }
             }
 
@@ -89,18 +134,40 @@
                 setInterval(spawn, 5);
             }
 
-            start();
-
             document.addEventListener("keyup", (e) => {
                 if (e.keyCode == 38)
                     start();
             })
+
+            function correct() {
+                start();
+            }
+
+            document.getElementById("correct").onclick = function f(){
+                this.style.backgroundColor = "yellow";
+                start();
+            };
+
+            document.getElementById("bad1").onclick = function f(){
+                this.style.backgroundColor = "red";
+            };
+            document.getElementById("bad2").onclick = function f(){
+                this.style.backgroundColor = "red";
+            };
         })
     </script>
 </head>
 
 <body>
     <canvas id="root"></canvas>
+    <div id="quiz">
+        <h1>¿Como se dice <i>perro</i> en polaco?</h1>
+        <div id="answers">
+            <div class="button" id="bad1">Kot</div>
+            <div class="button" id="correct">Pies</div>
+            <div class="button" id="bad2">Niedzwiedź</div>
+        </div>
+    </div>
 </body>
 
 </html>
