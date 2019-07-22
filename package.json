@@ -1,8 +1,8 @@
 {
-  "name": "planner",
+  "name": "quiz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gargoletz.github.io/planner",
+  "homepage": "https://gargoletz.github.io/quiz",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
