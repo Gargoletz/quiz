@@ -4,7 +4,7 @@ import Quiz from './Quiz';
 import { isMethod, thisExpression } from '@babel/types';
 import _hearts from './gfx/hearts.png';
 import { COPYFILE_EXCL } from 'constants';
-import _words from './words.js';
+import _words from './data/words.js';
 import { Heart, Confetti, entities, setEntities, Palabra } from './Entity.js';
 import Tree from './Tree';
 
@@ -21,6 +21,7 @@ class App extends React.Component {
     this.state = {
       screen: 1,
       word: { key: "", answer: "" },
+      lesson: "la familia",
       cooldown: 5,
       points: 0,
       level: 0,
@@ -36,17 +37,20 @@ class App extends React.Component {
     this.setScreen = this.setScreen.bind(this);
   }
 
-  setScreen(screen) {
-    this.setState({ screen });
+  async setScreen(screen, title) {
+    await this.setState({ screen, lesson: title });
+    this.randomize();
   }
 
   randomize() {
-    let w = [];
-    for (let i = 0; i < this.getWords().length; i++) {
-      if (!this.getWords()[i].done)
-        w.push(this.getWords()[i]);
+    if(this.getWords()){
+      let w = [];
+      for (let i = 0; i < this.getWords().length; i++) {
+        if (!this.getWords()[i].done)
+          w.push(this.getWords()[i]);
+      }
+      this.setState({ word: w[Math.floor(Math.random() * w.length)] })
     }
-    this.setState({ word: w[Math.floor(Math.random() * w.length)] })
   }
 
 
@@ -140,7 +144,7 @@ class App extends React.Component {
     for (let i = 0; i < num; i++) {
       if (entities.length < 500)
         new Palabra(Math.floor(Math.random() * (canvas.width + 50)) - 25, canvas.height + Math.floor(Math.random() * canvas.height));
-        // new Heart(Math.floor(Math.random() * (canvas.width + 50)) - 25, canvas.height + Math.floor(Math.random() * canvas.height), hearts);
+      // new Heart(Math.floor(Math.random() * (canvas.width + 50)) - 25, canvas.height + Math.floor(Math.random() * canvas.height), hearts);
       else return
     }
   }
@@ -166,7 +170,14 @@ class App extends React.Component {
   }
 
   getGroup() {
-    return (words.groups) ? words.groups[this.state.level] : [];
+    // return (words.groups) ? words.groups[this.state.level] : [];
+    if (words.groups) {
+      for (let i = 0; i < words.groups.length; i++) {
+        if (words.groups[i].name == this.state.lesson)
+          return words.groups[i];
+      }
+    }
+    return [];
   }
 
   getWords() {

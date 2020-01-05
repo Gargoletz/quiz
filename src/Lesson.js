@@ -4,10 +4,9 @@ import './css/Lesson.css';
 class Lesson extends React.Component {
     state = {}
     render() {
-        console.log(this.props.words);
         return (
             <div className="lesson-wrapper">
-                <div className="lesson-upper" onClick={(e) => { this.props.setScreen(1); }}>
+                <div className="lesson-upper" onClick={(e) => { this.props.setScreen(1, this.props.title); }}>
                     <div className="lesson-content">
                         <div className="lesson-title">{this.props.title}</div>
                         <div className="lesson-words">{}</div>
