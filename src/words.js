@@ -3,6 +3,7 @@ export default {
         {
             name: "la familia",
             translation: "rodzina",
+            color: "25",
             words: [
                 {
                     key: "mama",
@@ -57,6 +58,7 @@ export default {
         {
             name: "la gente",
             translation: "ludzie",
+            color: "50",
             words: [
                 // {
                 //     key: "być",
@@ -117,6 +119,7 @@ export default {
         {
             name: "los colores",
             translation: "kolory",
+            color: "75",
             words: [
                 {
                     key: "czerwony",
@@ -167,6 +170,7 @@ export default {
         {
             name: "los lugares de ciudad",
             translation: "miejsca w mieście",
+            color: "100",
             words: [
                 {
                     key: "iść",
@@ -237,6 +241,7 @@ export default {
         {
             name: "los animales",
             translation: "zwierzęta",
+            color: "125",
             words: [
                 {
                     key: "pies",
@@ -306,6 +311,7 @@ export default {
         {
             name: "la comida",
             translation: "jedzenie",
+            color: "150",
             words: [
                 {
                     key: "woda",
@@ -364,6 +370,7 @@ export default {
         {
             name: "la ropa",
             translation: "ubrania",
+            color: "175",
             words: [
                 {
                     key: "spodnie",
@@ -418,6 +425,7 @@ export default {
         {
             name: "en la casa",
             translation: "w domu",
+            color: "200",
             words: [
                 {
                     key: "drzwi",
@@ -476,6 +484,7 @@ export default {
         {
             name: "tiempo y lugar",
             translation: "czas i miejce",
+            color: "225",
             words: [
                 {
                     key: "wiosna",
@@ -546,6 +555,7 @@ export default {
         {
             name: "las emociones",
             translation: "uczucia i emocje",
+            color: "275",
             words: [
                 {
                     key: "wesoły",

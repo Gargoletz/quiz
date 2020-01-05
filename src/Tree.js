@@ -6,16 +6,16 @@ import groups from './data/words';
 class Tree extends React.Component {
     state = {}
     render() {
-
+        console.log(this.props.groups);
         return (
             <div id="tree-wrapper">
                 <div id="tree-content">
                     <div>
-                        {groups.groups.map((e, i) => {
-                            return <Lesson key={i} setScreen={this.props.setScreen} title={e.name}></Lesson>
-                    })}
+                        {(this.props.groups) ? this.props.groups.map((e, i) => {
+                            return <Lesson key={i} group={this.props.groups[i]} setScreen={this.props.setScreen}></Lesson>
+                        }) : ""}
+                    </div>
                 </div>
-            </div>
             </div >
         );
     }
