@@ -1,0 +1,11719 @@
+{
+	"Travel": [
+		{
+			"word": "boleto",
+			"skill": "Travel"
+		},
+		{
+			"word": "mi",
+			"skill": "Travel"
+		},
+		{
+			"word": "está",
+			"skill": "Travel",
+			"normal": "esta"
+		},
+		{
+			"word": "en",
+			"skill": "Travel"
+		},
+		{
+			"word": "cerrado",
+			"skill": "Travel"
+		},
+		{
+			"word": "cerca de",
+			"skill": "Travel 3"
+		},
+		{
+			"word": "ir",
+			"skill": "Travel 3"
+		},
+		{
+			"word": "más",
+			"skill": "Travel 2",
+			"normal": "mas"
+		},
+		{
+			"word": "aquí",
+			"skill": "Travel",
+			"normal": "aqui"
+		},
+		{
+			"word": "boletos",
+			"skill": "Travel 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "a",
+			"skill": "Travel"
+		},
+		{
+			"word": "vamos a",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "van a",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "tu",
+			"skill": "Travel"
+		},
+		{
+			"word": "tomar",
+			"skill": "Travel 3"
+		},
+		{
+			"word": "necesito",
+			"skill": "Travel"
+		},
+		{
+			"word": "al",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "tengo",
+			"skill": "Travel"
+		},
+		{
+			"word": "vas a",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "voy a",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "dónde",
+			"skill": "Travel",
+			"normal": "donde"
+		},
+		{
+			"word": "té",
+			"skill": "Travel 2",
+			"normal": "te",
+			"gender": "Masculine"
+		},
+		{
+			"word": "banco",
+			"skill": "Travel"
+		},
+		{
+			"word": "el café",
+			"skill": "Travel 3",
+			"normal": "el cafe"
+		},
+		{
+			"word": "por favor",
+			"skill": "Travel"
+		},
+		{
+			"word": "estar",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "autobús",
+			"skill": "Travel",
+			"normal": "autobus"
+		},
+		{
+			"word": "supermercado",
+			"skill": "Travel"
+		},
+		{
+			"word": "va a",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "por",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "del",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "a",
+			"skill": "Travel 3"
+		},
+		{
+			"word": "disfrutando",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "compraron",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "caminaron",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "boleto",
+			"skill": "Travel 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "encontraron",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "seiscientos",
+			"skill": "Travel 5",
+			"gender": "Masculine"
+		},
+		{
+			"word": "trescientos",
+			"skill": "Travel 5",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cuatrocientos",
+			"skill": "Travel 5",
+			"gender": "Masculine"
+		},
+		{
+			"word": "vinimos",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "entonces",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "pasaporte",
+			"skill": "Travel 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "compraste",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "vinieron",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "quinientos",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "vino",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "algo de",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "fumar",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "querría",
+			"skill": "Travel 5",
+			"normal": "querria"
+		},
+		{
+			"word": "nos vemos",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "alguien",
+			"skill": "Travel 5",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hay algún",
+			"skill": "Travel 5",
+			"normal": "hay algun"
+		},
+		{
+			"word": "viniste",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "espere",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "vine",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "hay alguna",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "cerca",
+			"skill": "Travel 3"
+		},
+		{
+			"word": "usar",
+			"skill": "Travel 2"
+		},
+		{
+			"word": "pronto",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "carro",
+			"skill": "Travel 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "treinta",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "viajar",
+			"skill": "Travel 3"
+		},
+		{
+			"word": "ruidos",
+			"skill": "Travel 5",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ruido",
+			"skill": "Travel 5",
+			"gender": "Masculine"
+		},
+		{
+			"word": "siguiente",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "nacionalidad",
+			"skill": "Travel 5",
+			"gender": "Feminine"
+		},
+		{
+			"word": "banana",
+			"skill": "Travel 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "taxi",
+			"skill": "Travel 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hotel",
+			"skill": "Travel"
+		},
+		{
+			"word": "adónde",
+			"skill": "Travel 4",
+			"normal": "adonde"
+		},
+		{
+			"word": "derecha",
+			"skill": "Travel 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "izquierda",
+			"skill": "Travel 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "carros",
+			"skill": "Travel 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "veintiséis",
+			"skill": "Travel 4",
+			"normal": "veintiseis"
+		},
+		{
+			"word": "veintiocho",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "pasaportes",
+			"skill": "Travel 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "llegar",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "veintinueve",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "menos",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "taxis",
+			"skill": "Travel 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "veintisiete",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "llego",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "llegas",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "aviones",
+			"skill": "Travel 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "maletas",
+			"skill": "Travel 4",
+			"gender": "Feminine"
+		},
+		{
+			"word": "al lado",
+			"skill": "Travel 3"
+		},
+		{
+			"word": "lejos",
+			"skill": "Travel 3"
+		},
+		{
+			"word": "hospitales",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "metro",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hospital",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bancos",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "metros",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "supermercados",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "puertas",
+			"skill": "Travel 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "parque",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "aeropuertos",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hotel",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hoteles",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "aeropuerto",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "parques",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "trenes",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "estaciones",
+			"skill": "Travel 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pasaporte",
+			"skill": "Travel"
+		},
+		{
+			"word": "taxi",
+			"skill": "Travel"
+		},
+		{
+			"word": "aeropuerto",
+			"skill": "Travel"
+		},
+		{
+			"word": "dinero",
+			"skill": "Travel"
+		},
+		{
+			"word": "reserva",
+			"skill": "Travel"
+		},
+		{
+			"word": "museo",
+			"skill": "Travel"
+		},
+		{
+			"word": "tren",
+			"skill": "Travel"
+		},
+		{
+			"word": "baño",
+			"skill": "Travel",
+			"normal": "bano"
+		},
+		{
+			"word": "hospital",
+			"skill": "Travel"
+		},
+		{
+			"word": "maleta",
+			"skill": "Travel"
+		},
+		{
+			"word": "teléfono",
+			"skill": "Travel",
+			"normal": "telefono"
+		},
+		{
+			"word": "calle",
+			"skill": "Travel"
+		},
+		{
+			"word": "tienes",
+			"skill": "Travel 2"
+		},
+		{
+			"word": "quiero",
+			"skill": "Travel 2"
+		},
+		{
+			"word": "computadora",
+			"skill": "Travel 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "bolígrafo",
+			"skill": "Travel 2",
+			"normal": "boligrafo",
+			"gender": "Masculine"
+		},
+		{
+			"word": "necesitas",
+			"skill": "Travel 2"
+		},
+		{
+			"word": "tengo",
+			"skill": "Travel 2"
+		},
+		{
+			"word": "maleta",
+			"skill": "Travel 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cartera",
+			"skill": "Travel 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "quiere",
+			"skill": "Travel 2"
+		},
+		{
+			"word": "quieres",
+			"skill": "Travel 2"
+		},
+		{
+			"word": "necesito",
+			"skill": "Travel 2"
+		},
+		{
+			"word": "dinero",
+			"skill": "Travel 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "tiene",
+			"skill": "Travel 2"
+		},
+		{
+			"word": "teléfono",
+			"skill": "Travel 2",
+			"normal": "telefono",
+			"gender": "Masculine"
+		},
+		{
+			"word": "necesita",
+			"skill": "Travel 2"
+		},
+		{
+			"word": "café",
+			"skill": "Travel 2",
+			"normal": "cafe",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cinturones",
+			"skill": "Travel 7",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cinturón",
+			"skill": "Travel 7",
+			"normal": "cinturon",
+			"gender": "Masculine"
+		},
+		{
+			"word": "uso",
+			"skill": "Travel 2"
+		},
+		{
+			"word": "usas",
+			"skill": "Travel 2"
+		},
+		{
+			"word": "ayuda",
+			"skill": "Travel 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "llegamos",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "llegan",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "llega",
+			"skill": "Travel 4"
+		},
+		{
+			"word": "posible",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "próxima",
+			"skill": "Travel 4",
+			"normal": "proxima",
+			"gender": "Feminine"
+		},
+		{
+			"word": "próximo",
+			"skill": "Travel 4",
+			"normal": "proximo",
+			"gender": "Masculine"
+		},
+		{
+			"word": "próximas",
+			"skill": "Travel 4",
+			"normal": "proximas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "minutos",
+			"skill": "Travel 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "estación",
+			"skill": "Travel 3",
+			"normal": "estacion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "minuto",
+			"skill": "Travel 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cadena",
+			"skill": "Travel 8",
+			"gender": "Feminine"
+		},
+		{
+			"word": "tren",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "siguientes",
+			"skill": "Travel 5"
+		},
+		{
+			"word": "puerta",
+			"skill": "Travel 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "escaleras",
+			"skill": "Travel 6",
+			"gender": "Feminine"
+		},
+		{
+			"word": "oeste",
+			"skill": "Travel 7",
+			"gender": "Masculine"
+		},
+		{
+			"word": "esquina",
+			"skill": "Travel 6",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cuarto",
+			"skill": "Travel 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "banco",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "calle",
+			"skill": "Travel 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "calles",
+			"skill": "Travel 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "estamos",
+			"skill": "Travel 3"
+		},
+		{
+			"word": "están",
+			"skill": "Travel 3",
+			"normal": "estan"
+		},
+		{
+			"word": "autobús",
+			"skill": "Travel 3",
+			"normal": "autobus",
+			"gender": "Masculine"
+		},
+		{
+			"word": "avión",
+			"skill": "Travel 4",
+			"normal": "avion",
+			"gender": "Masculine"
+		},
+		{
+			"word": "autobuses",
+			"skill": "Travel 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cámaras",
+			"skill": "Travel 4",
+			"normal": "camaras"
+		},
+		{
+			"word": "cámara",
+			"skill": "Travel 4",
+			"normal": "camara"
+		}
+	],
+	"Recreation": [
+		{
+			"word": "a lo mejor",
+			"skill": "Recreation 3"
+		},
+		{
+			"word": "desafortunadamente",
+			"skill": "Recreation 3"
+		},
+		{
+			"word": "ciclismo",
+			"skill": "Recreation 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "carísimo",
+			"skill": "Recreation 3",
+			"normal": "carisimo",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hermosísima",
+			"skill": "Recreation 3",
+			"normal": "hermosisima",
+			"gender": "Feminine"
+		},
+		{
+			"word": "hobby",
+			"skill": "Recreation 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hermosísimo",
+			"skill": "Recreation 3",
+			"normal": "hermosisimo",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hobbies",
+			"skill": "Recreation 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hermosísimas",
+			"skill": "Recreation 3",
+			"normal": "hermosisimas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "nadó",
+			"skill": "Recreation 3",
+			"normal": "nado"
+		},
+		{
+			"word": "hermosísimos",
+			"skill": "Recreation 3",
+			"normal": "hermosisimos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "nadé",
+			"skill": "Recreation 3",
+			"normal": "nade"
+		},
+		{
+			"word": "nadaron",
+			"skill": "Recreation 3"
+		},
+		{
+			"word": "nadaste",
+			"skill": "Recreation 3"
+		},
+		{
+			"word": "carísima",
+			"skill": "Recreation 3",
+			"normal": "carisima",
+			"gender": "Feminine"
+		},
+		{
+			"word": "carísimas",
+			"skill": "Recreation 3",
+			"normal": "carisimas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "carísimos",
+			"skill": "Recreation 3",
+			"normal": "carisimos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "motocicletas",
+			"skill": "Recreation 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "hip-hop",
+			"skill": "Recreation 3"
+		},
+		{
+			"word": "jazz",
+			"skill": "Recreation 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "qué tal si",
+			"skill": "Recreation 3",
+			"normal": "que tal si"
+		},
+		{
+			"word": "bellísima",
+			"skill": "Recreation 3",
+			"normal": "bellisima",
+			"gender": "Feminine"
+		},
+		{
+			"word": "bellísimos",
+			"skill": "Recreation 3",
+			"normal": "bellisimos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bellísimo",
+			"skill": "Recreation 3",
+			"normal": "bellisimo",
+			"gender": "Masculine"
+		},
+		{
+			"word": "espectáculos",
+			"skill": "Recreation 3",
+			"normal": "espectaculos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "obra de teatro",
+			"skill": "Recreation 3"
+		},
+		{
+			"word": "lagos",
+			"skill": "Recreation 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bellísimas",
+			"skill": "Recreation 3",
+			"normal": "bellisimas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "fuimos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "aburridísima",
+			"skill": "Recreation 3",
+			"normal": "aburridisima",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cómics",
+			"skill": "Recreation 3",
+			"normal": "comics",
+			"gender": "Masculine"
+		},
+		{
+			"word": "invite",
+			"skill": "Recreation 3"
+		},
+		{
+			"word": "aburridísimos",
+			"skill": "Recreation 3",
+			"normal": "aburridisimos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "aburridísimo",
+			"skill": "Recreation 3",
+			"normal": "aburridisimo",
+			"gender": "Masculine"
+		},
+		{
+			"word": "aburridísimas",
+			"skill": "Recreation 3",
+			"normal": "aburridisimas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "descansos",
+			"skill": "Recreation 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "divertidísima",
+			"skill": "Recreation 3",
+			"normal": "divertidisima",
+			"gender": "Feminine"
+		},
+		{
+			"word": "divertidísimas",
+			"skill": "Recreation 3",
+			"normal": "divertidisimas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "divertidísimos",
+			"skill": "Recreation 3",
+			"normal": "divertidisimos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "divertidísimo",
+			"skill": "Recreation 3",
+			"normal": "divertidisimo",
+			"gender": "Masculine"
+		},
+		{
+			"word": "invita",
+			"skill": "Recreation 3"
+		},
+		{
+			"word": "qué hacemos",
+			"skill": "Recreation 3",
+			"normal": "que hacemos"
+		},
+		{
+			"word": "estuvimos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "excursiones",
+			"skill": "Recreation 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "montó",
+			"skill": "Recreation 3",
+			"normal": "monto"
+		},
+		{
+			"word": "grandísimas",
+			"skill": "Recreation 3",
+			"normal": "grandisimas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "montaron",
+			"skill": "Recreation 3"
+		},
+		{
+			"word": "malísima",
+			"skill": "Recreation 3",
+			"normal": "malisima",
+			"gender": "Feminine"
+		},
+		{
+			"word": "grandísima",
+			"skill": "Recreation 3",
+			"normal": "grandisima",
+			"gender": "Feminine"
+		},
+		{
+			"word": "corrí",
+			"skill": "Recreation 3",
+			"normal": "corri"
+		},
+		{
+			"word": "malísimos",
+			"skill": "Recreation 3",
+			"normal": "malisimos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "grandísimos",
+			"skill": "Recreation 3",
+			"normal": "grandisimos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "buenísimos",
+			"skill": "Recreation 3",
+			"normal": "buenisimos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "corrieron",
+			"skill": "Recreation 3"
+		},
+		{
+			"word": "monté",
+			"skill": "Recreation 3",
+			"normal": "monte"
+		},
+		{
+			"word": "corriste",
+			"skill": "Recreation 3"
+		},
+		{
+			"word": "buenísimas",
+			"skill": "Recreation 3",
+			"normal": "buenisimas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "excursión",
+			"skill": "Recreation 3",
+			"normal": "excursion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "anoche",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "tiempo",
+			"skill": "Recreation",
+			"gender": "Masculine"
+		},
+		{
+			"word": "tenis",
+			"skill": "Recreation",
+			"gender": "Masculine"
+		},
+		{
+			"word": "escribimos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "bailamos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "después",
+			"skill": "Recreation 2",
+			"normal": "despues"
+		},
+		{
+			"word": "escuchamos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "disfrutamos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "cenamos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "conocimos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "vimos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "viajamos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "corrimos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "pasamos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "aprendimos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "nadamos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "caminamos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "visitamos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "comimos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "montamos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "practicamos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "bebimos",
+			"skill": "Recreation 2"
+		},
+		{
+			"word": "barcos",
+			"skill": "Recreation 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "queridos",
+			"skill": "Recreation 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pasar",
+			"skill": "Recreation"
+		},
+		{
+			"word": "les gusta",
+			"skill": "Recreation"
+		},
+		{
+			"word": "a ti",
+			"skill": "Recreation"
+		},
+		{
+			"word": "a mí",
+			"skill": "Recreation",
+			"normal": "a mi"
+		},
+		{
+			"word": "a nosotros",
+			"skill": "Recreation"
+		},
+		{
+			"word": "les encanta",
+			"skill": "Recreation"
+		},
+		{
+			"word": "para nosotros",
+			"skill": "Recreation"
+		},
+		{
+			"word": "para él",
+			"skill": "Recreation",
+			"normal": "para el"
+		},
+		{
+			"word": "para ella",
+			"skill": "Recreation"
+		},
+		{
+			"word": "montar",
+			"skill": "Recreation"
+		},
+		{
+			"word": "a usted",
+			"skill": "Recreation"
+		},
+		{
+			"word": "a él",
+			"skill": "Recreation",
+			"normal": "a el"
+		},
+		{
+			"word": "a ustedes",
+			"skill": "Recreation"
+		},
+		{
+			"word": "normalmente",
+			"skill": "Recreation"
+		},
+		{
+			"word": "caballos",
+			"skill": "Recreation",
+			"gender": "Masculine"
+		},
+		{
+			"word": "camino",
+			"skill": "Recreation"
+		},
+		{
+			"word": "corre",
+			"skill": "Recreation"
+		},
+		{
+			"word": "montas",
+			"skill": "Recreation"
+		},
+		{
+			"word": "río",
+			"skill": "Recreation",
+			"normal": "rio",
+			"gender": "Masculine"
+		},
+		{
+			"word": "corres",
+			"skill": "Recreation"
+		},
+		{
+			"word": "caminas",
+			"skill": "Recreation"
+		},
+		{
+			"word": "montan",
+			"skill": "Recreation"
+		},
+		{
+			"word": "caballo",
+			"skill": "Recreation",
+			"gender": "Masculine"
+		},
+		{
+			"word": "corren",
+			"skill": "Recreation"
+		},
+		{
+			"word": "pasa",
+			"skill": "Recreation"
+		},
+		{
+			"word": "paso",
+			"skill": "Recreation"
+		},
+		{
+			"word": "pasas",
+			"skill": "Recreation"
+		},
+		{
+			"word": "pasan",
+			"skill": "Recreation"
+		},
+		{
+			"word": "disfrutan",
+			"skill": "Recreation"
+		},
+		{
+			"word": "disfruto",
+			"skill": "Recreation"
+		},
+		{
+			"word": "disfrutas",
+			"skill": "Recreation"
+		},
+		{
+			"word": "aquellos",
+			"skill": "Recreation",
+			"gender": "Masculine"
+		},
+		{
+			"word": "aquellas",
+			"skill": "Recreation",
+			"gender": "Feminine"
+		},
+		{
+			"word": "aquella",
+			"skill": "Recreation",
+			"gender": "Feminine"
+		},
+		{
+			"word": "camina",
+			"skill": "Recreation"
+		},
+		{
+			"word": "corremos",
+			"skill": "Recreation"
+		},
+		{
+			"word": "barco",
+			"skill": "Recreation 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "caminan",
+			"skill": "Recreation"
+		},
+		{
+			"word": "corro",
+			"skill": "Recreation"
+		}
+	],
+	"Schedule": [
+		{
+			"word": "concierto",
+			"skill": "Schedule",
+			"gender": "Masculine"
+		},
+		{
+			"word": "divertido",
+			"skill": "Schedule",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cuándo",
+			"skill": "Schedule",
+			"normal": "cuando"
+		},
+		{
+			"word": "cumpleaños",
+			"skill": "Schedule",
+			"normal": "cumpleanos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hoy",
+			"skill": "Schedule"
+		},
+		{
+			"word": "mañana",
+			"skill": "Schedule",
+			"normal": "manana"
+		},
+		{
+			"word": "béisbol",
+			"skill": "Schedule",
+			"normal": "beisbol",
+			"gender": "Masculine"
+		},
+		{
+			"word": "fútbol",
+			"skill": "Schedule",
+			"normal": "futbol",
+			"gender": "Masculine"
+		},
+		{
+			"word": "película",
+			"skill": "Schedule",
+			"normal": "pelicula",
+			"gender": "Feminine"
+		},
+		{
+			"word": "qué",
+			"skill": "Schedule",
+			"normal": "que",
+			"gender": "Masculine"
+		},
+		{
+			"word": "partido",
+			"skill": "Schedule",
+			"gender": "Masculine"
+		},
+		{
+			"word": "tu",
+			"skill": "Schedule"
+		},
+		{
+			"word": "fin de semana",
+			"skill": "Schedule"
+		},
+		{
+			"word": "favorita",
+			"skill": "Schedule",
+			"gender": "Feminine"
+		},
+		{
+			"word": "favorito",
+			"skill": "Schedule",
+			"gender": "Masculine"
+		},
+		{
+			"word": "divertida",
+			"skill": "Schedule",
+			"gender": "Feminine"
+		},
+		{
+			"word": "baile",
+			"skill": "Schedule",
+			"gender": "Masculine"
+		},
+		{
+			"word": "disfruta",
+			"skill": "Schedule"
+		},
+		{
+			"word": "fiesta",
+			"skill": "Schedule",
+			"gender": "Feminine"
+		},
+		{
+			"word": "lunes",
+			"skill": "Schedule",
+			"gender": "Masculine"
+		},
+		{
+			"word": "jueves",
+			"skill": "Schedule",
+			"gender": "Masculine"
+		},
+		{
+			"word": "sábado",
+			"skill": "Schedule",
+			"normal": "sabado",
+			"gender": "Masculine"
+		},
+		{
+			"word": "viernes",
+			"skill": "Schedule",
+			"gender": "Masculine"
+		},
+		{
+			"word": "domingo",
+			"skill": "Schedule",
+			"gender": "Masculine"
+		},
+		{
+			"word": "día",
+			"skill": "Schedule",
+			"normal": "dia",
+			"gender": "Masculine"
+		},
+		{
+			"word": "semana",
+			"skill": "Schedule",
+			"gender": "Feminine"
+		},
+		{
+			"word": "miércoles",
+			"skill": "Schedule",
+			"normal": "miercoles",
+			"gender": "Masculine"
+		},
+		{
+			"word": "martes",
+			"skill": "Schedule",
+			"gender": "Masculine"
+		}
+	],
+	"Introduction": [
+		{
+			"word": "es",
+			"skill": "Introduction"
+		},
+		{
+			"word": "tú",
+			"skill": "Introduction",
+			"normal": "tu"
+		},
+		{
+			"word": "el",
+			"skill": "Introduction",
+			"gender": "Masculine"
+		},
+		{
+			"word": "yo",
+			"skill": "Introduction"
+		},
+		{
+			"word": "la",
+			"skill": "Introduction",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pan",
+			"skill": "Introduction",
+			"gender": "Masculine"
+		},
+		{
+			"word": "agua",
+			"skill": "Introduction",
+			"gender": "Feminine"
+		},
+		{
+			"word": "niño",
+			"skill": "Introduction",
+			"normal": "nino",
+			"gender": "Masculine"
+		},
+		{
+			"word": "niña",
+			"skill": "Introduction",
+			"normal": "nina",
+			"gender": "Feminine"
+		},
+		{
+			"word": "eres",
+			"skill": "Introduction"
+		},
+		{
+			"word": "él",
+			"skill": "Introduction",
+			"normal": "el",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ella",
+			"skill": "Introduction",
+			"gender": "Feminine"
+		},
+		{
+			"word": "leche",
+			"skill": "Introduction",
+			"gender": "Feminine"
+		},
+		{
+			"word": "soy",
+			"skill": "Introduction"
+		},
+		{
+			"word": "mujer",
+			"skill": "Introduction",
+			"gender": "Feminine"
+		},
+		{
+			"word": "hombre",
+			"skill": "Introduction",
+			"gender": "Masculine"
+		},
+		{
+			"word": "un",
+			"skill": "Introduction",
+			"gender": "Masculine"
+		},
+		{
+			"word": "una",
+			"skill": "Introduction",
+			"gender": "Feminine"
+		},
+		{
+			"word": "como",
+			"skill": "Introduction"
+		},
+		{
+			"word": "bebes",
+			"skill": "Introduction"
+		},
+		{
+			"word": "bebo",
+			"skill": "Introduction"
+		},
+		{
+			"word": "comes",
+			"skill": "Introduction"
+		},
+		{
+			"word": "bebe",
+			"skill": "Introduction"
+		},
+		{
+			"word": "come",
+			"skill": "Introduction"
+		}
+	],
+	"Restaurant": [
+		{
+			"word": "quiero",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "con",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "para",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "de",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "dos",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "o",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "restaurante",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "café",
+			"skill": "Restaurant",
+			"normal": "cafe"
+		},
+		{
+			"word": "pescado",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "panes",
+			"skill": "Restaurant 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "carne",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "mesa",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "cenó",
+			"skill": "Restaurant 3",
+			"normal": "ceno"
+		},
+		{
+			"word": "traemos",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "excelente",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "desayunan",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "desayunó",
+			"skill": "Restaurant 3",
+			"normal": "desayuno"
+		},
+		{
+			"word": "probaron",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "cenan",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "cenaron",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "desayunamos",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "aceites",
+			"skill": "Restaurant 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "especial del día",
+			"skill": "Restaurant 3",
+			"normal": "especial del dia"
+		},
+		{
+			"word": "pedimos",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "me puede traer",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "ensalada",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "pedir",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "vaso",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "servimos",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "un plato",
+			"skill": "Restaurant 2"
+		},
+		{
+			"word": "quisiera",
+			"skill": "Restaurant 2"
+		},
+		{
+			"word": "taza",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "algo más",
+			"skill": "Restaurant 3",
+			"normal": "algo mas"
+		},
+		{
+			"word": "extra",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "extras",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "buen provecho",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "hamburguesa",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "estupendas",
+			"skill": "Restaurant 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "sirvo",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "estupendos",
+			"skill": "Restaurant 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "llenas",
+			"skill": "Restaurant 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "piden",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "saludable",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "saludables",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "estupenda",
+			"skill": "Restaurant 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "servir",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "chef",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "champán",
+			"skill": "Restaurant 3",
+			"normal": "champan",
+			"gender": "Masculine"
+		},
+		{
+			"word": "asada",
+			"skill": "Restaurant 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "champanes",
+			"skill": "Restaurant 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cocinaste",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "asado",
+			"skill": "Restaurant 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "azúcar",
+			"skill": "Restaurant",
+			"normal": "azucar"
+		},
+		{
+			"word": "personas",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "pagar",
+			"skill": "Restaurant 2"
+		},
+		{
+			"word": "uno",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "tres",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "queso",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "sándwich",
+			"skill": "Restaurant",
+			"normal": "sandwich"
+		},
+		{
+			"word": "jugo",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "sal",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pagar",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "cuenta",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "puede traer",
+			"skill": "Restaurant 2"
+		},
+		{
+			"word": "sin",
+			"skill": "Restaurant 2"
+		},
+		{
+			"word": "postres",
+			"skill": "Restaurant 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "sopas",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "sopa",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "postre",
+			"skill": "Restaurant 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "frita",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cervezas",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "camareros",
+			"skill": "Restaurant 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "menú",
+			"skill": "Restaurant 2",
+			"normal": "menu",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cerveza",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "camareras",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "tomate",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "naranja",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "sin",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "sal",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "cuenta",
+			"skill": "Restaurant"
+		},
+		{
+			"word": "aceite",
+			"skill": "Restaurant 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hielo",
+			"skill": "Restaurant 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "otro",
+			"skill": "Restaurant 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "sirve",
+			"skill": "Restaurant 3"
+		},
+		{
+			"word": "cuchillos",
+			"skill": "Restaurant 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cuchillo",
+			"skill": "Restaurant 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "platos",
+			"skill": "Restaurant 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "vasos",
+			"skill": "Restaurant 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "mesa",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "plato",
+			"skill": "Restaurant 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "mesas",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "vaso",
+			"skill": "Restaurant 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cuchara",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cucharas",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "paga",
+			"skill": "Restaurant 2"
+		},
+		{
+			"word": "pagan",
+			"skill": "Restaurant 2"
+		},
+		{
+			"word": "blancas",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "blanco",
+			"skill": "Restaurant 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "blanca",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "vegetariana",
+			"skill": "Restaurant 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "vegetarianos",
+			"skill": "Restaurant 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "vegetariano",
+			"skill": "Restaurant 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "botella",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "botellas",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "alcohol",
+			"skill": "Restaurant 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pago",
+			"skill": "Restaurant 2"
+		},
+		{
+			"word": "otra",
+			"skill": "Restaurant 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pagas",
+			"skill": "Restaurant 2"
+		}
+	],
+	"People": [
+		{
+			"word": "muchos",
+			"skill": "People 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "muchas",
+			"skill": "People 4",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ellos",
+			"skill": "People 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "son",
+			"skill": "People 4"
+		},
+		{
+			"word": "cuántas",
+			"skill": "People 4",
+			"normal": "cuantas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "quién",
+			"skill": "People 2",
+			"normal": "quien"
+		},
+		{
+			"word": "ellas",
+			"skill": "People 4",
+			"gender": "Feminine"
+		},
+		{
+			"word": "vacaciones",
+			"skill": "People 4",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ustedes",
+			"skill": "People 4"
+		},
+		{
+			"word": "estados unidos",
+			"skill": "People"
+		},
+		{
+			"word": "nosotros",
+			"skill": "People 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "trabajo",
+			"skill": "People 2"
+		},
+		{
+			"word": "camarero",
+			"skill": "People 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "comer",
+			"skill": "People 2"
+		},
+		{
+			"word": "francés",
+			"skill": "People 2",
+			"normal": "frances",
+			"gender": "Masculine"
+		},
+		{
+			"word": "celular",
+			"skill": "People 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "trabajar",
+			"skill": "People 2"
+		},
+		{
+			"word": "mi",
+			"skill": "People"
+		},
+		{
+			"word": "vino",
+			"skill": "People 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "interesante",
+			"skill": "People"
+		},
+		{
+			"word": "en",
+			"skill": "People"
+		},
+		{
+			"word": "de",
+			"skill": "People"
+		},
+		{
+			"word": "y",
+			"skill": "People"
+		},
+		{
+			"word": "estudiar",
+			"skill": "People 2"
+		},
+		{
+			"word": "con",
+			"skill": "People 3"
+		},
+		{
+			"word": "dónde",
+			"skill": "People",
+			"normal": "donde"
+		},
+		{
+			"word": "beber",
+			"skill": "People 2"
+		},
+		{
+			"word": "hablar",
+			"skill": "People 2"
+		},
+		{
+			"word": "perro",
+			"skill": "People 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "méxico",
+			"skill": "People",
+			"normal": "mexico",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hombres",
+			"skill": "People 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "nombre",
+			"skill": "People",
+			"gender": "Masculine"
+		},
+		{
+			"word": "gato",
+			"skill": "People 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "fines de semana",
+			"skill": "People 4"
+		},
+		{
+			"word": "dirección",
+			"skill": "People 3",
+			"normal": "direccion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "camarera",
+			"skill": "People 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "francia",
+			"skill": "People 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "médico",
+			"skill": "People 3",
+			"normal": "medico",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ser",
+			"skill": "People 3"
+		},
+		{
+			"word": "jugo",
+			"skill": "People 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "españa",
+			"skill": "People",
+			"normal": "espana",
+			"gender": "Feminine"
+		},
+		{
+			"word": "inglaterra",
+			"skill": "People 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "nosotras",
+			"skill": "People 4",
+			"gender": "Feminine"
+		},
+		{
+			"word": "portugués",
+			"skill": "People 3",
+			"normal": "portugues",
+			"gender": "Masculine"
+		},
+		{
+			"word": "vivir",
+			"skill": "People 2"
+		},
+		{
+			"word": "china",
+			"skill": "People",
+			"gender": "Feminine"
+		},
+		{
+			"word": "fábrica",
+			"skill": "People 2",
+			"normal": "fabrica",
+			"gender": "Feminine"
+		},
+		{
+			"word": "sándwich",
+			"skill": "People 2",
+			"normal": "sandwich",
+			"gender": "Masculine"
+		},
+		{
+			"word": "americana",
+			"skill": "People",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cubana",
+			"skill": "People",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cubano",
+			"skill": "People",
+			"gender": "Masculine"
+		},
+		{
+			"word": "me llamo",
+			"skill": "People"
+		},
+		{
+			"word": "carne",
+			"skill": "People 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "somos",
+			"skill": "People 4"
+		},
+		{
+			"word": "mujeres",
+			"skill": "People 4",
+			"gender": "Feminine"
+		},
+		{
+			"word": "europa",
+			"skill": "People 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "médica",
+			"skill": "People 3",
+			"normal": "medica",
+			"gender": "Feminine"
+		},
+		{
+			"word": "trabajas",
+			"skill": "People 2"
+		},
+		{
+			"word": "americano",
+			"skill": "People",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cuba",
+			"skill": "People",
+			"gender": "Feminine"
+		},
+		{
+			"word": "señores",
+			"skill": "People 4",
+			"normal": "senores",
+			"gender": "Masculine"
+		},
+		{
+			"word": "estudiamos",
+			"skill": "People 4"
+		},
+		{
+			"word": "ciudades",
+			"skill": "People 4",
+			"gender": "Feminine"
+		},
+		{
+			"word": "unos",
+			"skill": "People 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hablamos",
+			"skill": "People 4"
+		},
+		{
+			"word": "señoras",
+			"skill": "People 4",
+			"normal": "senoras",
+			"gender": "Feminine"
+		},
+		{
+			"word": "universidades",
+			"skill": "People 4",
+			"gender": "Feminine"
+		},
+		{
+			"word": "unas",
+			"skill": "People 4",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ciudad",
+			"skill": "People 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pueblo",
+			"skill": "People 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "amiga",
+			"skill": "People 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "amigo",
+			"skill": "People 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "vives",
+			"skill": "People 2"
+		},
+		{
+			"word": "vive",
+			"skill": "People 2"
+		},
+		{
+			"word": "casa",
+			"skill": "People 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ensalada",
+			"skill": "People 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "oficina",
+			"skill": "People 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "estudias",
+			"skill": "People 2"
+		},
+		{
+			"word": "estudio",
+			"skill": "People 2"
+		},
+		{
+			"word": "estudia",
+			"skill": "People 2"
+		},
+		{
+			"word": "vivo",
+			"skill": "People"
+		},
+		{
+			"word": "mexicano",
+			"skill": "People",
+			"gender": "Masculine"
+		},
+		{
+			"word": "mexicana",
+			"skill": "People",
+			"gender": "Feminine"
+		},
+		{
+			"word": "estudiante",
+			"skill": "People"
+		},
+		{
+			"word": "novio",
+			"skill": "People 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "novia",
+			"skill": "People 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cuántos",
+			"skill": "People 4",
+			"normal": "cuantos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cuánto",
+			"skill": "People 4",
+			"normal": "cuanto",
+			"gender": "Masculine"
+		},
+		{
+			"word": "estudian",
+			"skill": "People 4"
+		},
+		{
+			"word": "importante",
+			"skill": "People 3"
+		},
+		{
+			"word": "joven",
+			"skill": "People 3"
+		},
+		{
+			"word": "grande",
+			"skill": "People 3"
+		},
+		{
+			"word": "familia",
+			"skill": "People 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "número",
+			"skill": "People 3",
+			"normal": "numero",
+			"gender": "Masculine"
+		},
+		{
+			"word": "números",
+			"skill": "People 5",
+			"normal": "numeros",
+			"gender": "Masculine"
+		},
+		{
+			"word": "maestro",
+			"skill": "People 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "maestra",
+			"skill": "People 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "hermano",
+			"skill": "People 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "escuela",
+			"skill": "People 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "restaurante",
+			"skill": "People 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ni",
+			"skill": "People 5"
+		},
+		{
+			"word": "sino",
+			"skill": "People 5"
+		},
+		{
+			"word": "caballero",
+			"skill": "People 5",
+			"gender": "Masculine"
+		},
+		{
+			"word": "feria",
+			"skill": "People 5",
+			"gender": "Feminine"
+		},
+		{
+			"word": "testigos",
+			"skill": "People 5"
+		},
+		{
+			"word": "testigo",
+			"skill": "People 5"
+		},
+		{
+			"word": "costumbre",
+			"skill": "People 5",
+			"gender": "Feminine"
+		},
+		{
+			"word": "individuo",
+			"skill": "People 5",
+			"gender": "Masculine"
+		},
+		{
+			"word": "humanidad",
+			"skill": "People 5",
+			"gender": "Feminine"
+		},
+		{
+			"word": "vecinos",
+			"skill": "People 5",
+			"gender": "Masculine"
+		},
+		{
+			"word": "audiencia",
+			"skill": "People 5",
+			"gender": "Feminine"
+		},
+		{
+			"word": "culturas",
+			"skill": "People 5",
+			"gender": "Feminine"
+		},
+		{
+			"word": "amigas",
+			"skill": "People 4",
+			"gender": "Feminine"
+		},
+		{
+			"word": "amigos",
+			"skill": "People 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hermana",
+			"skill": "People 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "hablan",
+			"skill": "People 4"
+		}
+	],
+	"Work": [
+		{
+			"word": "los",
+			"skill": "Work",
+			"gender": "Masculine"
+		},
+		{
+			"word": "las",
+			"skill": "Work",
+			"gender": "Feminine"
+		},
+		{
+			"word": "jamás",
+			"skill": "Work 2",
+			"normal": "jamas"
+		},
+		{
+			"word": "usted va",
+			"skill": "Work 2"
+		},
+		{
+			"word": "ahora",
+			"skill": "Work"
+		},
+		{
+			"word": "aquí",
+			"skill": "Work",
+			"normal": "aqui"
+		},
+		{
+			"word": "ponga",
+			"skill": "Work 2"
+		},
+		{
+			"word": "use",
+			"skill": "Work 2"
+		},
+		{
+			"word": "ayude",
+			"skill": "Work 2"
+		},
+		{
+			"word": "tampoco",
+			"skill": "Work 2"
+		},
+		{
+			"word": "haga",
+			"skill": "Work 2"
+		},
+		{
+			"word": "tú haces",
+			"skill": "Work 2",
+			"normal": "tu haces"
+		},
+		{
+			"word": "pon",
+			"skill": "Work 2"
+		},
+		{
+			"word": "trabaja",
+			"skill": "Work 2"
+		},
+		{
+			"word": "haz",
+			"skill": "Work 2"
+		},
+		{
+			"word": "tú vas",
+			"skill": "Work 2",
+			"normal": "tu vas"
+		},
+		{
+			"word": "usa",
+			"skill": "Work 2"
+		},
+		{
+			"word": "tampoco",
+			"skill": "Work 2"
+		},
+		{
+			"word": "vaya",
+			"skill": "Work 2"
+		},
+		{
+			"word": "tú pones",
+			"skill": "Work 2",
+			"normal": "tu pones"
+		},
+		{
+			"word": "ayuda",
+			"skill": "Work 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "espera",
+			"skill": "Work 2"
+		},
+		{
+			"word": "usted hace",
+			"skill": "Work 2"
+		},
+		{
+			"word": "usted pone",
+			"skill": "Work 2"
+		},
+		{
+			"word": "escuche",
+			"skill": "Work 2"
+		},
+		{
+			"word": "ve",
+			"skill": "Work 2"
+		},
+		{
+			"word": "disponible",
+			"skill": "Work 2"
+		},
+		{
+			"word": "disponibles",
+			"skill": "Work 2"
+		},
+		{
+			"word": "tener",
+			"skill": "Work"
+		},
+		{
+			"word": "para",
+			"skill": "Work"
+		},
+		{
+			"word": "mucho",
+			"skill": "Work"
+		},
+		{
+			"word": "poco",
+			"skill": "Work"
+		},
+		{
+			"word": "cuál",
+			"skill": "Work",
+			"normal": "cual"
+		},
+		{
+			"word": "leer",
+			"skill": "Work"
+		},
+		{
+			"word": "escribir",
+			"skill": "Work"
+		},
+		{
+			"word": "correo electrónico",
+			"skill": "Work",
+			"normal": "correo electronico"
+		},
+		{
+			"word": "negocios",
+			"skill": "Work",
+			"gender": "Masculine"
+		},
+		{
+			"word": "negocio",
+			"skill": "Work",
+			"gender": "Masculine"
+		},
+		{
+			"word": "problema",
+			"skill": "Work",
+			"gender": "Masculine"
+		},
+		{
+			"word": "problemas",
+			"skill": "Work",
+			"gender": "Masculine"
+		},
+		{
+			"word": "escritorios",
+			"skill": "Work",
+			"gender": "Masculine"
+		},
+		{
+			"word": "mensaje",
+			"skill": "Work",
+			"gender": "Masculine"
+		},
+		{
+			"word": "mensajes",
+			"skill": "Work",
+			"gender": "Masculine"
+		},
+		{
+			"word": "escribo",
+			"skill": "Work"
+		},
+		{
+			"word": "escribes",
+			"skill": "Work"
+		},
+		{
+			"word": "lees",
+			"skill": "Work"
+		},
+		{
+			"word": "leo",
+			"skill": "Work"
+		},
+		{
+			"word": "empresaria",
+			"skill": "Work 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "conductor",
+			"skill": "Work 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "conductora",
+			"skill": "Work 4",
+			"gender": "Feminine"
+		},
+		{
+			"word": "empresarios",
+			"skill": "Work 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pintoras",
+			"skill": "Work 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pintora",
+			"skill": "Work 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "secretaria",
+			"skill": "Work",
+			"gender": "Feminine"
+		},
+		{
+			"word": "trabajo",
+			"skill": "Work",
+			"gender": "Masculine"
+		},
+		{
+			"word": "escritorio",
+			"skill": "Work",
+			"gender": "Masculine"
+		},
+		{
+			"word": "escribe",
+			"skill": "Work"
+		},
+		{
+			"word": "empresario",
+			"skill": "Work 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pintor",
+			"skill": "Work 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "trabajos",
+			"skill": "Work",
+			"gender": "Masculine"
+		},
+		{
+			"word": "edificio",
+			"skill": "Work 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "edificios",
+			"skill": "Work 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "departamento",
+			"skill": "Work 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "nueva",
+			"skill": "Work",
+			"gender": "Feminine"
+		},
+		{
+			"word": "jefa",
+			"skill": "Work",
+			"gender": "Feminine"
+		}
+	],
+	"Common Phrases": [
+		{
+			"word": "no",
+			"skill": "Common Phrases"
+		},
+		{
+			"word": "sí",
+			"skill": "Common Phrases",
+			"normal": "si"
+		},
+		{
+			"word": "por favor",
+			"skill": "Common Phrases"
+		},
+		{
+			"word": "disculpe",
+			"skill": "Common Phrases"
+		},
+		{
+			"word": "inglés",
+			"skill": "Common Phrases",
+			"normal": "ingles",
+			"gender": "Masculine"
+		},
+		{
+			"word": "lo siento",
+			"skill": "Common Phrases"
+		},
+		{
+			"word": "español",
+			"skill": "Common Phrases",
+			"normal": "espanol",
+			"gender": "Masculine"
+		},
+		{
+			"word": "perdón",
+			"skill": "Common Phrases",
+			"normal": "perdon",
+			"gender": "Masculine"
+		},
+		{
+			"word": "adiós",
+			"skill": "Common Phrases",
+			"normal": "adios"
+		},
+		{
+			"word": "buenos días",
+			"skill": "Common Phrases",
+			"normal": "buenos dias"
+		},
+		{
+			"word": "gracias",
+			"skill": "Common Phrases"
+		},
+		{
+			"word": "de nada",
+			"skill": "Common Phrases"
+		},
+		{
+			"word": "hola",
+			"skill": "Common Phrases"
+		},
+		{
+			"word": "buenas noches",
+			"skill": "Common Phrases"
+		},
+		{
+			"word": "mucho gusto",
+			"skill": "Common Phrases"
+		},
+		{
+			"word": "hablas",
+			"skill": "Common Phrases"
+		},
+		{
+			"word": "hablo",
+			"skill": "Common Phrases"
+		}
+	],
+	"Memories": [
+		{
+			"word": "ayer",
+			"skill": "Memories"
+		},
+		{
+			"word": "fuiste",
+			"skill": "Memories"
+		},
+		{
+			"word": "viajaste",
+			"skill": "Memories"
+		},
+		{
+			"word": "estudiaste",
+			"skill": "Memories"
+		},
+		{
+			"word": "bebiste",
+			"skill": "Memories"
+		},
+		{
+			"word": "fui",
+			"skill": "Memories"
+		},
+		{
+			"word": "probaste",
+			"skill": "Memories"
+		},
+		{
+			"word": "comiste",
+			"skill": "Memories"
+		},
+		{
+			"word": "hablé",
+			"skill": "Memories",
+			"normal": "hable"
+		},
+		{
+			"word": "visitaste",
+			"skill": "Memories"
+		},
+		{
+			"word": "visité",
+			"skill": "Memories",
+			"normal": "visite"
+		},
+		{
+			"word": "comí",
+			"skill": "Memories",
+			"normal": "comi"
+		},
+		{
+			"word": "estuve",
+			"skill": "Memories"
+		},
+		{
+			"word": "hace mucho tiempo",
+			"skill": "Memories"
+		},
+		{
+			"word": "viviste",
+			"skill": "Memories"
+		},
+		{
+			"word": "hablaste",
+			"skill": "Memories"
+		},
+		{
+			"word": "aprendí",
+			"skill": "Memories",
+			"normal": "aprendi"
+		},
+		{
+			"word": "viajé",
+			"skill": "Memories",
+			"normal": "viaje"
+		},
+		{
+			"word": "conocí",
+			"skill": "Memories",
+			"normal": "conoci"
+		},
+		{
+			"word": "bebí",
+			"skill": "Memories",
+			"normal": "bebi"
+		},
+		{
+			"word": "viví",
+			"skill": "Memories",
+			"normal": "vivi"
+		},
+		{
+			"word": "probé",
+			"skill": "Memories",
+			"normal": "probe"
+		},
+		{
+			"word": "aprendiste",
+			"skill": "Memories"
+		},
+		{
+			"word": "estuviste",
+			"skill": "Memories"
+		},
+		{
+			"word": "estudié",
+			"skill": "Memories",
+			"normal": "estudie"
+		},
+		{
+			"word": "conociste",
+			"skill": "Memories"
+		},
+		{
+			"word": "viaje",
+			"skill": "Memories",
+			"gender": "Masculine"
+		},
+		{
+			"word": "primos",
+			"skill": "Memories 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "primo",
+			"skill": "Memories 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "primas",
+			"skill": "Memories 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "prima",
+			"skill": "Memories 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pasado",
+			"skill": "Memories",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pasada",
+			"skill": "Memories",
+			"gender": "Feminine"
+		},
+		{
+			"word": "momento",
+			"skill": "Memories 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "momentos",
+			"skill": "Memories 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pasados",
+			"skill": "Memories",
+			"gender": "Masculine"
+		}
+	],
+	"Family": [
+		{
+			"word": "tienes",
+			"skill": "Family"
+		},
+		{
+			"word": "muy",
+			"skill": "Family"
+		},
+		{
+			"word": "hermana",
+			"skill": "Family"
+		},
+		{
+			"word": "y",
+			"skill": "Family"
+		},
+		{
+			"word": "hija",
+			"skill": "Family"
+		},
+		{
+			"word": "películas",
+			"skill": "Family 3",
+			"normal": "peliculas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "hijo",
+			"skill": "Family"
+		},
+		{
+			"word": "esposo",
+			"skill": "Family"
+		},
+		{
+			"word": "esposa",
+			"skill": "Family"
+		},
+		{
+			"word": "su",
+			"skill": "Family 2"
+		},
+		{
+			"word": "hermano",
+			"skill": "Family"
+		},
+		{
+			"word": "abuelo",
+			"skill": "Family"
+		},
+		{
+			"word": "casa",
+			"skill": "Family"
+		},
+		{
+			"word": "tiene",
+			"skill": "Family"
+		},
+		{
+			"word": "abuela",
+			"skill": "Family"
+		},
+		{
+			"word": "grande",
+			"skill": "Family"
+		},
+		{
+			"word": "bicicleta",
+			"skill": "Family"
+		},
+		{
+			"word": "familia",
+			"skill": "Family"
+		},
+		{
+			"word": "le gusta",
+			"skill": "Family 3"
+		},
+		{
+			"word": "diez",
+			"skill": "Family 2"
+		},
+		{
+			"word": "nueve",
+			"skill": "Family 2"
+		},
+		{
+			"word": "baloncesto",
+			"skill": "Family 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "simpático",
+			"skill": "Family 2",
+			"normal": "simpatico",
+			"gender": "Masculine"
+		},
+		{
+			"word": "española",
+			"skill": "Family 2",
+			"normal": "espanola",
+			"gender": "Feminine"
+		},
+		{
+			"word": "se llaman",
+			"skill": "Family 3"
+		},
+		{
+			"word": "nos gusta",
+			"skill": "Family 3"
+		},
+		{
+			"word": "madre",
+			"skill": "Family"
+		},
+		{
+			"word": "escuchar",
+			"skill": "Family 3"
+		},
+		{
+			"word": "le encanta",
+			"skill": "Family 3"
+		},
+		{
+			"word": "conciertos",
+			"skill": "Family 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "tocar",
+			"skill": "Family 3"
+		},
+		{
+			"word": "nos encanta",
+			"skill": "Family 3"
+		},
+		{
+			"word": "toco",
+			"skill": "Family 3"
+		},
+		{
+			"word": "menores",
+			"skill": "Family 3"
+		},
+		{
+			"word": "mexicanas",
+			"skill": "Family 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "toca",
+			"skill": "Family 3"
+		},
+		{
+			"word": "tocamos",
+			"skill": "Family 3"
+		},
+		{
+			"word": "deporte",
+			"skill": "Family 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "simpáticas",
+			"skill": "Family 3",
+			"normal": "simpaticas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "simpáticos",
+			"skill": "Family 3",
+			"normal": "simpaticos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "deportes",
+			"skill": "Family 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "padres",
+			"skill": "Family 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "nuestros",
+			"skill": "Family 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "nuestras",
+			"skill": "Family 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "nuestro",
+			"skill": "Family 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "nuestra",
+			"skill": "Family 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "bajo",
+			"skill": "Family 2"
+		},
+		{
+			"word": "simpática",
+			"skill": "Family 2",
+			"normal": "simpatica",
+			"gender": "Feminine"
+		},
+		{
+			"word": "inglesa",
+			"skill": "Family 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "hijo",
+			"skill": "Family 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "padre",
+			"skill": "Family 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "madre",
+			"skill": "Family 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "interesante",
+			"skill": "Family"
+		},
+		{
+			"word": "elegante",
+			"skill": "Family"
+		},
+		{
+			"word": "carro",
+			"skill": "Family"
+		},
+		{
+			"word": "vivo",
+			"skill": "Family"
+		},
+		{
+			"word": "gato",
+			"skill": "Family"
+		},
+		{
+			"word": "inteligente",
+			"skill": "Family"
+		},
+		{
+			"word": "padre",
+			"skill": "Family"
+		},
+		{
+			"word": "apartamento",
+			"skill": "Family"
+		},
+		{
+			"word": "perfecto",
+			"skill": "Family"
+		},
+		{
+			"word": "bonito",
+			"skill": "Family"
+		},
+		{
+			"word": "perro",
+			"skill": "Family"
+		},
+		{
+			"word": "inteligente",
+			"skill": "Family 2"
+		},
+		{
+			"word": "mayor",
+			"skill": "Family 3"
+		},
+		{
+			"word": "mayores",
+			"skill": "Family 3"
+		},
+		{
+			"word": "bonita",
+			"skill": "Family 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "bonito",
+			"skill": "Family 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "años",
+			"skill": "Family 2",
+			"normal": "anos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "año",
+			"skill": "Family 2",
+			"normal": "ano",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pequeño",
+			"skill": "Family 2",
+			"normal": "pequeno",
+			"gender": "Masculine"
+		},
+		{
+			"word": "baja",
+			"skill": "Family 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "alta",
+			"skill": "Family 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pequeña",
+			"skill": "Family 2",
+			"normal": "pequena",
+			"gender": "Feminine"
+		},
+		{
+			"word": "familias",
+			"skill": "Family 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "marido",
+			"skill": "Family 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "abuelo",
+			"skill": "Family 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "abuela",
+			"skill": "Family 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "abuelas",
+			"skill": "Family 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "tocas",
+			"skill": "Family 3"
+		},
+		{
+			"word": "menor",
+			"skill": "Family 3"
+		},
+		{
+			"word": "normal",
+			"skill": "Family 4"
+		},
+		{
+			"word": "hermanos",
+			"skill": "Family 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "esposa",
+			"skill": "Family 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "esposo",
+			"skill": "Family 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "esposas",
+			"skill": "Family 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "abuelos",
+			"skill": "Family 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hermanas",
+			"skill": "Family 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "tocan",
+			"skill": "Family 3"
+		},
+		{
+			"word": "alto",
+			"skill": "Family 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hijos",
+			"skill": "Family 2",
+			"gender": "Masculine"
+		}
+	],
+	"Routines": [
+		{
+			"word": "hacer",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "a qué hora",
+			"skill": "Routines",
+			"normal": "a que hora"
+		},
+		{
+			"word": "antes",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "media",
+			"skill": "Routines",
+			"gender": "Feminine"
+		},
+		{
+			"word": "temprano",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "tienes que",
+			"skill": "Routines"
+		},
+		{
+			"word": "tengo que",
+			"skill": "Routines"
+		},
+		{
+			"word": "tarde",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "tiene que",
+			"skill": "Routines"
+		},
+		{
+			"word": "a menudo",
+			"skill": "Routines"
+		},
+		{
+			"word": "once",
+			"skill": "Routines"
+		},
+		{
+			"word": "después",
+			"skill": "Routines 2",
+			"normal": "despues"
+		},
+		{
+			"word": "lavarse",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "solo",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "demasiado",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "doce",
+			"skill": "Routines"
+		},
+		{
+			"word": "nos lavamos",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "se duchan",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "nos ponemos",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "nos duchamos",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "se ponen",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "nos levantamos",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "cepillo de dientes",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "se sienten",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "nos llamamos",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "se lavan",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "se cepillan",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "nos sentimos",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "nos cepillamos",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "se levantan",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "cepillarse",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "diente",
+			"skill": "Routines 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "caras",
+			"skill": "Routines 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "mano",
+			"skill": "Routines 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cepillos",
+			"skill": "Routines 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "me cepillo",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "dientes",
+			"skill": "Routines 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "te cepillas",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "se cepilla",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "suyo",
+			"skill": "Routines 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "nuestro",
+			"skill": "Routines 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "suyas",
+			"skill": "Routines 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "mía",
+			"skill": "Routines 3",
+			"normal": "mia",
+			"gender": "Feminine"
+		},
+		{
+			"word": "mío",
+			"skill": "Routines 3",
+			"normal": "mio",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cara",
+			"skill": "Routines 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "se lava",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "me lavo",
+			"skill": "Routines 3"
+		},
+		{
+			"word": "manos",
+			"skill": "Routines 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "me pongo",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "salgo",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "te pones",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "levantarse",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "ponerse",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "se pone",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "sales",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "fáciles",
+			"skill": "Routines 2",
+			"normal": "faciles"
+		},
+		{
+			"word": "difíciles",
+			"skill": "Routines 2",
+			"normal": "dificiles"
+		},
+		{
+			"word": "difícil",
+			"skill": "Routines 2",
+			"normal": "dificil"
+		},
+		{
+			"word": "cosas",
+			"skill": "Routines 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "tarea",
+			"skill": "Routines 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cena",
+			"skill": "Routines 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "almuerzo",
+			"skill": "Routines 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "desayuno",
+			"skill": "Routines 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "mirar",
+			"skill": "Routines"
+		},
+		{
+			"word": "me ducho",
+			"skill": "Routines"
+		},
+		{
+			"word": "me levanto",
+			"skill": "Routines"
+		},
+		{
+			"word": "te duchas",
+			"skill": "Routines"
+		},
+		{
+			"word": "te levantas",
+			"skill": "Routines"
+		},
+		{
+			"word": "se levanta",
+			"skill": "Routines"
+		},
+		{
+			"word": "se ducha",
+			"skill": "Routines"
+		},
+		{
+			"word": "van",
+			"skill": "Routines"
+		},
+		{
+			"word": "cine",
+			"skill": "Routines",
+			"gender": "Masculine"
+		},
+		{
+			"word": "va",
+			"skill": "Routines"
+		},
+		{
+			"word": "vas",
+			"skill": "Routines"
+		},
+		{
+			"word": "voy",
+			"skill": "Routines"
+		},
+		{
+			"word": "cada",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "todos",
+			"skill": "Routines",
+			"gender": "Masculine"
+		},
+		{
+			"word": "todas",
+			"skill": "Routines",
+			"gender": "Feminine"
+		},
+		{
+			"word": "toman",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "horas",
+			"skill": "Routines",
+			"gender": "Feminine"
+		},
+		{
+			"word": "hora",
+			"skill": "Routines",
+			"gender": "Feminine"
+		},
+		{
+			"word": "noches",
+			"skill": "Routines",
+			"gender": "Feminine"
+		},
+		{
+			"word": "noche",
+			"skill": "Routines",
+			"gender": "Feminine"
+		},
+		{
+			"word": "televisión",
+			"skill": "Routines",
+			"normal": "television",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cepillo",
+			"skill": "Routines 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "vamos",
+			"skill": "Routines"
+		},
+		{
+			"word": "hago",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "hacemos",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "llave",
+			"skill": "Routines 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "llaves",
+			"skill": "Routines 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "días",
+			"skill": "Routines",
+			"normal": "dias",
+			"gender": "Masculine"
+		},
+		{
+			"word": "domingos",
+			"skill": "Routines",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hace",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "tomas",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "tomo",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "sábados",
+			"skill": "Routines",
+			"normal": "sabados",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cosa",
+			"skill": "Routines 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "haces",
+			"skill": "Routines 2"
+		},
+		{
+			"word": "semanas",
+			"skill": "Routines 2",
+			"gender": "Feminine"
+		}
+	],
+	"Emotions": [
+		{
+			"word": "contigo",
+			"skill": "Emotions"
+		},
+		{
+			"word": "por qué",
+			"skill": "Emotions",
+			"normal": "por que"
+		},
+		{
+			"word": "también",
+			"skill": "Emotions",
+			"normal": "tambien"
+		},
+		{
+			"word": "siempre",
+			"skill": "Emotions"
+		},
+		{
+			"word": "nunca",
+			"skill": "Emotions"
+		},
+		{
+			"word": "se siente",
+			"skill": "Emotions"
+		},
+		{
+			"word": "conmigo",
+			"skill": "Emotions"
+		},
+		{
+			"word": "o",
+			"skill": "Emotions"
+		},
+		{
+			"word": "un poco",
+			"skill": "Emotions"
+		},
+		{
+			"word": "dormir",
+			"skill": "Emotions"
+		},
+		{
+			"word": "qué tal",
+			"skill": "Emotions",
+			"normal": "que tal"
+		},
+		{
+			"word": "otra vez",
+			"skill": "Emotions"
+		},
+		{
+			"word": "me siento",
+			"skill": "Emotions"
+		},
+		{
+			"word": "disfrutar",
+			"skill": "Emotions"
+		},
+		{
+			"word": "a veces",
+			"skill": "Emotions"
+		},
+		{
+			"word": "te sientes",
+			"skill": "Emotions"
+		},
+		{
+			"word": "triste",
+			"skill": "Emotions"
+		},
+		{
+			"word": "mamás",
+			"skill": "Emotions",
+			"normal": "mamas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "emocionado",
+			"skill": "Emotions",
+			"gender": "Masculine"
+		},
+		{
+			"word": "emocionada",
+			"skill": "Emotions",
+			"gender": "Feminine"
+		},
+		{
+			"word": "mañana",
+			"skill": "Emotions",
+			"normal": "manana",
+			"gender": "Feminine"
+		},
+		{
+			"word": "mamá",
+			"skill": "Emotions",
+			"normal": "mama",
+			"gender": "Feminine"
+		},
+		{
+			"word": "papá",
+			"skill": "Emotions",
+			"normal": "papa",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bebés",
+			"skill": "Emotions",
+			"normal": "bebes",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bebé",
+			"skill": "Emotions",
+			"normal": "bebe",
+			"gender": "Masculine"
+		}
+	],
+	"Preference": [
+		{
+			"word": "creo que",
+			"skill": "Preference"
+		},
+		{
+			"word": "pero",
+			"skill": "Preference"
+		},
+		{
+			"word": "te gusta",
+			"skill": "Preference"
+		},
+		{
+			"word": "me gusta",
+			"skill": "Preference"
+		},
+		{
+			"word": "porque",
+			"skill": "Preference"
+		},
+		{
+			"word": "música",
+			"skill": "Preference",
+			"normal": "musica",
+			"gender": "Feminine"
+		},
+		{
+			"word": "grandísimo",
+			"skill": "Preference 2",
+			"normal": "grandisimo",
+			"gender": "Masculine"
+		},
+		{
+			"word": "dificilísimo",
+			"skill": "Preference 2",
+			"normal": "dificilisimo"
+		},
+		{
+			"word": "cuando",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "tomar",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "preferimos",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "golf",
+			"skill": "Preference 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "encantó",
+			"skill": "Preference 2",
+			"normal": "encanto"
+		},
+		{
+			"word": "ajedrez",
+			"skill": "Preference 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "frecuentemente",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "de vez en cuando",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "gustaron",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "un poco",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "allí",
+			"skill": "Preference 2",
+			"normal": "alli"
+		},
+		{
+			"word": "preferir",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "generalmente",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "odiar",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "acostarse",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "cansadísimo",
+			"skill": "Preference 2",
+			"normal": "cansadisimo",
+			"gender": "Masculine"
+		},
+		{
+			"word": "encantaron",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "nos acostamos",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "me encanta",
+			"skill": "Preference"
+		},
+		{
+			"word": "perros",
+			"skill": "Preference",
+			"gender": "Masculine"
+		},
+		{
+			"word": "jugar",
+			"skill": "Preference"
+		},
+		{
+			"word": "odiaste",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "odiaron",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "gimnasios",
+			"skill": "Preference 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "nadar",
+			"skill": "Preference"
+		},
+		{
+			"word": "te acuestas",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "prefieren",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "me acuesto",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "se acuestan",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "se acuesta",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "acostarte",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "acostarme",
+			"skill": "Preference 2"
+		},
+		{
+			"word": "morada",
+			"skill": "Preference 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "fantástico",
+			"skill": "Preference 2",
+			"normal": "fantastico",
+			"gender": "Masculine"
+		},
+		{
+			"word": "fantásticas",
+			"skill": "Preference 2",
+			"normal": "fantasticas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "fantástica",
+			"skill": "Preference 2",
+			"normal": "fantastica",
+			"gender": "Feminine"
+		},
+		{
+			"word": "fantásticos",
+			"skill": "Preference 2",
+			"normal": "fantasticos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "algo",
+			"skill": "Preference",
+			"gender": "Masculine"
+		},
+		{
+			"word": "correr",
+			"skill": "Preference"
+		},
+		{
+			"word": "te encanta",
+			"skill": "Preference"
+		},
+		{
+			"word": "azúcar",
+			"skill": "Preference",
+			"normal": "azucar",
+			"gender": "Masculine"
+		},
+		{
+			"word": "dibujar",
+			"skill": "Preference"
+		},
+		{
+			"word": "elegantes",
+			"skill": "Preference"
+		},
+		{
+			"word": "chica",
+			"skill": "Preference",
+			"gender": "Feminine"
+		},
+		{
+			"word": "elegante",
+			"skill": "Preference"
+		},
+		{
+			"word": "chicos",
+			"skill": "Preference",
+			"gender": "Masculine"
+		},
+		{
+			"word": "chico",
+			"skill": "Preference",
+			"gender": "Masculine"
+		},
+		{
+			"word": "piscinas",
+			"skill": "Preference",
+			"gender": "Feminine"
+		},
+		{
+			"word": "sombreros",
+			"skill": "Preference",
+			"gender": "Masculine"
+		},
+		{
+			"word": "quesos",
+			"skill": "Preference",
+			"gender": "Masculine"
+		},
+		{
+			"word": "chocolates",
+			"skill": "Preference",
+			"gender": "Masculine"
+		},
+		{
+			"word": "queso",
+			"skill": "Preference",
+			"gender": "Masculine"
+		},
+		{
+			"word": "favoritos",
+			"skill": "Preference",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ese",
+			"skill": "Preference",
+			"gender": "Masculine"
+		},
+		{
+			"word": "viejas",
+			"skill": "Preference",
+			"gender": "Feminine"
+		},
+		{
+			"word": "viejo",
+			"skill": "Preference",
+			"gender": "Masculine"
+		},
+		{
+			"word": "viejos",
+			"skill": "Preference",
+			"gender": "Masculine"
+		},
+		{
+			"word": "vieja",
+			"skill": "Preference",
+			"gender": "Feminine"
+		},
+		{
+			"word": "piscina",
+			"skill": "Preference",
+			"gender": "Feminine"
+		},
+		{
+			"word": "faldas",
+			"skill": "Preference",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ropa",
+			"skill": "Preference",
+			"gender": "Feminine"
+		},
+		{
+			"word": "bicicleta",
+			"skill": "Preference",
+			"gender": "Feminine"
+		},
+		{
+			"word": "bicicletas",
+			"skill": "Preference",
+			"gender": "Feminine"
+		},
+		{
+			"word": "chicas",
+			"skill": "Preference",
+			"gender": "Feminine"
+		},
+		{
+			"word": "falda",
+			"skill": "Preference",
+			"gender": "Feminine"
+		},
+		{
+			"word": "sombrero",
+			"skill": "Preference",
+			"gender": "Masculine"
+		}
+	],
+	"Shopping": [
+		{
+			"word": "este",
+			"skill": "Shopping"
+		},
+		{
+			"word": "tienda",
+			"skill": "Shopping"
+		},
+		{
+			"word": "gatos",
+			"skill": "Shopping 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "falda",
+			"skill": "Shopping"
+		},
+		{
+			"word": "comprar",
+			"skill": "Shopping"
+		},
+		{
+			"word": "camisa",
+			"skill": "Shopping"
+		},
+		{
+			"word": "camiseta",
+			"skill": "Shopping"
+		},
+		{
+			"word": "cartera",
+			"skill": "Shopping"
+		},
+		{
+			"word": "ya",
+			"skill": "Shopping 3"
+		},
+		{
+			"word": "los",
+			"skill": "Shopping 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "lo",
+			"skill": "Shopping 3",
+			"gender": "Neuter"
+		},
+		{
+			"word": "cuesta",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "quince",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "veinte",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "nadie",
+			"skill": "Shopping 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "doscientos",
+			"skill": "Shopping 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cuestan",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "tercer",
+			"skill": "Shopping 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ciento",
+			"skill": "Shopping 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "compró",
+			"skill": "Shopping 4",
+			"normal": "compro"
+		},
+		{
+			"word": "elegir",
+			"skill": "Shopping 4"
+		},
+		{
+			"word": "con nadie",
+			"skill": "Shopping 4"
+		},
+		{
+			"word": "compré",
+			"skill": "Shopping 4",
+			"normal": "compre"
+		},
+		{
+			"word": "gran",
+			"skill": "Shopping 4"
+		},
+		{
+			"word": "olvidar",
+			"skill": "Shopping 4"
+		},
+		{
+			"word": "ay",
+			"skill": "Shopping 4"
+		},
+		{
+			"word": "ninguno de",
+			"skill": "Shopping 4"
+		},
+		{
+			"word": "mal",
+			"skill": "Shopping 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "primer",
+			"skill": "Shopping 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "mi nuevo",
+			"skill": "Shopping 4"
+		},
+		{
+			"word": "pagó",
+			"skill": "Shopping 4",
+			"normal": "pago"
+		},
+		{
+			"word": "completamente",
+			"skill": "Shopping 4"
+		},
+		{
+			"word": "pagamos",
+			"skill": "Shopping 4"
+		},
+		{
+			"word": "ti",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "mí",
+			"skill": "Shopping 2",
+			"normal": "mi"
+		},
+		{
+			"word": "la",
+			"skill": "Shopping 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "rojo",
+			"skill": "Shopping"
+		},
+		{
+			"word": "vestido",
+			"skill": "Shopping"
+		},
+		{
+			"word": "algún",
+			"skill": "Shopping 4",
+			"normal": "algun",
+			"gender": "Masculine"
+		},
+		{
+			"word": "olvido",
+			"skill": "Shopping 4"
+		},
+		{
+			"word": "segundo",
+			"skill": "Shopping 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ningunos",
+			"skill": "Shopping 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ninguno",
+			"skill": "Shopping 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ninguna",
+			"skill": "Shopping 4",
+			"gender": "Feminine"
+		},
+		{
+			"word": "caro",
+			"skill": "Shopping"
+		},
+		{
+			"word": "las",
+			"skill": "Shopping 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "los comen",
+			"skill": "Shopping 3"
+		},
+		{
+			"word": "lo quiero",
+			"skill": "Shopping 3"
+		},
+		{
+			"word": "la quiero",
+			"skill": "Shopping 3"
+		},
+		{
+			"word": "los necesita",
+			"skill": "Shopping 3"
+		},
+		{
+			"word": "tés",
+			"skill": "Shopping 3",
+			"normal": "tes",
+			"gender": "Masculine"
+		},
+		{
+			"word": "todo el tiempo",
+			"skill": "Shopping 3"
+		},
+		{
+			"word": "lo compro",
+			"skill": "Shopping 3"
+		},
+		{
+			"word": "las necesita",
+			"skill": "Shopping 3"
+		},
+		{
+			"word": "las comen",
+			"skill": "Shopping 3"
+		},
+		{
+			"word": "cafés",
+			"skill": "Shopping 3",
+			"normal": "cafes",
+			"gender": "Masculine"
+		},
+		{
+			"word": "imagen",
+			"skill": "Shopping 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ligeras",
+			"skill": "Shopping 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "todos",
+			"skill": "Shopping 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "todas",
+			"skill": "Shopping 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "salsa",
+			"skill": "Shopping 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "imágenes",
+			"skill": "Shopping 3",
+			"normal": "imagenes",
+			"gender": "Feminine"
+		},
+		{
+			"word": "paquetes",
+			"skill": "Shopping 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "paquete",
+			"skill": "Shopping 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bici",
+			"skill": "Shopping 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "azul",
+			"skill": "Shopping"
+		},
+		{
+			"word": "en efectivo",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "tarjeta de crédito",
+			"skill": "Shopping 2",
+			"normal": "tarjeta de credito"
+		},
+		{
+			"word": "regalo",
+			"skill": "Shopping"
+		},
+		{
+			"word": "diecinueve",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "diecisiete",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "trece",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "de compras",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "dieciséis",
+			"skill": "Shopping 2",
+			"normal": "dieciseis",
+			"gender": "Masculine"
+		},
+		{
+			"word": "dieciocho",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "buscar",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "catorce",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "me puedo probar",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "pesos",
+			"skill": "Shopping 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "buscamos",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "baratos",
+			"skill": "Shopping 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "caras",
+			"skill": "Shopping 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "probadores",
+			"skill": "Shopping 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "probador",
+			"skill": "Shopping 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "caros",
+			"skill": "Shopping 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "precio",
+			"skill": "Shopping 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "buscas",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "baratas",
+			"skill": "Shopping 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "buscan",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "precios",
+			"skill": "Shopping 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "tallas",
+			"skill": "Shopping 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "tiendas",
+			"skill": "Shopping 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "quiero",
+			"skill": "Shopping"
+		},
+		{
+			"word": "chaqueta",
+			"skill": "Shopping"
+		},
+		{
+			"word": "demasiado",
+			"skill": "Shopping"
+		},
+		{
+			"word": "sombrero",
+			"skill": "Shopping"
+		},
+		{
+			"word": "favorita",
+			"skill": "Shopping"
+		},
+		{
+			"word": "cómoda",
+			"skill": "Shopping",
+			"normal": "comoda"
+		},
+		{
+			"word": "diferente",
+			"skill": "Shopping"
+		},
+		{
+			"word": "ropa",
+			"skill": "Shopping"
+		},
+		{
+			"word": "gris",
+			"skill": "Shopping"
+		},
+		{
+			"word": "ese",
+			"skill": "Shopping"
+		},
+		{
+			"word": "abrigo",
+			"skill": "Shopping"
+		},
+		{
+			"word": "marrón",
+			"skill": "Shopping",
+			"normal": "marron"
+		},
+		{
+			"word": "cinturón",
+			"skill": "Shopping",
+			"normal": "cinturon"
+		},
+		{
+			"word": "verde",
+			"skill": "Shopping"
+		},
+		{
+			"word": "reloj",
+			"skill": "Shopping"
+		},
+		{
+			"word": "barato",
+			"skill": "Shopping"
+		},
+		{
+			"word": "ningún",
+			"skill": "Shopping 4",
+			"normal": "ningun",
+			"gender": "Masculine"
+		},
+		{
+			"word": "busco",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "busca",
+			"skill": "Shopping 2"
+		},
+		{
+			"word": "abro",
+			"skill": "Shopping 3"
+		},
+		{
+			"word": "pruebas",
+			"skill": "Shopping 3"
+		},
+		{
+			"word": "caro",
+			"skill": "Shopping 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "barato",
+			"skill": "Shopping 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "barata",
+			"skill": "Shopping 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cierro",
+			"skill": "Shopping 3"
+		},
+		{
+			"word": "malo",
+			"skill": "Shopping 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "mala",
+			"skill": "Shopping 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "malos",
+			"skill": "Shopping 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "último",
+			"skill": "Shopping 4",
+			"normal": "ultimo",
+			"gender": "Masculine"
+		},
+		{
+			"word": "última",
+			"skill": "Shopping 4",
+			"normal": "ultima",
+			"gender": "Feminine"
+		},
+		{
+			"word": "últimos",
+			"skill": "Shopping 4",
+			"normal": "ultimos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pobre",
+			"skill": "Shopping 4"
+		},
+		{
+			"word": "pobres",
+			"skill": "Shopping 4"
+		},
+		{
+			"word": "bebemos",
+			"skill": "Shopping 3"
+		},
+		{
+			"word": "dólares",
+			"skill": "Shopping 2",
+			"normal": "dolares",
+			"gender": "Masculine"
+		},
+		{
+			"word": "dólar",
+			"skill": "Shopping 2",
+			"normal": "dolar",
+			"gender": "Masculine"
+		},
+		{
+			"word": "últimas",
+			"skill": "Shopping 4",
+			"normal": "ultimas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "buen",
+			"skill": "Shopping 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cara",
+			"skill": "Shopping 2",
+			"gender": "Feminine"
+		}
+	],
+	"Fashion": [
+		{
+			"word": "mis",
+			"skill": "Fashion"
+		},
+		{
+			"word": "tus",
+			"skill": "Fashion"
+		},
+		{
+			"word": "sus",
+			"skill": "Fashion"
+		},
+		{
+			"word": "interesantes",
+			"skill": "Fashion"
+		},
+		{
+			"word": "camisetas",
+			"skill": "Fashion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "camiseta",
+			"skill": "Fashion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "bonitas",
+			"skill": "Fashion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "bonitos",
+			"skill": "Fashion",
+			"gender": "Masculine"
+		},
+		{
+			"word": "rojas",
+			"skill": "Fashion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "nuevas",
+			"skill": "Fashion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "usan",
+			"skill": "Fashion"
+		},
+		{
+			"word": "usamos",
+			"skill": "Fashion"
+		},
+		{
+			"word": "estas",
+			"skill": "Fashion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "estos",
+			"skill": "Fashion",
+			"gender": "Masculine"
+		},
+		{
+			"word": "carteras",
+			"skill": "Fashion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "grandes",
+			"skill": "Fashion"
+		},
+		{
+			"word": "pequeñas",
+			"skill": "Fashion",
+			"normal": "pequenas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "vestidos",
+			"skill": "Fashion",
+			"gender": "Masculine"
+		},
+		{
+			"word": "vestido",
+			"skill": "Fashion",
+			"gender": "Masculine"
+		},
+		{
+			"word": "verde",
+			"skill": "Fashion"
+		},
+		{
+			"word": "verdes",
+			"skill": "Fashion"
+		},
+		{
+			"word": "necesitan",
+			"skill": "Fashion"
+		},
+		{
+			"word": "necesitamos",
+			"skill": "Fashion"
+		},
+		{
+			"word": "pequeños",
+			"skill": "Fashion",
+			"normal": "pequenos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "camisa",
+			"skill": "Fashion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "camisas",
+			"skill": "Fashion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "zapato",
+			"skill": "Fashion",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pantalón",
+			"skill": "Fashion",
+			"normal": "pantalon",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pantalones",
+			"skill": "Fashion",
+			"gender": "Masculine"
+		},
+		{
+			"word": "nuevos",
+			"skill": "Fashion",
+			"gender": "Masculine"
+		},
+		{
+			"word": "zapatos",
+			"skill": "Fashion",
+			"gender": "Masculine"
+		},
+		{
+			"word": "rojos",
+			"skill": "Fashion",
+			"gender": "Masculine"
+		}
+	],
+	"Household": [
+		{
+			"word": "hay",
+			"skill": "Household"
+		},
+		{
+			"word": "sobre",
+			"skill": "Household"
+		},
+		{
+			"word": "allá",
+			"skill": "Household2",
+			"normal": "alla"
+		},
+		{
+			"word": "acá",
+			"skill": "Household2",
+			"normal": "aca"
+		},
+		{
+			"word": "eso",
+			"skill": "Household2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "limpiar",
+			"skill": "Household"
+		},
+		{
+			"word": "coges",
+			"skill": "Household2"
+		},
+		{
+			"word": "siéntate",
+			"skill": "Household2",
+			"normal": "sientate"
+		},
+		{
+			"word": "traigo",
+			"skill": "Household2"
+		},
+		{
+			"word": "lávate",
+			"skill": "Household2",
+			"normal": "lavate"
+		},
+		{
+			"word": "lávese",
+			"skill": "Household2",
+			"normal": "lavese"
+		},
+		{
+			"word": "abres la",
+			"skill": "Household2"
+		},
+		{
+			"word": "cierro la",
+			"skill": "Household2"
+		},
+		{
+			"word": "sentarse",
+			"skill": "Household2"
+		},
+		{
+			"word": "traes",
+			"skill": "Household2"
+		},
+		{
+			"word": "nos ayudas",
+			"skill": "Household2"
+		},
+		{
+			"word": "siéntese",
+			"skill": "Household2",
+			"normal": "sientese"
+		},
+		{
+			"word": "levántese",
+			"skill": "Household2",
+			"normal": "levantese"
+		},
+		{
+			"word": "levántate",
+			"skill": "Household2",
+			"normal": "levantate"
+		},
+		{
+			"word": "césped",
+			"skill": "Household2",
+			"normal": "cesped",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pintar",
+			"skill": "Household"
+		},
+		{
+			"word": "mirando",
+			"skill": "Household2"
+		},
+		{
+			"word": "cuartos",
+			"skill": "Household2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "seguras",
+			"skill": "Household2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "demasiada",
+			"skill": "Household2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cajas",
+			"skill": "Household2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "demasiadas",
+			"skill": "Household2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "demasiados",
+			"skill": "Household2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "demasiado",
+			"skill": "Household2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "celulares",
+			"skill": "Household",
+			"gender": "Masculine"
+		},
+		{
+			"word": "debajo",
+			"skill": "Household"
+		},
+		{
+			"word": "plantas",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "relojes",
+			"skill": "Household",
+			"gender": "Masculine"
+		},
+		{
+			"word": "nevera",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "limpias",
+			"skill": "Household"
+		},
+		{
+			"word": "limpian",
+			"skill": "Household"
+		},
+		{
+			"word": "planta",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pintamos",
+			"skill": "Household"
+		},
+		{
+			"word": "jardines",
+			"skill": "Household",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pintan",
+			"skill": "Household"
+		},
+		{
+			"word": "pintas",
+			"skill": "Household"
+		},
+		{
+			"word": "limpiamos",
+			"skill": "Household"
+		},
+		{
+			"word": "limpio",
+			"skill": "Household"
+		},
+		{
+			"word": "limpia",
+			"skill": "Household"
+		},
+		{
+			"word": "pinto",
+			"skill": "Household"
+		},
+		{
+			"word": "estanterías",
+			"skill": "Household",
+			"normal": "estanterias",
+			"gender": "Feminine"
+		},
+		{
+			"word": "estantería",
+			"skill": "Household",
+			"normal": "estanteria",
+			"gender": "Feminine"
+		},
+		{
+			"word": "dormitorios",
+			"skill": "Household",
+			"gender": "Masculine"
+		},
+		{
+			"word": "salas",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "moderno",
+			"skill": "Household",
+			"gender": "Masculine"
+		},
+		{
+			"word": "neveras",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "modernos",
+			"skill": "Household",
+			"gender": "Masculine"
+		},
+		{
+			"word": "modernas",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "sala",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "moderna",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "camas",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "esas",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "esos",
+			"skill": "Household",
+			"gender": "Masculine"
+		},
+		{
+			"word": "poco",
+			"skill": "Household2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "toda",
+			"skill": "Household2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "poca",
+			"skill": "Household2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pocos",
+			"skill": "Household2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "mira",
+			"skill": "Household2"
+		},
+		{
+			"word": "miro",
+			"skill": "Household2"
+		},
+		{
+			"word": "seguro",
+			"skill": "Household2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "segura",
+			"skill": "Household2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "paredes",
+			"skill": "Household2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "habitación",
+			"skill": "Household",
+			"normal": "habitacion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "dormitorio",
+			"skill": "Household",
+			"gender": "Masculine"
+		},
+		{
+			"word": "habitaciones",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pared",
+			"skill": "Household2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ventanas",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ventana",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "teléfonos",
+			"skill": "Household",
+			"normal": "telefonos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pisos",
+			"skill": "Household2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cocina",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cocinas",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "piso",
+			"skill": "Household2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "silla",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "sillas",
+			"skill": "Household",
+			"gender": "Feminine"
+		},
+		{
+			"word": "azules",
+			"skill": "Household"
+		},
+		{
+			"word": "azul",
+			"skill": "Household"
+		},
+		{
+			"word": "baños",
+			"skill": "Household",
+			"normal": "banos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "baño",
+			"skill": "Household",
+			"normal": "bano",
+			"gender": "Masculine"
+		},
+		{
+			"word": "caja",
+			"skill": "Household2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pocas",
+			"skill": "Household2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "tienen",
+			"skill": "Household"
+		},
+		{
+			"word": "tenemos",
+			"skill": "Household"
+		},
+		{
+			"word": "jardín",
+			"skill": "Household",
+			"normal": "jardin",
+			"gender": "Masculine"
+		},
+		{
+			"word": "reloj",
+			"skill": "Household",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cama",
+			"skill": "Household",
+			"gender": "Feminine"
+		}
+	],
+	"Farm": [
+		{
+			"word": "fue",
+			"skill": "Farm"
+		},
+		{
+			"word": "escribieron",
+			"skill": "Farm"
+		},
+		{
+			"word": "escribió",
+			"skill": "Farm",
+			"normal": "escribio"
+		},
+		{
+			"word": "cocinó",
+			"skill": "Farm",
+			"normal": "cocino"
+		},
+		{
+			"word": "aprendieron",
+			"skill": "Farm"
+		},
+		{
+			"word": "lavaron",
+			"skill": "Farm"
+		},
+		{
+			"word": "comió",
+			"skill": "Farm",
+			"normal": "comio"
+		},
+		{
+			"word": "fueron",
+			"skill": "Farm"
+		},
+		{
+			"word": "cerraron",
+			"skill": "Farm"
+		},
+		{
+			"word": "miraron",
+			"skill": "Farm"
+		},
+		{
+			"word": "abrió",
+			"skill": "Farm",
+			"normal": "abrio"
+		},
+		{
+			"word": "cocinaron",
+			"skill": "Farm"
+		},
+		{
+			"word": "salió",
+			"skill": "Farm",
+			"normal": "salio"
+		},
+		{
+			"word": "estuvieron",
+			"skill": "Farm"
+		},
+		{
+			"word": "aprendió",
+			"skill": "Farm",
+			"normal": "aprendio"
+		},
+		{
+			"word": "lavó",
+			"skill": "Farm",
+			"normal": "lavo"
+		},
+		{
+			"word": "cerró",
+			"skill": "Farm",
+			"normal": "cerro"
+		},
+		{
+			"word": "limpió",
+			"skill": "Farm",
+			"normal": "limpio"
+		},
+		{
+			"word": "miró",
+			"skill": "Farm",
+			"normal": "miro"
+		},
+		{
+			"word": "limpiaron",
+			"skill": "Farm"
+		},
+		{
+			"word": "abrieron",
+			"skill": "Farm"
+		},
+		{
+			"word": "comieron",
+			"skill": "Farm"
+		},
+		{
+			"word": "salieron",
+			"skill": "Farm"
+		},
+		{
+			"word": "estuvo",
+			"skill": "Farm"
+		},
+		{
+			"word": "búhos",
+			"skill": "Farm",
+			"normal": "buhos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "vacas",
+			"skill": "Farm",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cerdos",
+			"skill": "Farm",
+			"gender": "Masculine"
+		}
+	],
+	"Description": [
+		{
+			"word": "que",
+			"skill": "Description 2"
+		},
+		{
+			"word": "tan",
+			"skill": "Description 2"
+		},
+		{
+			"word": "encontró",
+			"skill": "Description 3",
+			"normal": "encontro"
+		},
+		{
+			"word": "compramos",
+			"skill": "Description 3"
+		},
+		{
+			"word": "sí",
+			"skill": "Description 3",
+			"normal": "si"
+		},
+		{
+			"word": "el mío",
+			"skill": "Description 3",
+			"normal": "el mio"
+		},
+		{
+			"word": "no",
+			"skill": "Description 3"
+		},
+		{
+			"word": "la tuya",
+			"skill": "Description 3"
+		},
+		{
+			"word": "cojo",
+			"skill": "Description 3"
+		},
+		{
+			"word": "querer",
+			"skill": "Description 3"
+		},
+		{
+			"word": "el azul",
+			"skill": "Description 3"
+		},
+		{
+			"word": "encontraste",
+			"skill": "Description 3"
+		},
+		{
+			"word": "las nuestras",
+			"skill": "Description 3"
+		},
+		{
+			"word": "elegimos",
+			"skill": "Description 3"
+		},
+		{
+			"word": "elijo",
+			"skill": "Description 3"
+		},
+		{
+			"word": "el rojo",
+			"skill": "Description 3"
+		},
+		{
+			"word": "coger",
+			"skill": "Description 3"
+		},
+		{
+			"word": "ahí",
+			"skill": "Description 3",
+			"normal": "ahi"
+		},
+		{
+			"word": "pagaste",
+			"skill": "Description 3"
+		},
+		{
+			"word": "encontré",
+			"skill": "Description 3",
+			"normal": "encontre"
+		},
+		{
+			"word": "la amarilla",
+			"skill": "Description 3"
+		},
+		{
+			"word": "usando",
+			"skill": "Description 3"
+		},
+		{
+			"word": "felices",
+			"skill": "Description"
+		},
+		{
+			"word": "como",
+			"skill": "Description 2"
+		},
+		{
+			"word": "gracioso",
+			"skill": "Description 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "graciosa",
+			"skill": "Description 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "oraciones",
+			"skill": "Description 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "emocionante",
+			"skill": "Description 3"
+		},
+		{
+			"word": "graciosas",
+			"skill": "Description 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "elige",
+			"skill": "Description 3"
+		},
+		{
+			"word": "eligen",
+			"skill": "Description 3"
+		},
+		{
+			"word": "eliges",
+			"skill": "Description 3"
+		},
+		{
+			"word": "anuncios",
+			"skill": "Description 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "más",
+			"skill": "Description 2",
+			"normal": "mas"
+		},
+		{
+			"word": "coge",
+			"skill": "Description 3"
+		},
+		{
+			"word": "cogen",
+			"skill": "Description 3"
+		},
+		{
+			"word": "vida",
+			"skill": "Description 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "vidas",
+			"skill": "Description 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cogemos",
+			"skill": "Description 3"
+		},
+		{
+			"word": "menos",
+			"skill": "Description 2"
+		},
+		{
+			"word": "tan bonito",
+			"skill": "Description 2"
+		},
+		{
+			"word": "tan bonita",
+			"skill": "Description 2"
+		},
+		{
+			"word": "el más",
+			"skill": "Description 2",
+			"normal": "el mas"
+		},
+		{
+			"word": "la más",
+			"skill": "Description 2",
+			"normal": "la mas"
+		},
+		{
+			"word": "el peor",
+			"skill": "Description 2"
+		},
+		{
+			"word": "qué elegante",
+			"skill": "Description 2",
+			"normal": "que elegante"
+		},
+		{
+			"word": "el mejor",
+			"skill": "Description 2"
+		},
+		{
+			"word": "es tan",
+			"skill": "Description 2"
+		},
+		{
+			"word": "qué interesante",
+			"skill": "Description 2",
+			"normal": "que interesante"
+		},
+		{
+			"word": "qué divertido",
+			"skill": "Description 2",
+			"normal": "que divertido"
+		},
+		{
+			"word": "mundo",
+			"skill": "Description 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "mundos",
+			"skill": "Description 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "delgados",
+			"skill": "Description 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "delgada",
+			"skill": "Description 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "famoso",
+			"skill": "Description 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "peores",
+			"skill": "Description 2"
+		},
+		{
+			"word": "famosas",
+			"skill": "Description 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "famosa",
+			"skill": "Description 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "chaquetas",
+			"skill": "Description 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "gorra",
+			"skill": "Description 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cómodas",
+			"skill": "Description 2",
+			"normal": "comodas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "es divertido",
+			"skill": "Description"
+		},
+		{
+			"word": "tristes",
+			"skill": "Description"
+		},
+		{
+			"word": "es grande",
+			"skill": "Description"
+		},
+		{
+			"word": "es muy simpático",
+			"skill": "Description",
+			"normal": "es muy simpatico"
+		},
+		{
+			"word": "morenas",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "rubio",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "limpias",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ocupadas",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "abierto",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "perezosa",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "estudiosas",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "estudiosa",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "perezosas",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "perezosos",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "estudioso",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "perezoso",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "estudiosos",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "rubias",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "morenos",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "rubios",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "sucios",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "limpia",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "limpios",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "abiertos",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ocupados",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "abierta",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "limpio",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "abiertas",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "sucias",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "sucio",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "sorprendidas",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "nerviosa",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "emocionados",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "emocionadas",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "preocupados",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "nerviosos",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "nerviosas",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "nervioso",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "persona",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "responsable",
+			"skill": "Description"
+		},
+		{
+			"word": "responsables",
+			"skill": "Description"
+		},
+		{
+			"word": "inteligentes",
+			"skill": "Description"
+		},
+		{
+			"word": "mejor",
+			"skill": "Description 2"
+		},
+		{
+			"word": "peor",
+			"skill": "Description 2"
+		},
+		{
+			"word": "mejores",
+			"skill": "Description 2"
+		},
+		{
+			"word": "popular",
+			"skill": "Description 2"
+		},
+		{
+			"word": "duro",
+			"skill": "Description 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "populares",
+			"skill": "Description 2"
+		},
+		{
+			"word": "dura",
+			"skill": "Description 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "altas",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "bajos",
+			"skill": "Description 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "amarillo",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "amarilla",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "amarillos",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "amarillas",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "negras",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "personas",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "negra",
+			"skill": "Description",
+			"gender": "Feminine"
+		},
+		{
+			"word": "negros",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "altos",
+			"skill": "Description",
+			"gender": "Masculine"
+		},
+		{
+			"word": "negro",
+			"skill": "Description",
+			"gender": "Masculine"
+		}
+	],
+	"Activities": [
+		{
+			"word": "almorzar",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "trabajan",
+			"skill": "Activities"
+		},
+		{
+			"word": "trabajar en",
+			"skill": "Activities"
+		},
+		{
+			"word": "tomar el",
+			"skill": "Activities"
+		},
+		{
+			"word": "cenar",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "desayunar",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "poder",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "volar",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "salir a",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "quedarme",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "esperar",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "probarte",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "ayudo a",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "levantarte",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "recordar",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "aprendiendo a",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "ponerte",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "quedarnos",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "empezamos a",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "probarse",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "enseña a",
+			"skill": "Activities 3",
+			"normal": "ensena a"
+		},
+		{
+			"word": "levantarme",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "encontrar",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "lavarnos",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "ponerme",
+			"skill": "Activities 3"
+		},
+		{
+			"word": "compran",
+			"skill": "Activities"
+		},
+		{
+			"word": "empezar",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "salen",
+			"skill": "Activities"
+		},
+		{
+			"word": "pie",
+			"skill": "Activities 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pies",
+			"skill": "Activities 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "entradas",
+			"skill": "Activities 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "entrada",
+			"skill": "Activities 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "probar",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "salir",
+			"skill": "Activities"
+		},
+		{
+			"word": "tú hablas",
+			"skill": "Activities",
+			"normal": "tu hablas"
+		},
+		{
+			"word": "volver",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "aprendemos",
+			"skill": "Activities"
+		},
+		{
+			"word": "pierden",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "entender",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "empieza",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "entienden",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "almorzamos",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "perdemos",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "entendemos",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "cerrar",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "almuerzas",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "almuerzan",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "entiende",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "entiendo",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "perder",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "pierdes",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "empezamos",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "empiezan",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "cerramos",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "empiezo",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "vuelves",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "volvemos",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "pruebo",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "probamos",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "trabajamos",
+			"skill": "Activities"
+		},
+		{
+			"word": "tú escribes",
+			"skill": "Activities",
+			"normal": "tu escribes"
+		},
+		{
+			"word": "quiero beber",
+			"skill": "Activities"
+		},
+		{
+			"word": "vivir en",
+			"skill": "Activities"
+		},
+		{
+			"word": "hablar español",
+			"skill": "Activities",
+			"normal": "hablar espanol"
+		},
+		{
+			"word": "necesito comprar",
+			"skill": "Activities"
+		},
+		{
+			"word": "nosotros comemos",
+			"skill": "Activities"
+		},
+		{
+			"word": "ellas escriben",
+			"skill": "Activities"
+		},
+		{
+			"word": "usted vive",
+			"skill": "Activities"
+		},
+		{
+			"word": "aprenden",
+			"skill": "Activities"
+		},
+		{
+			"word": "ella come",
+			"skill": "Activities"
+		},
+		{
+			"word": "quiere aprender",
+			"skill": "Activities"
+		},
+		{
+			"word": "salimos",
+			"skill": "Activities"
+		},
+		{
+			"word": "tú bebes",
+			"skill": "Activities",
+			"normal": "tu bebes"
+		},
+		{
+			"word": "leer este",
+			"skill": "Activities"
+		},
+		{
+			"word": "necesitamos abrir",
+			"skill": "Activities"
+		},
+		{
+			"word": "nosotras vivimos",
+			"skill": "Activities"
+		},
+		{
+			"word": "ellos hablan",
+			"skill": "Activities"
+		},
+		{
+			"word": "necesita escribir",
+			"skill": "Activities"
+		},
+		{
+			"word": "nosotros leemos",
+			"skill": "Activities"
+		},
+		{
+			"word": "ellos leen",
+			"skill": "Activities"
+		},
+		{
+			"word": "comer una",
+			"skill": "Activities"
+		},
+		{
+			"word": "tomamos",
+			"skill": "Activities"
+		},
+		{
+			"word": "podemos",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "beben",
+			"skill": "Activities"
+		},
+		{
+			"word": "toma",
+			"skill": "Activities"
+		},
+		{
+			"word": "abrimos",
+			"skill": "Activities"
+		},
+		{
+			"word": "abren",
+			"skill": "Activities"
+		},
+		{
+			"word": "vuelven",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "prueban",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "prueba",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "cierras",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "cierran",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "taza",
+			"skill": "Activities 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "tazas",
+			"skill": "Activities 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "techo",
+			"skill": "Activities 5",
+			"gender": "Masculine"
+		},
+		{
+			"word": "puedo",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "pueden",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "puede",
+			"skill": "Activities 2"
+		},
+		{
+			"word": "papel",
+			"skill": "Activities 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "papeles",
+			"skill": "Activities 3",
+			"gender": "Masculine"
+		}
+	],
+	"Home": [
+		{
+			"word": "soñar",
+			"skill": "Home",
+			"normal": "sonar"
+		},
+		{
+			"word": "nos despertamos",
+			"skill": "Home"
+		},
+		{
+			"word": "lleva puesto",
+			"skill": "Home"
+		},
+		{
+			"word": "nos acordamos",
+			"skill": "Home"
+		},
+		{
+			"word": "oír",
+			"skill": "Home",
+			"normal": "oir"
+		},
+		{
+			"word": "gustó",
+			"skill": "Home",
+			"normal": "gusto"
+		},
+		{
+			"word": "ah",
+			"skill": "Home"
+		},
+		{
+			"word": "quedar",
+			"skill": "Home"
+		},
+		{
+			"word": "acabar",
+			"skill": "Home"
+		},
+		{
+			"word": "encima",
+			"skill": "Home"
+		},
+		{
+			"word": "me acuerdo",
+			"skill": "Home"
+		},
+		{
+			"word": "te acuerdas",
+			"skill": "Home"
+		},
+		{
+			"word": "cerré",
+			"skill": "Home",
+			"normal": "cerre"
+		},
+		{
+			"word": "se acuerdan",
+			"skill": "Home"
+		},
+		{
+			"word": "se acuerda",
+			"skill": "Home"
+		},
+		{
+			"word": "barba",
+			"skill": "Home",
+			"gender": "Feminine"
+		},
+		{
+			"word": "brazo",
+			"skill": "Home",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pierna",
+			"skill": "Home",
+			"gender": "Feminine"
+		},
+		{
+			"word": "se levantaron",
+			"skill": "Home"
+		},
+		{
+			"word": "nos levantamos",
+			"skill": "Home"
+		},
+		{
+			"word": "acordarte",
+			"skill": "Home"
+		},
+		{
+			"word": "oye",
+			"skill": "Home"
+		},
+		{
+			"word": "acordarme",
+			"skill": "Home"
+		},
+		{
+			"word": "se levantó",
+			"skill": "Home",
+			"normal": "se levanto"
+		},
+		{
+			"word": "me levanté",
+			"skill": "Home",
+			"normal": "me levante"
+		},
+		{
+			"word": "acordarnos",
+			"skill": "Home"
+		},
+		{
+			"word": "te levantaste",
+			"skill": "Home"
+		},
+		{
+			"word": "cabezas",
+			"skill": "Home",
+			"gender": "Feminine"
+		},
+		{
+			"word": "me despierto",
+			"skill": "Home"
+		},
+		{
+			"word": "despiertas",
+			"skill": "Home"
+		},
+		{
+			"word": "cabeza",
+			"skill": "Home",
+			"gender": "Feminine"
+		},
+		{
+			"word": "se despierta",
+			"skill": "Home"
+		},
+		{
+			"word": "quedo",
+			"skill": "Home"
+		},
+		{
+			"word": "quedan",
+			"skill": "Home"
+		},
+		{
+			"word": "quedamos",
+			"skill": "Home"
+		},
+		{
+			"word": "narices",
+			"skill": "Home",
+			"gender": "Feminine"
+		},
+		{
+			"word": "quedas",
+			"skill": "Home"
+		},
+		{
+			"word": "se despiertan",
+			"skill": "Home"
+		},
+		{
+			"word": "sentirnos",
+			"skill": "Home"
+		},
+		{
+			"word": "cuerpo",
+			"skill": "Home",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bocas",
+			"skill": "Home",
+			"gender": "Feminine"
+		},
+		{
+			"word": "despertarse",
+			"skill": "Home"
+		},
+		{
+			"word": "despertarme",
+			"skill": "Home"
+		},
+		{
+			"word": "despertarte",
+			"skill": "Home"
+		},
+		{
+			"word": "cuerpos",
+			"skill": "Home",
+			"gender": "Masculine"
+		},
+		{
+			"word": "sentirte",
+			"skill": "Home"
+		},
+		{
+			"word": "despertarnos",
+			"skill": "Home"
+		},
+		{
+			"word": "queda",
+			"skill": "Home"
+		},
+		{
+			"word": "sótano",
+			"skill": "Home 2",
+			"normal": "sotano",
+			"gender": "Masculine"
+		},
+		{
+			"word": "sábana",
+			"skill": "Home 2",
+			"normal": "sabana",
+			"gender": "Feminine"
+		},
+		{
+			"word": "sábanas",
+			"skill": "Home 2",
+			"normal": "sabanas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "esponja",
+			"skill": "Home 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "escalera",
+			"skill": "Home 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cuna",
+			"skill": "Home 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "horno",
+			"skill": "Home 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "secadora",
+			"skill": "Home 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "sartén",
+			"skill": "Home 2",
+			"normal": "sarten"
+		},
+		{
+			"word": "oigo",
+			"skill": "Home"
+		},
+		{
+			"word": "oyes",
+			"skill": "Home"
+		},
+		{
+			"word": "oyen",
+			"skill": "Home"
+		},
+		{
+			"word": "rasuradora",
+			"skill": "Home 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "oímos",
+			"skill": "Home",
+			"normal": "oimos"
+		}
+	],
+	"Vacation": [
+		{
+			"word": "hiciste",
+			"skill": "Vacation"
+		},
+		{
+			"word": "hicieron",
+			"skill": "Vacation"
+		},
+		{
+			"word": "hicimos",
+			"skill": "Vacation"
+		},
+		{
+			"word": "escribí",
+			"skill": "Vacation",
+			"normal": "escribi"
+		},
+		{
+			"word": "disfrutaste",
+			"skill": "Vacation"
+		},
+		{
+			"word": "salí",
+			"skill": "Vacation",
+			"normal": "sali"
+		},
+		{
+			"word": "bebió",
+			"skill": "Vacation",
+			"normal": "bebio"
+		},
+		{
+			"word": "miramos",
+			"skill": "Vacation"
+		},
+		{
+			"word": "viajaron",
+			"skill": "Vacation"
+		},
+		{
+			"word": "bebieron",
+			"skill": "Vacation"
+		},
+		{
+			"word": "caminé",
+			"skill": "Vacation",
+			"normal": "camine"
+		},
+		{
+			"word": "hice",
+			"skill": "Vacation"
+		},
+		{
+			"word": "cogimos",
+			"skill": "Vacation"
+		},
+		{
+			"word": "abrí",
+			"skill": "Vacation",
+			"normal": "abri"
+		},
+		{
+			"word": "visitó",
+			"skill": "Vacation",
+			"normal": "visito"
+		},
+		{
+			"word": "saliste",
+			"skill": "Vacation"
+		},
+		{
+			"word": "viajó",
+			"skill": "Vacation",
+			"normal": "viajo"
+		},
+		{
+			"word": "disfrutaron",
+			"skill": "Vacation"
+		},
+		{
+			"word": "conoció",
+			"skill": "Vacation",
+			"normal": "conocio"
+		},
+		{
+			"word": "abriste",
+			"skill": "Vacation"
+		},
+		{
+			"word": "visitaron",
+			"skill": "Vacation"
+		},
+		{
+			"word": "disfruté",
+			"skill": "Vacation",
+			"normal": "disfrute"
+		},
+		{
+			"word": "hizo",
+			"skill": "Vacation"
+		},
+		{
+			"word": "conocieron",
+			"skill": "Vacation"
+		},
+		{
+			"word": "caminaste",
+			"skill": "Vacation"
+		},
+		{
+			"word": "escribiste",
+			"skill": "Vacation"
+		},
+		{
+			"word": "disfrutó",
+			"skill": "Vacation",
+			"normal": "disfruto"
+		},
+		{
+			"word": "mapa",
+			"skill": "Vacation 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "soñamos",
+			"skill": "Vacation 3",
+			"normal": "sonamos"
+		},
+		{
+			"word": "avenida",
+			"skill": "Vacation 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "islas",
+			"skill": "Vacation 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "isla",
+			"skill": "Vacation 2",
+			"gender": "Feminine"
+		}
+	],
+	"School": [
+		{
+			"word": "ocho",
+			"skill": "School 2"
+		},
+		{
+			"word": "mucho",
+			"skill": "School"
+		},
+		{
+			"word": "escuela",
+			"skill": "School"
+		},
+		{
+			"word": "clase",
+			"skill": "School"
+		},
+		{
+			"word": "estudiar",
+			"skill": "School"
+		},
+		{
+			"word": "computadora",
+			"skill": "School"
+		},
+		{
+			"word": "hablar con",
+			"skill": "School 3"
+		},
+		{
+			"word": "estudiante",
+			"skill": "School"
+		},
+		{
+			"word": "empecé",
+			"skill": "School 4",
+			"normal": "empece"
+		},
+		{
+			"word": "clases",
+			"skill": "School 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "clase",
+			"skill": "School 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "me preocupo",
+			"skill": "School 4"
+		},
+		{
+			"word": "se sientan",
+			"skill": "School 4"
+		},
+		{
+			"word": "vi",
+			"skill": "School 4"
+		},
+		{
+			"word": "dos",
+			"skill": "School 2"
+		},
+		{
+			"word": "comprender",
+			"skill": "School 4"
+		},
+		{
+			"word": "comprende",
+			"skill": "School 4"
+		},
+		{
+			"word": "comprendemos",
+			"skill": "School 4"
+		},
+		{
+			"word": "respondí",
+			"skill": "School 4",
+			"normal": "respondi"
+		},
+		{
+			"word": "parar",
+			"skill": "School 4"
+		},
+		{
+			"word": "responder",
+			"skill": "School 4"
+		},
+		{
+			"word": "enseñamos",
+			"skill": "School 4",
+			"normal": "ensenamos"
+		},
+		{
+			"word": "necesitar",
+			"skill": "School 4"
+		},
+		{
+			"word": "enseñando",
+			"skill": "School 4",
+			"normal": "ensenando"
+		},
+		{
+			"word": "preocuparse",
+			"skill": "School 4"
+		},
+		{
+			"word": "nos sentamos",
+			"skill": "School 4"
+		},
+		{
+			"word": "sentarnos",
+			"skill": "School 4"
+		},
+		{
+			"word": "cinco",
+			"skill": "School 2"
+		},
+		{
+			"word": "comprar",
+			"skill": "School 2"
+		},
+		{
+			"word": "cuatro",
+			"skill": "School 2"
+		},
+		{
+			"word": "tres",
+			"skill": "School 2"
+		},
+		{
+			"word": "tomé",
+			"skill": "School 4",
+			"normal": "tome"
+		},
+		{
+			"word": "tomaste",
+			"skill": "School 4"
+		},
+		{
+			"word": "te sientas",
+			"skill": "School 4"
+		},
+		{
+			"word": "tomó",
+			"skill": "School 4",
+			"normal": "tomo"
+		},
+		{
+			"word": "dibujamos",
+			"skill": "School 4"
+		},
+		{
+			"word": "tomaron",
+			"skill": "School 4"
+		},
+		{
+			"word": "cantó",
+			"skill": "School 4",
+			"normal": "canto"
+		},
+		{
+			"word": "dibujaron",
+			"skill": "School 4"
+		},
+		{
+			"word": "dibujaste",
+			"skill": "School 4"
+		},
+		{
+			"word": "dibujé",
+			"skill": "School 4",
+			"normal": "dibuje"
+		},
+		{
+			"word": "me siento",
+			"skill": "School 4"
+		},
+		{
+			"word": "nos preocupamos",
+			"skill": "School 4"
+		},
+		{
+			"word": "te preocupas",
+			"skill": "School 4"
+		},
+		{
+			"word": "respondiste",
+			"skill": "School 4"
+		},
+		{
+			"word": "comprendes",
+			"skill": "School 4"
+		},
+		{
+			"word": "cogieron",
+			"skill": "School 4"
+		},
+		{
+			"word": "responde",
+			"skill": "School 4"
+		},
+		{
+			"word": "cogió",
+			"skill": "School 4",
+			"normal": "cogio"
+		},
+		{
+			"word": "cogiste",
+			"skill": "School 4"
+		},
+		{
+			"word": "responden",
+			"skill": "School 4"
+		},
+		{
+			"word": "respondes",
+			"skill": "School 4"
+		},
+		{
+			"word": "respondimos",
+			"skill": "School 4"
+		},
+		{
+			"word": "respondió",
+			"skill": "School 4",
+			"normal": "respondio"
+		},
+		{
+			"word": "cogí",
+			"skill": "School 4",
+			"normal": "cogi"
+		},
+		{
+			"word": "comprendo",
+			"skill": "School 4"
+		},
+		{
+			"word": "respondemos",
+			"skill": "School 4"
+		},
+		{
+			"word": "comprenden",
+			"skill": "School 4"
+		},
+		{
+			"word": "enseñaron",
+			"skill": "School 4",
+			"normal": "ensenaron"
+		},
+		{
+			"word": "ejemplos",
+			"skill": "School 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "empezaste",
+			"skill": "School 4"
+		},
+		{
+			"word": "enseñé",
+			"skill": "School 4",
+			"normal": "ensene"
+		},
+		{
+			"word": "enseñaste",
+			"skill": "School 4",
+			"normal": "ensenaste"
+		},
+		{
+			"word": "olvidaste",
+			"skill": "School 4"
+		},
+		{
+			"word": "olvidamos",
+			"skill": "School 4"
+		},
+		{
+			"word": "ejemplo",
+			"skill": "School 4",
+			"gender": "Masculine"
+		},
+		{
+			"word": "olvidaron",
+			"skill": "School 4"
+		},
+		{
+			"word": "preocuparte",
+			"skill": "School 4"
+		},
+		{
+			"word": "estudió",
+			"skill": "School 4",
+			"normal": "estudio"
+		},
+		{
+			"word": "preocuparme",
+			"skill": "School 4"
+		},
+		{
+			"word": "preocuparnos",
+			"skill": "School 4"
+		},
+		{
+			"word": "estudiaron",
+			"skill": "School 4"
+		},
+		{
+			"word": "uno",
+			"skill": "School 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "seis",
+			"skill": "School 2"
+		},
+		{
+			"word": "abriendo",
+			"skill": "School 3"
+		},
+		{
+			"word": "escuchando",
+			"skill": "School 3"
+		},
+		{
+			"word": "hablando",
+			"skill": "School 3"
+		},
+		{
+			"word": "saliendo",
+			"skill": "School 3"
+		},
+		{
+			"word": "estudiando",
+			"skill": "School 3"
+		},
+		{
+			"word": "queremos abrir",
+			"skill": "School 3"
+		},
+		{
+			"word": "que escribir",
+			"skill": "School 3"
+		},
+		{
+			"word": "quiero aprender",
+			"skill": "School 3"
+		},
+		{
+			"word": "haciendo",
+			"skill": "School 3"
+		},
+		{
+			"word": "comiendo",
+			"skill": "School 3"
+		},
+		{
+			"word": "que hacer",
+			"skill": "School 3"
+		},
+		{
+			"word": "quiere dibujar",
+			"skill": "School 3"
+		},
+		{
+			"word": "dibujando",
+			"skill": "School 3"
+		},
+		{
+			"word": "bebiendo",
+			"skill": "School 3"
+		},
+		{
+			"word": "que leer",
+			"skill": "School 3"
+		},
+		{
+			"word": "que estudiar",
+			"skill": "School 3"
+		},
+		{
+			"word": "escribiendo",
+			"skill": "School 3"
+		},
+		{
+			"word": "leyendo",
+			"skill": "School 3"
+		},
+		{
+			"word": "aprendiendo",
+			"skill": "School 3"
+		},
+		{
+			"word": "quieren beber",
+			"skill": "School 3"
+		},
+		{
+			"word": "aprender",
+			"skill": "School 2"
+		},
+		{
+			"word": "siete",
+			"skill": "School 2"
+		},
+		{
+			"word": "escuelas",
+			"skill": "School 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pizarra",
+			"skill": "School 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pizarras",
+			"skill": "School 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "maestro",
+			"skill": "School"
+		},
+		{
+			"word": "aprende",
+			"skill": "School 2"
+		},
+		{
+			"word": "no",
+			"skill": "School"
+		},
+		{
+			"word": "comprendo",
+			"skill": "School"
+		},
+		{
+			"word": "pregunta",
+			"skill": "School"
+		},
+		{
+			"word": "aprendo",
+			"skill": "School 2"
+		},
+		{
+			"word": "aprendes",
+			"skill": "School 2"
+		},
+		{
+			"word": "cero",
+			"skill": "School 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bolígrafos",
+			"skill": "School 2",
+			"normal": "boligrafos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "libro",
+			"skill": "School 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "libros",
+			"skill": "School 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "universidad",
+			"skill": "School 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "bibliotecas",
+			"skill": "School 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "computadoras",
+			"skill": "School 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "lees",
+			"skill": "School"
+		},
+		{
+			"word": "bolígrafo",
+			"skill": "School",
+			"normal": "boligrafo"
+		},
+		{
+			"word": "importante",
+			"skill": "School"
+		},
+		{
+			"word": "medicina",
+			"skill": "School"
+		},
+		{
+			"word": "difícil",
+			"skill": "School",
+			"normal": "dificil"
+		},
+		{
+			"word": "estudias",
+			"skill": "School"
+		},
+		{
+			"word": "leo",
+			"skill": "School"
+		},
+		{
+			"word": "problema",
+			"skill": "School"
+		},
+		{
+			"word": "leer",
+			"skill": "School"
+		},
+		{
+			"word": "examen",
+			"skill": "School"
+		},
+		{
+			"word": "escribir",
+			"skill": "School"
+		},
+		{
+			"word": "profesor",
+			"skill": "School"
+		},
+		{
+			"word": "estudio",
+			"skill": "School"
+		},
+		{
+			"word": "escribo",
+			"skill": "School"
+		},
+		{
+			"word": "universidad",
+			"skill": "School"
+		},
+		{
+			"word": "libro",
+			"skill": "School"
+		},
+		{
+			"word": "escribes",
+			"skill": "School"
+		},
+		{
+			"word": "fácil",
+			"skill": "School",
+			"normal": "facil"
+		},
+		{
+			"word": "si",
+			"skill": "School 6"
+		},
+		{
+			"word": "tijeras",
+			"skill": "School 6",
+			"gender": "Feminine"
+		},
+		{
+			"word": "esta",
+			"skill": "School 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "este",
+			"skill": "School 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "encontramos",
+			"skill": "School 4"
+		},
+		{
+			"word": "encuentran",
+			"skill": "School 4"
+		},
+		{
+			"word": "suficiente",
+			"skill": "School 6"
+		},
+		{
+			"word": "calendario",
+			"skill": "School 5",
+			"gender": "Masculine"
+		},
+		{
+			"word": "estudiantes",
+			"skill": "School 2"
+		},
+		{
+			"word": "preguntas",
+			"skill": "School 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pregunta",
+			"skill": "School 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "mochila",
+			"skill": "School 5",
+			"gender": "Feminine"
+		},
+		{
+			"word": "reglas",
+			"skill": "School 5",
+			"gender": "Feminine"
+		},
+		{
+			"word": "nota",
+			"skill": "School 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "encuentras",
+			"skill": "School 4"
+		},
+		{
+			"word": "biblioteca",
+			"skill": "School 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "notas",
+			"skill": "School 3",
+			"gender": "Feminine"
+		}
+	],
+	"Greetings": [
+		{
+			"word": "usted",
+			"skill": "Greetings"
+		},
+		{
+			"word": "señorita",
+			"skill": "Greetings",
+			"normal": "senorita",
+			"gender": "Feminine"
+		},
+		{
+			"word": "bien",
+			"skill": "Greetings"
+		},
+		{
+			"word": "muy",
+			"skill": "Greetings"
+		},
+		{
+			"word": "feliz",
+			"skill": "Greetings"
+		},
+		{
+			"word": "te llamas",
+			"skill": "Greetings"
+		},
+		{
+			"word": "cómo",
+			"skill": "Greetings",
+			"normal": "como"
+		},
+		{
+			"word": "hasta luego",
+			"skill": "Greetings"
+		},
+		{
+			"word": "hasta mañana",
+			"skill": "Greetings",
+			"normal": "hasta manana"
+		},
+		{
+			"word": "buenas tardes",
+			"skill": "Greetings"
+		},
+		{
+			"word": "cómo está",
+			"skill": "Greetings",
+			"normal": "como esta"
+		},
+		{
+			"word": "se llama",
+			"skill": "Greetings"
+		},
+		{
+			"word": "ocupada",
+			"skill": "Greetings",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cansado",
+			"skill": "Greetings",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cansada",
+			"skill": "Greetings",
+			"gender": "Feminine"
+		},
+		{
+			"word": "mal",
+			"skill": "Greetings"
+		},
+		{
+			"word": "ocupado",
+			"skill": "Greetings",
+			"gender": "Masculine"
+		},
+		{
+			"word": "estoy",
+			"skill": "Greetings"
+		},
+		{
+			"word": "señor",
+			"skill": "Greetings",
+			"normal": "senor",
+			"gender": "Masculine"
+		},
+		{
+			"word": "estás",
+			"skill": "Greetings",
+			"normal": "estas"
+		},
+		{
+			"word": "está",
+			"skill": "Greetings",
+			"normal": "esta"
+		},
+		{
+			"word": "señora",
+			"skill": "Greetings",
+			"normal": "senora",
+			"gender": "Feminine"
+		}
+	],
+	"Leisure": [
+		{
+			"word": "arroz",
+			"skill": "Leisure",
+			"gender": "Masculine"
+		},
+		{
+			"word": "sándwiches",
+			"skill": "Leisure",
+			"normal": "sandwiches",
+			"gender": "Masculine"
+		},
+		{
+			"word": "caminar",
+			"skill": "Leisure"
+		},
+		{
+			"word": "abrir",
+			"skill": "Leisure"
+		},
+		{
+			"word": "correos electrónicos",
+			"skill": "Leisure",
+			"normal": "correos electronicos"
+		},
+		{
+			"word": "mucho",
+			"skill": "Leisure",
+			"gender": "Masculine"
+		},
+		{
+			"word": "quieren",
+			"skill": "Leisure"
+		},
+		{
+			"word": "restaurantes",
+			"skill": "Leisure",
+			"gender": "Masculine"
+		},
+		{
+			"word": "comida",
+			"skill": "Leisure",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pollo",
+			"skill": "Leisure",
+			"gender": "Masculine"
+		},
+		{
+			"word": "casas",
+			"skill": "Leisure",
+			"gender": "Feminine"
+		},
+		{
+			"word": "aburridas",
+			"skill": "Leisure",
+			"gender": "Feminine"
+		},
+		{
+			"word": "aburridos",
+			"skill": "Leisure",
+			"gender": "Masculine"
+		},
+		{
+			"word": "divertidas",
+			"skill": "Leisure",
+			"gender": "Feminine"
+		},
+		{
+			"word": "divertidos",
+			"skill": "Leisure",
+			"gender": "Masculine"
+		},
+		{
+			"word": "queremos",
+			"skill": "Leisure"
+		},
+		{
+			"word": "playas",
+			"skill": "Leisure",
+			"gender": "Feminine"
+		},
+		{
+			"word": "escriben",
+			"skill": "Leisure"
+		},
+		{
+			"word": "viven",
+			"skill": "Leisure"
+		},
+		{
+			"word": "vivimos",
+			"skill": "Leisure"
+		},
+		{
+			"word": "leen",
+			"skill": "Leisure"
+		},
+		{
+			"word": "mucha",
+			"skill": "Leisure",
+			"gender": "Feminine"
+		},
+		{
+			"word": "buenas",
+			"skill": "Leisure",
+			"gender": "Feminine"
+		},
+		{
+			"word": "bueno",
+			"skill": "Leisure",
+			"gender": "Masculine"
+		},
+		{
+			"word": "buenos",
+			"skill": "Leisure",
+			"gender": "Masculine"
+		},
+		{
+			"word": "buena",
+			"skill": "Leisure",
+			"gender": "Feminine"
+		},
+		{
+			"word": "juntos",
+			"skill": "Leisure",
+			"gender": "Masculine"
+		},
+		{
+			"word": "veranos",
+			"skill": "Leisure",
+			"gender": "Masculine"
+		},
+		{
+			"word": "verano",
+			"skill": "Leisure",
+			"gender": "Masculine"
+		},
+		{
+			"word": "leemos",
+			"skill": "Leisure"
+		},
+		{
+			"word": "playa",
+			"skill": "Leisure",
+			"gender": "Feminine"
+		},
+		{
+			"word": "comemos",
+			"skill": "Leisure"
+		},
+		{
+			"word": "comen",
+			"skill": "Leisure"
+		},
+		{
+			"word": "periódicos",
+			"skill": "Leisure",
+			"normal": "periodicos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "periódico",
+			"skill": "Leisure",
+			"normal": "periodico",
+			"gender": "Masculine"
+		}
+	],
+	"Groceries": [
+		{
+			"word": "mantequilla",
+			"skill": "Groceries",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cincuenta",
+			"skill": "Groceries"
+		},
+		{
+			"word": "cuarenta",
+			"skill": "Groceries"
+		},
+		{
+			"word": "lavar",
+			"skill": "Groceries"
+		},
+		{
+			"word": "tenemos que",
+			"skill": "Groceries"
+		},
+		{
+			"word": "tienen que",
+			"skill": "Groceries"
+		},
+		{
+			"word": "compra",
+			"skill": "Groceries",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pongo",
+			"skill": "Groceries"
+		},
+		{
+			"word": "sesenta",
+			"skill": "Groceries"
+		},
+		{
+			"word": "poner",
+			"skill": "Groceries"
+		},
+		{
+			"word": "llevar",
+			"skill": "Groceries"
+		},
+		{
+			"word": "llevan",
+			"skill": "Groceries"
+		},
+		{
+			"word": "refrigeradores",
+			"skill": "Groceries",
+			"gender": "Masculine"
+		},
+		{
+			"word": "lavan",
+			"skill": "Groceries"
+		},
+		{
+			"word": "lavamos",
+			"skill": "Groceries"
+		},
+		{
+			"word": "lavas",
+			"skill": "Groceries"
+		},
+		{
+			"word": "llevamos",
+			"skill": "Groceries"
+		},
+		{
+			"word": "centavos",
+			"skill": "Groceries",
+			"gender": "Masculine"
+		},
+		{
+			"word": "picante",
+			"skill": "Groceries",
+			"gender": "Masculine"
+		},
+		{
+			"word": "chorizos",
+			"skill": "Groceries",
+			"gender": "Masculine"
+		},
+		{
+			"word": "picantes",
+			"skill": "Groceries",
+			"gender": "Masculine"
+		},
+		{
+			"word": "chorizo",
+			"skill": "Groceries",
+			"gender": "Masculine"
+		},
+		{
+			"word": "naranja",
+			"skill": "Groceries",
+			"gender": "Feminine"
+		},
+		{
+			"word": "huevo",
+			"skill": "Groceries",
+			"gender": "Masculine"
+		},
+		{
+			"word": "vegetales",
+			"skill": "Groceries",
+			"gender": "Masculine"
+		},
+		{
+			"word": "papa",
+			"skill": "Groceries",
+			"gender": "Feminine"
+		},
+		{
+			"word": "tomate",
+			"skill": "Groceries",
+			"gender": "Masculine"
+		},
+		{
+			"word": "plátanos",
+			"skill": "Groceries",
+			"normal": "platanos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "fruta",
+			"skill": "Groceries",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cuánta",
+			"skill": "Groceries",
+			"normal": "cuanta",
+			"gender": "Feminine"
+		},
+		{
+			"word": "lleva",
+			"skill": "Groceries"
+		},
+		{
+			"word": "llevas",
+			"skill": "Groceries"
+		},
+		{
+			"word": "llevo",
+			"skill": "Groceries"
+		},
+		{
+			"word": "refrigerador",
+			"skill": "Groceries",
+			"gender": "Masculine"
+		},
+		{
+			"word": "lista",
+			"skill": "Groceries 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "bolsas",
+			"skill": "Groceries",
+			"gender": "Feminine"
+		},
+		{
+			"word": "bolsa",
+			"skill": "Groceries",
+			"gender": "Feminine"
+		}
+	],
+	"Interests": [
+		{
+			"word": "encantan",
+			"skill": "Interests 2"
+		},
+		{
+			"word": "vinos",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "lentes",
+			"skill": "Interests 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "esto",
+			"skill": "Interests",
+			"gender": "Masculine"
+		},
+		{
+			"word": "practicar",
+			"skill": "Interests"
+		},
+		{
+			"word": "gustan",
+			"skill": "Interests 2"
+		},
+		{
+			"word": "bailes",
+			"skill": "Interests 2"
+		},
+		{
+			"word": "bananas",
+			"skill": "Interests 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "vaqueros",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "interesan",
+			"skill": "Interests 2"
+		},
+		{
+			"word": "te interesa",
+			"skill": "Interests"
+		},
+		{
+			"word": "sitio",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ojos",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ojo",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bota",
+			"skill": "Interests 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "par",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pares",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pájaro",
+			"skill": "Interests 2",
+			"normal": "pajaro",
+			"gender": "Masculine"
+		},
+		{
+			"word": "latina",
+			"skill": "Interests 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "juegos",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "latinos",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pájaros",
+			"skill": "Interests 2",
+			"normal": "pajaros",
+			"gender": "Masculine"
+		},
+		{
+			"word": "rápidos",
+			"skill": "Interests 2",
+			"normal": "rapidos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "juego",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "rápidas",
+			"skill": "Interests 2",
+			"normal": "rapidas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "latinas",
+			"skill": "Interests 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "sitios",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "flor",
+			"skill": "Interests 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "flores",
+			"skill": "Interests 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cubanos",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "calientes",
+			"skill": "Interests 2"
+		},
+		{
+			"word": "ensaladas",
+			"skill": "Interests 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "dulce",
+			"skill": "Interests 2"
+		},
+		{
+			"word": "chileno",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "chilenos",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "dulces",
+			"skill": "Interests 2"
+		},
+		{
+			"word": "chilena",
+			"skill": "Interests 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "les interesa",
+			"skill": "Interests"
+		},
+		{
+			"word": "nos interesa",
+			"skill": "Interests"
+		},
+		{
+			"word": "cuáles",
+			"skill": "Interests",
+			"normal": "cuales"
+		},
+		{
+			"word": "partidos",
+			"skill": "Interests",
+			"gender": "Masculine"
+		},
+		{
+			"word": "interesa jugar",
+			"skill": "Interests"
+		},
+		{
+			"word": "le interesa",
+			"skill": "Interests"
+		},
+		{
+			"word": "me interesa",
+			"skill": "Interests"
+		},
+		{
+			"word": "asignaturas",
+			"skill": "Interests",
+			"gender": "Feminine"
+		},
+		{
+			"word": "grupos",
+			"skill": "Interests",
+			"gender": "Masculine"
+		},
+		{
+			"word": "asignatura",
+			"skill": "Interests",
+			"gender": "Feminine"
+		},
+		{
+			"word": "grupo",
+			"skill": "Interests",
+			"gender": "Masculine"
+		},
+		{
+			"word": "preferida",
+			"skill": "Interests",
+			"gender": "Feminine"
+		},
+		{
+			"word": "preferido",
+			"skill": "Interests",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pintura",
+			"skill": "Interests",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pinturas",
+			"skill": "Interests",
+			"gender": "Feminine"
+		},
+		{
+			"word": "europeos",
+			"skill": "Interests",
+			"gender": "Masculine"
+		},
+		{
+			"word": "museo",
+			"skill": "Interests",
+			"gender": "Masculine"
+		},
+		{
+			"word": "dibujan",
+			"skill": "Interests"
+		},
+		{
+			"word": "europeas",
+			"skill": "Interests",
+			"gender": "Feminine"
+		},
+		{
+			"word": "viajas",
+			"skill": "Interests"
+		},
+		{
+			"word": "dibujas",
+			"skill": "Interests"
+		},
+		{
+			"word": "arte",
+			"skill": "Interests",
+			"gender": "Feminine"
+		},
+		{
+			"word": "europeo",
+			"skill": "Interests",
+			"gender": "Masculine"
+		},
+		{
+			"word": "museos",
+			"skill": "Interests",
+			"gender": "Masculine"
+		},
+		{
+			"word": "fotos",
+			"skill": "Interests",
+			"gender": "Feminine"
+		},
+		{
+			"word": "conversación",
+			"skill": "Interests",
+			"normal": "conversacion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "conversaciones",
+			"skill": "Interests",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ambas",
+			"skill": "Interests 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ambos",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "otras",
+			"skill": "Interests",
+			"gender": "Feminine"
+		},
+		{
+			"word": "otros",
+			"skill": "Interests",
+			"gender": "Masculine"
+		},
+		{
+			"word": "jugamos",
+			"skill": "Interests"
+		},
+		{
+			"word": "juega",
+			"skill": "Interests"
+		},
+		{
+			"word": "juegan",
+			"skill": "Interests"
+		},
+		{
+			"word": "juegas",
+			"skill": "Interests"
+		},
+		{
+			"word": "juego",
+			"skill": "Interests"
+		},
+		{
+			"word": "importantes",
+			"skill": "Interests"
+		},
+		{
+			"word": "rápido",
+			"skill": "Interests 2",
+			"normal": "rapido",
+			"gender": "Masculine"
+		},
+		{
+			"word": "rápida",
+			"skill": "Interests 2",
+			"normal": "rapida",
+			"gender": "Feminine"
+		},
+		{
+			"word": "fiestas",
+			"skill": "Interests",
+			"gender": "Feminine"
+		},
+		{
+			"word": "naranjas",
+			"skill": "Interests 2"
+		},
+		{
+			"word": "naranja",
+			"skill": "Interests 2"
+		},
+		{
+			"word": "color",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "colores",
+			"skill": "Interests 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "radio",
+			"skill": "Interests",
+			"gender": "Masculine"
+		},
+		{
+			"word": "foto",
+			"skill": "Interests",
+			"gender": "Feminine"
+		},
+		{
+			"word": "botas",
+			"skill": "Interests 2",
+			"gender": "Feminine"
+		}
+	],
+	"Community": [
+		{
+			"word": "me",
+			"skill": "Community 2"
+		},
+		{
+			"word": "te",
+			"skill": "Community 2"
+		},
+		{
+			"word": "le",
+			"skill": "Community 3"
+		},
+		{
+			"word": "nada",
+			"skill": "Community 3"
+		},
+		{
+			"word": "nos",
+			"skill": "Community 2"
+		},
+		{
+			"word": "visitar",
+			"skill": "Community"
+		},
+		{
+			"word": "cien",
+			"skill": "Community 3"
+		},
+		{
+			"word": "usualmente",
+			"skill": "Community"
+		},
+		{
+			"word": "mil",
+			"skill": "Community 3"
+		},
+		{
+			"word": "les",
+			"skill": "Community 3"
+		},
+		{
+			"word": "tele",
+			"skill": "Community",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ver",
+			"skill": "Community"
+		},
+		{
+			"word": "ochenta",
+			"skill": "Community 3"
+		},
+		{
+			"word": "alemania",
+			"skill": "Community",
+			"gender": "Feminine"
+		},
+		{
+			"word": "llamar",
+			"skill": "Community"
+		},
+		{
+			"word": "almuerzo",
+			"skill": "Community 3"
+		},
+		{
+			"word": "preguntar",
+			"skill": "Community 3"
+		},
+		{
+			"word": "setenta",
+			"skill": "Community 3"
+		},
+		{
+			"word": "nada es",
+			"skill": "Community 3"
+		},
+		{
+			"word": "mandar",
+			"skill": "Community 3"
+		},
+		{
+			"word": "dar",
+			"skill": "Community 3"
+		},
+		{
+			"word": "le hago",
+			"skill": "Community 3"
+		},
+		{
+			"word": "noventa",
+			"skill": "Community 3"
+		},
+		{
+			"word": "almuerza",
+			"skill": "Community 3"
+		},
+		{
+			"word": "me ayudas",
+			"skill": "Community 2"
+		},
+		{
+			"word": "decimos",
+			"skill": "Community 3"
+		},
+		{
+			"word": "portugueses",
+			"skill": "Community 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "preguntamos",
+			"skill": "Community 3"
+		},
+		{
+			"word": "millón",
+			"skill": "Community 3",
+			"normal": "millon",
+			"gender": "Masculine"
+		},
+		{
+			"word": "portuguesas",
+			"skill": "Community 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "portuguesa",
+			"skill": "Community 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "millones",
+			"skill": "Community 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "meseros",
+			"skill": "Community 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "inglesas",
+			"skill": "Community 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "meseras",
+			"skill": "Community 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ingleses",
+			"skill": "Community 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "mandas",
+			"skill": "Community 3"
+		},
+		{
+			"word": "dices",
+			"skill": "Community 3"
+		},
+		{
+			"word": "mandamos",
+			"skill": "Community 3"
+		},
+		{
+			"word": "doy",
+			"skill": "Community 3"
+		},
+		{
+			"word": "conocer",
+			"skill": "Community"
+		},
+		{
+			"word": "amar",
+			"skill": "Community"
+		},
+		{
+			"word": "nos llamas",
+			"skill": "Community 2"
+		},
+		{
+			"word": "me compra",
+			"skill": "Community 2"
+		},
+		{
+			"word": "nos compra",
+			"skill": "Community 2"
+		},
+		{
+			"word": "me llaman",
+			"skill": "Community 2"
+		},
+		{
+			"word": "me ama",
+			"skill": "Community 2"
+		},
+		{
+			"word": "me conoce",
+			"skill": "Community 2"
+		},
+		{
+			"word": "nos ayudan",
+			"skill": "Community 2"
+		},
+		{
+			"word": "te ayudo",
+			"skill": "Community 2"
+		},
+		{
+			"word": "te conozco",
+			"skill": "Community 2"
+		},
+		{
+			"word": "me enseña",
+			"skill": "Community 2",
+			"normal": "me ensena"
+		},
+		{
+			"word": "te necesito",
+			"skill": "Community 2"
+		},
+		{
+			"word": "me necesita",
+			"skill": "Community 2"
+		},
+		{
+			"word": "te compra",
+			"skill": "Community 2"
+		},
+		{
+			"word": "te llamamos",
+			"skill": "Community 2"
+		},
+		{
+			"word": "me escucha",
+			"skill": "Community 2"
+		},
+		{
+			"word": "nos conocen",
+			"skill": "Community 2"
+		},
+		{
+			"word": "nos escuchan",
+			"skill": "Community 2"
+		},
+		{
+			"word": "te visitan",
+			"skill": "Community 2"
+		},
+		{
+			"word": "nos visita",
+			"skill": "Community 2"
+		},
+		{
+			"word": "te amo",
+			"skill": "Community 2"
+		},
+		{
+			"word": "cursos",
+			"skill": "Community 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "curso",
+			"skill": "Community 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "muñecas",
+			"skill": "Community 2",
+			"normal": "munecas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "muñeca",
+			"skill": "Community 2",
+			"normal": "muneca",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ayudar",
+			"skill": "Community"
+		},
+		{
+			"word": "enseñar",
+			"skill": "Community",
+			"normal": "ensenar"
+		},
+		{
+			"word": "enseñas",
+			"skill": "Community",
+			"normal": "ensenas"
+		},
+		{
+			"word": "llamo",
+			"skill": "Community"
+		},
+		{
+			"word": "niños",
+			"skill": "Community",
+			"normal": "ninos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "niñas",
+			"skill": "Community",
+			"normal": "ninas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "llamas",
+			"skill": "Community"
+		},
+		{
+			"word": "ayudo",
+			"skill": "Community"
+		},
+		{
+			"word": "ayudan",
+			"skill": "Community"
+		},
+		{
+			"word": "llamamos",
+			"skill": "Community"
+		},
+		{
+			"word": "llama",
+			"skill": "Community"
+		},
+		{
+			"word": "pueblos",
+			"skill": "Community",
+			"gender": "Masculine"
+		},
+		{
+			"word": "gente",
+			"skill": "Community",
+			"gender": "Feminine"
+		},
+		{
+			"word": "visitan",
+			"skill": "Community"
+		},
+		{
+			"word": "visito",
+			"skill": "Community"
+		},
+		{
+			"word": "partes",
+			"skill": "Community",
+			"gender": "Feminine"
+		},
+		{
+			"word": "parte",
+			"skill": "Community",
+			"gender": "Feminine"
+		},
+		{
+			"word": "lugares",
+			"skill": "Community",
+			"gender": "Masculine"
+		},
+		{
+			"word": "país",
+			"skill": "Community",
+			"normal": "pais",
+			"gender": "Masculine"
+		},
+		{
+			"word": "médicas",
+			"skill": "Community",
+			"normal": "medicas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "algunos",
+			"skill": "Community",
+			"gender": "Masculine"
+		},
+		{
+			"word": "dice",
+			"skill": "Community 3"
+		},
+		{
+			"word": "dicen",
+			"skill": "Community 3"
+		},
+		{
+			"word": "visita",
+			"skill": "Community"
+		},
+		{
+			"word": "ayudamos",
+			"skill": "Community"
+		},
+		{
+			"word": "conocemos",
+			"skill": "Community"
+		},
+		{
+			"word": "dan",
+			"skill": "Community 3"
+		},
+		{
+			"word": "conoces",
+			"skill": "Community"
+		},
+		{
+			"word": "conoce",
+			"skill": "Community"
+		},
+		{
+			"word": "ayudas",
+			"skill": "Community"
+		},
+		{
+			"word": "diferente",
+			"skill": "Community"
+		},
+		{
+			"word": "diferentes",
+			"skill": "Community"
+		},
+		{
+			"word": "mesera",
+			"skill": "Community 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "mesero",
+			"skill": "Community 3",
+			"gender": "Masculine"
+		},
+		{
+			"word": "vemos",
+			"skill": "Community"
+		},
+		{
+			"word": "ves",
+			"skill": "Community"
+		},
+		{
+			"word": "veo",
+			"skill": "Community"
+		},
+		{
+			"word": "visitas",
+			"skill": "Community"
+		},
+		{
+			"word": "maestras",
+			"skill": "Community",
+			"gender": "Feminine"
+		},
+		{
+			"word": "oficinas",
+			"skill": "Community 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "países",
+			"skill": "Community",
+			"normal": "paises",
+			"gender": "Masculine"
+		},
+		{
+			"word": "lugar",
+			"skill": "Community",
+			"gender": "Masculine"
+		},
+		{
+			"word": "digo",
+			"skill": "Community 3"
+		},
+		{
+			"word": "conozco",
+			"skill": "Community"
+		},
+		{
+			"word": "ven",
+			"skill": "Community"
+		}
+	],
+	"History": [
+		{
+			"word": "yo fui",
+			"skill": "History"
+		},
+		{
+			"word": "novecientos",
+			"skill": "History",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ochocientos",
+			"skill": "History",
+			"gender": "Masculine"
+		},
+		{
+			"word": "setecientos",
+			"skill": "History"
+		},
+		{
+			"word": "morir",
+			"skill": "History"
+		},
+		{
+			"word": "practiqué",
+			"skill": "History",
+			"normal": "practique"
+		},
+		{
+			"word": "tú fuiste",
+			"skill": "History",
+			"normal": "tu fuiste"
+		},
+		{
+			"word": "comencé",
+			"skill": "History",
+			"normal": "comence"
+		},
+		{
+			"word": "llegué",
+			"skill": "History",
+			"normal": "llegue"
+		},
+		{
+			"word": "nosotros fuimos",
+			"skill": "History"
+		},
+		{
+			"word": "trabajé",
+			"skill": "History",
+			"normal": "trabaje"
+		},
+		{
+			"word": "usaste",
+			"skill": "History"
+		},
+		{
+			"word": "pinté",
+			"skill": "History",
+			"normal": "pinte"
+		},
+		{
+			"word": "bailó",
+			"skill": "History",
+			"normal": "bailo"
+		},
+		{
+			"word": "pintaron",
+			"skill": "History"
+		},
+		{
+			"word": "cambiaron",
+			"skill": "History"
+		},
+		{
+			"word": "bailé",
+			"skill": "History",
+			"normal": "baile"
+		},
+		{
+			"word": "ayudaste",
+			"skill": "History"
+		},
+		{
+			"word": "bailaron",
+			"skill": "History"
+		},
+		{
+			"word": "usaron",
+			"skill": "History"
+		},
+		{
+			"word": "usé",
+			"skill": "History",
+			"normal": "use"
+		},
+		{
+			"word": "miraste",
+			"skill": "History"
+		},
+		{
+			"word": "invitó",
+			"skill": "History",
+			"normal": "invito"
+		},
+		{
+			"word": "esperamos",
+			"skill": "History"
+		},
+		{
+			"word": "pensaste",
+			"skill": "History"
+		},
+		{
+			"word": "pensaron",
+			"skill": "History"
+		},
+		{
+			"word": "pensé",
+			"skill": "History",
+			"normal": "pense"
+		},
+		{
+			"word": "pensó",
+			"skill": "History",
+			"normal": "penso"
+		},
+		{
+			"word": "recordamos",
+			"skill": "History"
+		},
+		{
+			"word": "practicó",
+			"skill": "History",
+			"normal": "practico"
+		},
+		{
+			"word": "mandé",
+			"skill": "History",
+			"normal": "mande"
+		},
+		{
+			"word": "practicaste",
+			"skill": "History"
+		},
+		{
+			"word": "mandó",
+			"skill": "History",
+			"normal": "mando"
+		},
+		{
+			"word": "mandaste",
+			"skill": "History"
+		},
+		{
+			"word": "practicaron",
+			"skill": "History"
+		},
+		{
+			"word": "comprendieron",
+			"skill": "History"
+		},
+		{
+			"word": "comprendió",
+			"skill": "History",
+			"normal": "comprendio"
+		},
+		{
+			"word": "vivieron",
+			"skill": "History"
+		},
+		{
+			"word": "comprendimos",
+			"skill": "History"
+		},
+		{
+			"word": "comprendiste",
+			"skill": "History"
+		},
+		{
+			"word": "comprendí",
+			"skill": "History",
+			"normal": "comprendi"
+		},
+		{
+			"word": "recuerda",
+			"skill": "History"
+		},
+		{
+			"word": "recuerdan",
+			"skill": "History"
+		},
+		{
+			"word": "recuerdo",
+			"skill": "History"
+		},
+		{
+			"word": "veces",
+			"skill": "History 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "vez",
+			"skill": "History 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "área",
+			"skill": "History 2",
+			"normal": "area",
+			"gender": "Feminine"
+		}
+	],
+	"Childhood": [
+		{
+			"word": "tenías",
+			"skill": "Childhood",
+			"normal": "tenias"
+		},
+		{
+			"word": "estudiabas",
+			"skill": "Childhood"
+		},
+		{
+			"word": "eras",
+			"skill": "Childhood"
+		},
+		{
+			"word": "de niño",
+			"skill": "Childhood",
+			"normal": "de nino"
+		},
+		{
+			"word": "tenía",
+			"skill": "Childhood",
+			"normal": "tenia"
+		},
+		{
+			"word": "estudiaba",
+			"skill": "Childhood"
+		},
+		{
+			"word": "era",
+			"skill": "Childhood"
+		},
+		{
+			"word": "de niña",
+			"skill": "Childhood",
+			"normal": "de nina"
+		},
+		{
+			"word": "leía",
+			"skill": "Childhood",
+			"normal": "leia"
+		},
+		{
+			"word": "leías",
+			"skill": "Childhood",
+			"normal": "leias"
+		},
+		{
+			"word": "nadaba",
+			"skill": "Childhood"
+		},
+		{
+			"word": "nadabas",
+			"skill": "Childhood"
+		},
+		{
+			"word": "tranquila",
+			"skill": "Childhood",
+			"gender": "Feminine"
+		},
+		{
+			"word": "tranquilo",
+			"skill": "Childhood",
+			"gender": "Masculine"
+		},
+		{
+			"word": "amables",
+			"skill": "Childhood"
+		},
+		{
+			"word": "tranquilas",
+			"skill": "Childhood",
+			"gender": "Feminine"
+		},
+		{
+			"word": "tranquilos",
+			"skill": "Childhood",
+			"gender": "Masculine"
+		},
+		{
+			"word": "comía",
+			"skill": "Childhood",
+			"normal": "comia"
+		},
+		{
+			"word": "comías",
+			"skill": "Childhood",
+			"normal": "comias"
+		},
+		{
+			"word": "vivías",
+			"skill": "Childhood",
+			"normal": "vivias"
+		},
+		{
+			"word": "vivía",
+			"skill": "Childhood",
+			"normal": "vivia"
+		},
+		{
+			"word": "cereales",
+			"skill": "Childhood",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bosque",
+			"skill": "Childhood"
+		},
+		{
+			"word": "cereal",
+			"skill": "Childhood",
+			"gender": "Masculine"
+		},
+		{
+			"word": "jugabas",
+			"skill": "Childhood"
+		},
+		{
+			"word": "montabas",
+			"skill": "Childhood"
+		},
+		{
+			"word": "montaba",
+			"skill": "Childhood"
+		},
+		{
+			"word": "jugaba",
+			"skill": "Childhood"
+		},
+		{
+			"word": "mientras",
+			"skill": "Childhood 3"
+		},
+		{
+			"word": "casi",
+			"skill": "Childhood 3"
+		},
+		{
+			"word": "zanahorias",
+			"skill": "Childhood 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "batería",
+			"skill": "Childhood 3",
+			"normal": "bateria",
+			"gender": "Feminine"
+		}
+	],
+	"Information": [
+		{
+			"word": "cocinar",
+			"skill": "Information"
+		},
+		{
+			"word": "se",
+			"skill": "Information 3"
+		},
+		{
+			"word": "manejar",
+			"skill": "Information"
+		},
+		{
+			"word": "saber",
+			"skill": "Information"
+		},
+		{
+			"word": "sabes quién",
+			"skill": "Information",
+			"normal": "sabes quien"
+		},
+		{
+			"word": "carnes",
+			"skill": "Information",
+			"gender": "Feminine"
+		},
+		{
+			"word": "no lo sé",
+			"skill": "Information",
+			"normal": "no lo se"
+		},
+		{
+			"word": "sabe usted",
+			"skill": "Information"
+		},
+		{
+			"word": "sabes cuándo",
+			"skill": "Information",
+			"normal": "sabes cuando"
+		},
+		{
+			"word": "sé cuándo",
+			"skill": "Information",
+			"normal": "se cuando"
+		},
+		{
+			"word": "sabemos dónde",
+			"skill": "Information",
+			"normal": "sabemos donde"
+		},
+		{
+			"word": "cómo se dice",
+			"skill": "Information",
+			"normal": "como se dice"
+		},
+		{
+			"word": "cantar",
+			"skill": "Information"
+		},
+		{
+			"word": "cómo se escribe",
+			"skill": "Information",
+			"normal": "como se escribe"
+		},
+		{
+			"word": "sabes nadar",
+			"skill": "Information"
+		},
+		{
+			"word": "chino",
+			"skill": "Information",
+			"gender": "Masculine"
+		},
+		{
+			"word": "lenguas",
+			"skill": "Information",
+			"gender": "Feminine"
+		},
+		{
+			"word": "canto",
+			"skill": "Information"
+		},
+		{
+			"word": "canta",
+			"skill": "Information"
+		},
+		{
+			"word": "lengua",
+			"skill": "Information",
+			"gender": "Feminine"
+		},
+		{
+			"word": "canciones",
+			"skill": "Information",
+			"gender": "Feminine"
+		},
+		{
+			"word": "canción",
+			"skill": "Information",
+			"normal": "cancion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cantamos",
+			"skill": "Information"
+		},
+		{
+			"word": "cantan",
+			"skill": "Information"
+		},
+		{
+			"word": "cantas",
+			"skill": "Information"
+		},
+		{
+			"word": "cocina",
+			"skill": "Information"
+		},
+		{
+			"word": "manejan",
+			"skill": "Information"
+		},
+		{
+			"word": "manejas",
+			"skill": "Information"
+		},
+		{
+			"word": "manejamos",
+			"skill": "Information"
+		},
+		{
+			"word": "nadan",
+			"skill": "Information"
+		},
+		{
+			"word": "cocinas",
+			"skill": "Information"
+		},
+		{
+			"word": "manejo",
+			"skill": "Information"
+		},
+		{
+			"word": "nado",
+			"skill": "Information"
+		},
+		{
+			"word": "cocinamos",
+			"skill": "Information"
+		},
+		{
+			"word": "cocinan",
+			"skill": "Information"
+		},
+		{
+			"word": "maneja",
+			"skill": "Information"
+		},
+		{
+			"word": "nadas",
+			"skill": "Information"
+		},
+		{
+			"word": "edad",
+			"skill": "Information",
+			"gender": "Feminine"
+		},
+		{
+			"word": "respuestas",
+			"skill": "Information",
+			"gender": "Feminine"
+		},
+		{
+			"word": "palabras",
+			"skill": "Information",
+			"gender": "Feminine"
+		},
+		{
+			"word": "respuesta",
+			"skill": "Information",
+			"gender": "Feminine"
+		},
+		{
+			"word": "palabra",
+			"skill": "Information",
+			"gender": "Feminine"
+		},
+		{
+			"word": "edades",
+			"skill": "Information",
+			"gender": "Feminine"
+		},
+		{
+			"word": "sé",
+			"skill": "Information",
+			"normal": "se"
+		},
+		{
+			"word": "sabemos",
+			"skill": "Information"
+		},
+		{
+			"word": "sabe",
+			"skill": "Information"
+		},
+		{
+			"word": "saben",
+			"skill": "Information"
+		},
+		{
+			"word": "mismo",
+			"skill": "Information",
+			"gender": "Masculine"
+		},
+		{
+			"word": "mismos",
+			"skill": "Information",
+			"gender": "Masculine"
+		},
+		{
+			"word": "clara",
+			"skill": "Information 3",
+			"gender": "Feminine"
+		},
+		{
+			"word": "ingeniero",
+			"skill": "Information 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ingenieras",
+			"skill": "Information 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "e",
+			"skill": "Information 3"
+		},
+		{
+			"word": "sabes",
+			"skill": "Information"
+		},
+		{
+			"word": "mismas",
+			"skill": "Information",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cocino",
+			"skill": "Information"
+		},
+		{
+			"word": "nada",
+			"skill": "Information"
+		},
+		{
+			"word": "misma",
+			"skill": "Information",
+			"gender": "Feminine"
+		}
+	],
+	"Weather": [
+		{
+			"word": "sol",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hace calor",
+			"skill": "Weather"
+		},
+		{
+			"word": "llueve",
+			"skill": "Weather"
+		},
+		{
+			"word": "qué tiempo hace",
+			"skill": "Weather",
+			"normal": "que tiempo hace"
+		},
+		{
+			"word": "cómo está el tiempo",
+			"skill": "Weather",
+			"normal": "como esta el tiempo"
+		},
+		{
+			"word": "nieva",
+			"skill": "Weather"
+		},
+		{
+			"word": "buen tiempo",
+			"skill": "Weather"
+		},
+		{
+			"word": "hace frío",
+			"skill": "Weather",
+			"normal": "hace frio"
+		},
+		{
+			"word": "mal tiempo",
+			"skill": "Weather"
+		},
+		{
+			"word": "otoños",
+			"skill": "Weather",
+			"normal": "otonos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "oscuros",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "nublado",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "oscuro",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "viento",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "vientos",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "octubre",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "julio",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "diciembre",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "mayo",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "enero",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "primaveras",
+			"skill": "Weather",
+			"gender": "Feminine"
+		},
+		{
+			"word": "primavera",
+			"skill": "Weather",
+			"gender": "Feminine"
+		},
+		{
+			"word": "marzo",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "noviembre",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "inviernos",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "invierno",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "septiembre",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "agosto",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "junio",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "abril",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "meses",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "mes",
+			"skill": "Weather",
+			"gender": "Masculine"
+		},
+		{
+			"word": "febrero",
+			"skill": "Weather",
+			"gender": "Masculine"
+		}
+	],
+	"Phrases": [
+		{
+			"word": "sueño",
+			"skill": "Phrases 2",
+			"normal": "sueno",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bailar",
+			"skill": "Phrases 2"
+		},
+		{
+			"word": "jugos",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hambre",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "veintidós",
+			"skill": "Phrases 2",
+			"normal": "veintidos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "veintitrés",
+			"skill": "Phrases 2",
+			"normal": "veintitres",
+			"gender": "Masculine"
+		},
+		{
+			"word": "veinticinco",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "de verdad",
+			"skill": "Phrases 2"
+		},
+		{
+			"word": "frío",
+			"skill": "Phrases 2",
+			"normal": "frio",
+			"gender": "Masculine"
+		},
+		{
+			"word": "ganas",
+			"skill": "Phrases 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "miedo",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "sed",
+			"skill": "Phrases 2"
+		},
+		{
+			"word": "cuántos años",
+			"skill": "Phrases 2",
+			"normal": "cuantos anos"
+		},
+		{
+			"word": "puesto",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "veinticuatro",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "veintiuno",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "señoritas",
+			"skill": "Phrases 2",
+			"normal": "senoritas",
+			"gender": "Feminine"
+		},
+		{
+			"word": "calor",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "veintiún",
+			"skill": "Phrases 2",
+			"normal": "veintiun",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bailo",
+			"skill": "Phrases 2"
+		},
+		{
+			"word": "animales",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bailan",
+			"skill": "Phrases 2"
+		},
+		{
+			"word": "animal",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bailas",
+			"skill": "Phrases 2"
+		},
+		{
+			"word": "baila",
+			"skill": "Phrases 2"
+		},
+		{
+			"word": "marrón",
+			"skill": "Phrases 2",
+			"normal": "marron",
+			"gender": "Masculine"
+		},
+		{
+			"word": "marrones",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "grises",
+			"skill": "Phrases 2"
+		},
+		{
+			"word": "pizza",
+			"skill": "Phrases 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pizzas",
+			"skill": "Phrases 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "jóvenes",
+			"skill": "Phrases 2",
+			"normal": "jovenes"
+		},
+		{
+			"word": "largos",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "larga",
+			"skill": "Phrases 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "largas",
+			"skill": "Phrases 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "abrigos",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "abrigo",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "largo",
+			"skill": "Phrases 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "gris",
+			"skill": "Phrases 2"
+		}
+	],
+	"Nature": [
+		{
+			"word": "todo",
+			"skill": "Nature",
+			"gender": "Masculine"
+		},
+		{
+			"word": "fueron unos",
+			"skill": "Nature"
+		},
+		{
+			"word": "corrió",
+			"skill": "Nature",
+			"normal": "corrio"
+		},
+		{
+			"word": "nevó",
+			"skill": "Nature",
+			"normal": "nevo"
+		},
+		{
+			"word": "nos encontramos",
+			"skill": "Nature"
+		},
+		{
+			"word": "lluvia",
+			"skill": "Nature",
+			"gender": "Feminine"
+		},
+		{
+			"word": "llovió",
+			"skill": "Nature",
+			"normal": "llovio"
+		},
+		{
+			"word": "fue un",
+			"skill": "Nature"
+		},
+		{
+			"word": "montaste",
+			"skill": "Nature"
+		},
+		{
+			"word": "caminó",
+			"skill": "Nature",
+			"normal": "camino"
+		},
+		{
+			"word": "haber",
+			"skill": "Nature"
+		},
+		{
+			"word": "árboles",
+			"skill": "Nature",
+			"normal": "arboles",
+			"gender": "Masculine"
+		},
+		{
+			"word": "nevando",
+			"skill": "Nature"
+		},
+		{
+			"word": "encantar",
+			"skill": "Nature"
+		},
+		{
+			"word": "lloviendo",
+			"skill": "Nature"
+		},
+		{
+			"word": "llover",
+			"skill": "Nature"
+		},
+		{
+			"word": "nevar",
+			"skill": "Nature"
+		},
+		{
+			"word": "comenzar",
+			"skill": "Nature"
+		},
+		{
+			"word": "comienza",
+			"skill": "Nature"
+		},
+		{
+			"word": "se encuentra",
+			"skill": "Nature"
+		},
+		{
+			"word": "me encuentro",
+			"skill": "Nature"
+		},
+		{
+			"word": "se encuentran",
+			"skill": "Nature"
+		},
+		{
+			"word": "te encuentras",
+			"skill": "Nature"
+		},
+		{
+			"word": "comienzas",
+			"skill": "Nature"
+		},
+		{
+			"word": "comenzamos",
+			"skill": "Nature"
+		},
+		{
+			"word": "primeros",
+			"skill": "Nature",
+			"gender": "Masculine"
+		},
+		{
+			"word": "encontrarnos",
+			"skill": "Nature"
+		},
+		{
+			"word": "encontrarse",
+			"skill": "Nature"
+		},
+		{
+			"word": "calurosa",
+			"skill": "Nature",
+			"gender": "Feminine"
+		},
+		{
+			"word": "calurosos",
+			"skill": "Nature",
+			"gender": "Masculine"
+		},
+		{
+			"word": "clima",
+			"skill": "Nature",
+			"gender": "Masculine"
+		},
+		{
+			"word": "dormimos",
+			"skill": "Nature"
+		},
+		{
+			"word": "primero",
+			"skill": "Nature",
+			"gender": "Masculine"
+		},
+		{
+			"word": "primera",
+			"skill": "Nature",
+			"gender": "Feminine"
+		},
+		{
+			"word": "duermen",
+			"skill": "Nature"
+		},
+		{
+			"word": "primeras",
+			"skill": "Nature",
+			"gender": "Feminine"
+		}
+	],
+	"Directions": [
+		{
+			"word": "atrás",
+			"skill": "Directions",
+			"normal": "atras"
+		},
+		{
+			"word": "derecho",
+			"skill": "Directions"
+		},
+		{
+			"word": "perdone",
+			"skill": "Directions"
+		},
+		{
+			"word": "dentro",
+			"skill": "Directions"
+		},
+		{
+			"word": "disculpe, señor",
+			"skill": "Directions",
+			"normal": "disculpe, senor"
+		},
+		{
+			"word": "abajo",
+			"skill": "Directions"
+		},
+		{
+			"word": "siga",
+			"skill": "Directions"
+		},
+		{
+			"word": "gira",
+			"skill": "Directions"
+		},
+		{
+			"word": "final",
+			"skill": "Directions",
+			"gender": "Masculine"
+		},
+		{
+			"word": "perdona",
+			"skill": "Directions"
+		},
+		{
+			"word": "sigue",
+			"skill": "Directions"
+		},
+		{
+			"word": "entre",
+			"skill": "Directions"
+		},
+		{
+			"word": "seguir",
+			"skill": "Directions"
+		},
+		{
+			"word": "fuera",
+			"skill": "Directions"
+		},
+		{
+			"word": "buscando",
+			"skill": "Directions"
+		},
+		{
+			"word": "detrás",
+			"skill": "Directions",
+			"normal": "detras"
+		},
+		{
+			"word": "tome",
+			"skill": "Directions"
+		},
+		{
+			"word": "direcciones",
+			"skill": "Directions",
+			"gender": "Feminine"
+		},
+		{
+			"word": "gire",
+			"skill": "Directions"
+		},
+		{
+			"word": "girar",
+			"skill": "Directions"
+		},
+		{
+			"word": "enfrente",
+			"skill": "Directions"
+		},
+		{
+			"word": "arriba",
+			"skill": "Directions"
+		},
+		{
+			"word": "disculpa",
+			"skill": "Directions"
+		},
+		{
+			"word": "giras",
+			"skill": "Directions"
+		},
+		{
+			"word": "carretera",
+			"skill": "Directions",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cercana",
+			"skill": "Directions",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cercano",
+			"skill": "Directions",
+			"gender": "Masculine"
+		}
+	],
+	"Requests": [
+		{
+			"word": "escriba",
+			"skill": "Requests"
+		},
+		{
+			"word": "usted habla",
+			"skill": "Requests"
+		},
+		{
+			"word": "abre",
+			"skill": "Requests"
+		},
+		{
+			"word": "habla",
+			"skill": "Requests"
+		},
+		{
+			"word": "lee",
+			"skill": "Requests"
+		},
+		{
+			"word": "cierra",
+			"skill": "Requests"
+		},
+		{
+			"word": "hablas con",
+			"skill": "Requests"
+		},
+		{
+			"word": "usted bebe",
+			"skill": "Requests"
+		},
+		{
+			"word": "usted escribe",
+			"skill": "Requests"
+		},
+		{
+			"word": "usted vuelve",
+			"skill": "Requests"
+		},
+		{
+			"word": "tú lees",
+			"skill": "Requests",
+			"normal": "tu lees"
+		},
+		{
+			"word": "tú vuelves",
+			"skill": "Requests",
+			"normal": "tu vuelves"
+		},
+		{
+			"word": "alto",
+			"skill": "Requests"
+		},
+		{
+			"word": "usted prueba",
+			"skill": "Requests"
+		},
+		{
+			"word": "pruebe",
+			"skill": "Requests"
+		},
+		{
+			"word": "vuelve",
+			"skill": "Requests"
+		},
+		{
+			"word": "vuelva",
+			"skill": "Requests"
+		},
+		{
+			"word": "hable",
+			"skill": "Requests"
+		},
+		{
+			"word": "estudias en",
+			"skill": "Requests"
+		},
+		{
+			"word": "trabaje",
+			"skill": "Requests"
+		},
+		{
+			"word": "cierras la",
+			"skill": "Requests"
+		},
+		{
+			"word": "usted trabaja",
+			"skill": "Requests"
+		},
+		{
+			"word": "beba",
+			"skill": "Requests"
+		},
+		{
+			"word": "despacio",
+			"skill": "Requests"
+		},
+		{
+			"word": "página",
+			"skill": "Requests",
+			"normal": "pagina",
+			"gender": "Feminine"
+		},
+		{
+			"word": "abres",
+			"skill": "Requests"
+		},
+		{
+			"word": "páginas",
+			"skill": "Requests",
+			"normal": "paginas",
+			"gender": "Feminine"
+		}
+	],
+	"Plans": [
+		{
+			"word": "todo el mundo",
+			"skill": "Plans"
+		},
+		{
+			"word": "gustaría",
+			"skill": "Plans",
+			"normal": "gustaria"
+		},
+		{
+			"word": "primero",
+			"skill": "Plans"
+		},
+		{
+			"word": "pensar",
+			"skill": "Plans"
+		},
+		{
+			"word": "quedarse",
+			"skill": "Plans"
+		},
+		{
+			"word": "luego",
+			"skill": "Plans"
+		},
+		{
+			"word": "sobre",
+			"skill": "Plans"
+		},
+		{
+			"word": "gustar",
+			"skill": "Plans"
+		},
+		{
+			"word": "por supuesto",
+			"skill": "Plans"
+		},
+		{
+			"word": "invitar",
+			"skill": "Plans"
+		},
+		{
+			"word": "pensando",
+			"skill": "Plans"
+		},
+		{
+			"word": "que viene",
+			"skill": "Plans"
+		},
+		{
+			"word": "cambiar",
+			"skill": "Plans"
+		},
+		{
+			"word": "vengo",
+			"skill": "Plans"
+		},
+		{
+			"word": "decir",
+			"skill": "Plans"
+		},
+		{
+			"word": "venir",
+			"skill": "Plans"
+		},
+		{
+			"word": "cambiamos",
+			"skill": "Plans"
+		},
+		{
+			"word": "pensamos",
+			"skill": "Plans"
+		},
+		{
+			"word": "invitas",
+			"skill": "Plans"
+		},
+		{
+			"word": "invito",
+			"skill": "Plans"
+		},
+		{
+			"word": "invitan",
+			"skill": "Plans"
+		},
+		{
+			"word": "se quedan",
+			"skill": "Plans"
+		},
+		{
+			"word": "se queda",
+			"skill": "Plans"
+		},
+		{
+			"word": "cambiando",
+			"skill": "Plans"
+		},
+		{
+			"word": "te quedas",
+			"skill": "Plans"
+		},
+		{
+			"word": "me quedo",
+			"skill": "Plans"
+		},
+		{
+			"word": "nos quedamos",
+			"skill": "Plans"
+		},
+		{
+			"word": "empiezas",
+			"skill": "Plans"
+		},
+		{
+			"word": "planes",
+			"skill": "Plans",
+			"gender": "Masculine"
+		},
+		{
+			"word": "plan",
+			"skill": "Plans",
+			"gender": "Masculine"
+		},
+		{
+			"word": "venimos",
+			"skill": "Plans"
+		},
+		{
+			"word": "vienes",
+			"skill": "Plans"
+		},
+		{
+			"word": "piensa",
+			"skill": "Plans"
+		},
+		{
+			"word": "pienso",
+			"skill": "Plans"
+		},
+		{
+			"word": "piensan",
+			"skill": "Plans"
+		},
+		{
+			"word": "vuelvo",
+			"skill": "Plans"
+		},
+		{
+			"word": "fechas",
+			"skill": "Plans",
+			"gender": "Feminine"
+		},
+		{
+			"word": "fecha",
+			"skill": "Plans",
+			"gender": "Feminine"
+		},
+		{
+			"word": "viene",
+			"skill": "Plans"
+		},
+		{
+			"word": "vienen",
+			"skill": "Plans"
+		},
+		{
+			"word": "puedes",
+			"skill": "Plans"
+		}
+	],
+	"Adverbs": [
+		{
+			"word": "muy",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "donde",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "recientemente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "apenas",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "necesariamente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "adelante",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "aproximadamente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "relativamente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "seguramente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "así",
+			"skill": "Adverbs",
+			"normal": "asi"
+		},
+		{
+			"word": "solamente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "quizá",
+			"skill": "Adverbs",
+			"normal": "quiza"
+		},
+		{
+			"word": "realmente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "definitivamente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "naturalmente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "nuevamente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "exactamente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "absolutamente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "perfectamente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "principalmente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "únicamente",
+			"skill": "Adverbs",
+			"normal": "unicamente"
+		},
+		{
+			"word": "debajo",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "prácticamente",
+			"skill": "Adverbs",
+			"normal": "practicamente"
+		},
+		{
+			"word": "quizás",
+			"skill": "Adverbs",
+			"normal": "quizas"
+		},
+		{
+			"word": "igualmente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "totalmente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "alrededor",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "actualmente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "simplemente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "especialmente",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "aún",
+			"skill": "Adverbs",
+			"normal": "aun"
+		},
+		{
+			"word": "tanto",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "además",
+			"skill": "Adverbs",
+			"normal": "ademas"
+		},
+		{
+			"word": "sólo",
+			"skill": "Adverbs",
+			"normal": "solo"
+		},
+		{
+			"word": "tan",
+			"skill": "Adverbs"
+		},
+		{
+			"word": "menos",
+			"skill": "Adverbs"
+		}
+	],
+	"Vocab": [
+		{
+			"word": "según",
+			"skill": "Vocab 1",
+			"normal": "segun"
+		},
+		{
+			"word": "acerca",
+			"skill": "Vocab 1"
+		},
+		{
+			"word": "hacia",
+			"skill": "Vocab 1"
+		},
+		{
+			"word": "maíz",
+			"skill": "Vocab 1",
+			"normal": "maiz",
+			"gender": "Masculine"
+		},
+		{
+			"word": "tu",
+			"skill": "Vocab 1"
+		},
+		{
+			"word": "tamaños",
+			"skill": "Vocab 1",
+			"normal": "tamanos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "gata",
+			"skill": "Vocab 1",
+			"gender": "Feminine"
+		},
+		{
+			"word": "gatas",
+			"skill": "Vocab 1",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cómo",
+			"skill": "Vocab 1",
+			"normal": "como"
+		},
+		{
+			"word": "bajo",
+			"skill": "Vocab 1"
+		},
+		{
+			"word": "cerca",
+			"skill": "Vocab 1"
+		},
+		{
+			"word": "tío",
+			"skill": "Vocab 1",
+			"normal": "tio",
+			"gender": "Masculine"
+		},
+		{
+			"word": "tíos",
+			"skill": "Vocab 1",
+			"normal": "tios",
+			"gender": "Masculine"
+		},
+		{
+			"word": "aunque",
+			"skill": "Vocab 1"
+		},
+		{
+			"word": "ajo",
+			"skill": "Vocab 1",
+			"gender": "Masculine"
+		},
+		{
+			"word": "como",
+			"skill": "Vocab 1"
+		},
+		{
+			"word": "lechuga",
+			"skill": "Vocab 1",
+			"gender": "Feminine"
+		},
+		{
+			"word": "lechugas",
+			"skill": "Vocab 1",
+			"gender": "Feminine"
+		},
+		{
+			"word": "café",
+			"skill": "Vocab 1",
+			"normal": "cafe"
+		},
+		{
+			"word": "corto",
+			"skill": "Vocab 1",
+			"gender": "Masculine"
+		},
+		{
+			"word": "tamaño",
+			"skill": "Vocab 1",
+			"normal": "tamano",
+			"gender": "Masculine"
+		},
+		{
+			"word": "corta",
+			"skill": "Vocab 1",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pingüinos",
+			"skill": "Vocab 1",
+			"normal": "pinguinos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "enormes",
+			"skill": "Vocab 1"
+		},
+		{
+			"word": "enorme",
+			"skill": "Vocab 1"
+		},
+		{
+			"word": "contra",
+			"skill": "Vocab 1"
+		},
+		{
+			"word": "atún",
+			"skill": "Vocab 1",
+			"normal": "atun",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pavo",
+			"skill": "Vocab 1",
+			"gender": "Masculine"
+		},
+		{
+			"word": "hongos",
+			"skill": "Vocab 1",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bananos",
+			"skill": "Vocab 1",
+			"gender": "Masculine"
+		},
+		{
+			"word": "gafas",
+			"skill": "Vocab 1",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cangrejos",
+			"skill": "Vocab 1",
+			"gender": "Masculine"
+		}
+	],
+	"Health": [
+		{
+			"word": "rápidamente",
+			"skill": "Health 2",
+			"normal": "rapidamente"
+		},
+		{
+			"word": "fácilmente",
+			"skill": "Health 2",
+			"normal": "facilmente"
+		},
+		{
+			"word": "inmediatamente",
+			"skill": "Health 2"
+		}
+	],
+	"Daily Life": [
+		{
+			"word": "calcetín",
+			"skill": "Daily Life",
+			"normal": "calcetin",
+			"gender": "Masculine"
+		},
+		{
+			"word": "calcetines",
+			"skill": "Daily Life",
+			"gender": "Masculine"
+		},
+		{
+			"word": "suéter",
+			"skill": "Daily Life",
+			"normal": "sueter",
+			"gender": "Masculine"
+		},
+		{
+			"word": "corbatas",
+			"skill": "Daily Life",
+			"gender": "Feminine"
+		},
+		{
+			"word": "corbata",
+			"skill": "Daily Life",
+			"gender": "Feminine"
+		},
+		{
+			"word": "pasta",
+			"skill": "Daily Life",
+			"gender": "Feminine"
+		},
+		{
+			"word": "trajes",
+			"skill": "Daily Life",
+			"gender": "Masculine"
+		},
+		{
+			"word": "traje",
+			"skill": "Daily Life",
+			"gender": "Masculine"
+		}
+	],
+	"Occupations": [
+		{
+			"word": "jueza",
+			"skill": "Occupations 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "juez",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "capitán",
+			"skill": "Occupations 2",
+			"normal": "capitan",
+			"gender": "Masculine"
+		},
+		{
+			"word": "dueña",
+			"skill": "Occupations 2",
+			"normal": "duena",
+			"gender": "Feminine"
+		},
+		{
+			"word": "guardia",
+			"skill": "Occupations 2"
+		},
+		{
+			"word": "especialidad",
+			"skill": "Occupations 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "jueces",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "dueño",
+			"skill": "Occupations 2",
+			"normal": "dueno",
+			"gender": "Masculine"
+		},
+		{
+			"word": "coronel",
+			"skill": "Occupations 2"
+		},
+		{
+			"word": "profesión",
+			"skill": "Occupations 2",
+			"normal": "profesion",
+			"gender": "Feminine"
+		},
+		{
+			"word": "cajeros",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "poeta",
+			"skill": "Occupations 2"
+		},
+		{
+			"word": "cajero",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "enfermera",
+			"skill": "Occupations 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "enfermero",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "poetisas",
+			"skill": "Occupations 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "especialista",
+			"skill": "Occupations 2"
+		},
+		{
+			"word": "especialistas",
+			"skill": "Occupations 2"
+		},
+		{
+			"word": "cajeras",
+			"skill": "Occupations 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "autor",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "comandante",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "abogado",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "atleta",
+			"skill": "Occupations 2"
+		},
+		{
+			"word": "profesora",
+			"skill": "Occupations 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "profesoras",
+			"skill": "Occupations 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "agente",
+			"skill": "Occupations 2"
+		},
+		{
+			"word": "profesor",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "profesores",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "periodista",
+			"skill": "Occupations 2"
+		},
+		{
+			"word": "abogada",
+			"skill": "Occupations 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "atletas",
+			"skill": "Occupations 2"
+		},
+		{
+			"word": "granjero",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "abogados",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "sacerdote",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "sacerdotes",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "sacerdotisa",
+			"skill": "Occupations 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "panadera",
+			"skill": "Occupations 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "príncipe",
+			"skill": "Occupations 2",
+			"normal": "principe",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cocinero",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "panadero",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "empleados",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cocineros",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "empleado",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "carpintera",
+			"skill": "Occupations 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "carpintero",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "doctora",
+			"skill": "Occupations 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "doctor",
+			"skill": "Occupations 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "cocinera",
+			"skill": "Occupations 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "capitana",
+			"skill": "Occupations 2",
+			"gender": "Feminine"
+		}
+	],
+	"Storytelling": [
+		{
+			"word": "hasta",
+			"skill": "Storytelling"
+		},
+		{
+			"word": "propia",
+			"skill": "Storytelling 2",
+			"gender": "Feminine"
+		},
+		{
+			"word": "propio",
+			"skill": "Storytelling 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "propios",
+			"skill": "Storytelling 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "simple",
+			"skill": "Storytelling 2"
+		},
+		{
+			"word": "sola",
+			"skill": "Storytelling",
+			"gender": "Feminine"
+		},
+		{
+			"word": "solo",
+			"skill": "Storytelling",
+			"gender": "Masculine"
+		},
+		{
+			"word": "lentamente",
+			"skill": "Storytelling"
+		},
+		{
+			"word": "puente",
+			"skill": "Storytelling 2",
+			"gender": "Masculine"
+		},
+		{
+			"word": "propias",
+			"skill": "Storytelling 2",
+			"gender": "Feminine"
+		}
+	],
+	"Verbs: Present": [
+		{
+			"word": "requiere",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "culpa",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "estudiáis",
+			"skill": "Verbs: Present 1",
+			"normal": "estudiais"
+		},
+		{
+			"word": "acepta",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "sigo",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "acepto",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "parece",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "cabe",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "parecen",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "encuentra",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "peso",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "importan",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "firma",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "firman",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "firmamos",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "siento",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "entrego",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "entrega",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "respeto",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "respetan",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "entregan",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "respeta",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "presentan",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "presenta",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "pesa",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "depende",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "acaba",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "siguen",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "siente",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "importa",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "presento",
+			"skill": "Verbs: Present 1"
+		},
+		{
+			"word": "aparece",
+			"skill": "Verbs: Present 1"
+		}
+	],
+	"Adjectives": [
+		{
+			"word": "principal",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "públicos",
+			"skill": "Adjectives 1",
+			"normal": "publicos",
+			"gender": "Masculine"
+		},
+		{
+			"word": "pública",
+			"skill": "Adjectives 1",
+			"normal": "publica",
+			"gender": "Feminine"
+		},
+		{
+			"word": "público",
+			"skill": "Adjectives 1",
+			"normal": "publico",
+			"gender": "Masculine"
+		},
+		{
+			"word": "principales",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "único",
+			"skill": "Adjectives 1",
+			"normal": "unico",
+			"gender": "Masculine"
+		},
+		{
+			"word": "bilingüe",
+			"skill": "Adjectives 1",
+			"normal": "bilingue"
+		},
+		{
+			"word": "tradicionales",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "histórico",
+			"skill": "Adjectives 1",
+			"normal": "historico",
+			"gender": "Masculine"
+		},
+		{
+			"word": "recientes",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "reciente",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "tradicional",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "histórica",
+			"skill": "Adjectives 1",
+			"normal": "historica",
+			"gender": "Feminine"
+		},
+		{
+			"word": "plano",
+			"skill": "Adjectives 1",
+			"gender": "Masculine"
+		},
+		{
+			"word": "local",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "necesarios",
+			"skill": "Adjectives 1",
+			"gender": "Masculine"
+		},
+		{
+			"word": "feo",
+			"skill": "Adjectives 1",
+			"gender": "Masculine"
+		},
+		{
+			"word": "necesaria",
+			"skill": "Adjectives 1",
+			"gender": "Feminine"
+		},
+		{
+			"word": "imposible",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "feas",
+			"skill": "Adjectives 1",
+			"gender": "Feminine"
+		},
+		{
+			"word": "necesario",
+			"skill": "Adjectives 1",
+			"gender": "Masculine"
+		},
+		{
+			"word": "capaz",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "final",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "necesarias",
+			"skill": "Adjectives 1",
+			"gender": "Feminine"
+		},
+		{
+			"word": "distintas",
+			"skill": "Adjectives 1",
+			"gender": "Feminine"
+		},
+		{
+			"word": "natural",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "distintos",
+			"skill": "Adjectives 1",
+			"gender": "Masculine"
+		},
+		{
+			"word": "familiar",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "naturales",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "personal",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "personales",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "positiva",
+			"skill": "Adjectives 1",
+			"gender": "Feminine"
+		},
+		{
+			"word": "justo",
+			"skill": "Adjectives 1",
+			"gender": "Masculine"
+		},
+		{
+			"word": "única",
+			"skill": "Adjectives 1",
+			"normal": "unica",
+			"gender": "Feminine"
+		},
+		{
+			"word": "profesionales",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "finales",
+			"skill": "Adjectives 1"
+		},
+		{
+			"word": "rico",
+			"skill": "Adjectives 1",
+			"gender": "Masculine"
+		}
+	]
+}

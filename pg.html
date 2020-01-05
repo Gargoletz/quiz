@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        let SPEED = 0.01;
+        document.addEventListener("DOMContentLoaded", function (e) {
+            let box = document.getElementById("box");
+            let dirr = 0;
+            let opacity = 0;
+            setInterval(() => {
+                opacity += dirr * SPEED;
+                opacity = Math.max(opacity, 0);
+                opacity = Math.min(opacity, 1);
+                box.style.opacity = opacity;
+            }, 1000 / 60)
+            box.onmouseover = () => { dirr = 1; }
+            box.onmouseout = () => { dirr = -1; }
+        });
+    </script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box"></div>
+</body>
+
+</html>

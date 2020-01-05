@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
+import './css/App.css';
 import Quiz from './Quiz';
 import { isMethod, thisExpression } from '@babel/types';
 import _hearts from './gfx/hearts.png';
 import { COPYFILE_EXCL } from 'constants';
 import _words from './words.js';
-import { Heart, Confetti, entities, setEntities } from './Entity.js';
+import { Heart, Confetti, entities, setEntities, Palabra } from './Entity.js';
+import Tree from './Tree';
 
 let canvas, ctx;
 let hearts;
@@ -18,8 +19,9 @@ class App extends React.Component {
     super();
 
     this.state = {
+      screen: 1,
       word: { key: "", answer: "" },
-      cooldown: 60,
+      cooldown: 5,
       points: 0,
       level: 0,
       isCardFlipped: false
@@ -31,6 +33,11 @@ class App extends React.Component {
     this.wrong = this.wrong.bind(this);
     this.spawn = this.spawn.bind(this);
     this.cardFlip = this.cardFlip.bind(this);
+    this.setScreen = this.setScreen.bind(this);
+  }
+
+  setScreen(screen) {
+    this.setState({ screen });
   }
 
   randomize() {
@@ -71,7 +78,8 @@ class App extends React.Component {
     hearts.src = _hearts;
 
     window.addEventListener("resize", (e) => {
-      canvas.width = document.getElementById("quiz-wrapper").clientWidth;
+      if (document.getElementById("quiz-wrapper") != undefined)
+        canvas.width = document.getElementById("quiz-wrapper").clientWidth;
       // canvas.height = document.getElementById("quiz-wrapper").clientHeight;
       tick();
     })
@@ -116,12 +124,12 @@ class App extends React.Component {
       }
       setEntities(_temp);
 
-      //Hearths spawn
-      cldw++;
-      if (cldw >= _app.state.cooldown) {
-        _app.spawn(_app.state.level + 1);
-        cldw = 0;
-      }
+      // //Hearths spawn
+      // cldw++;
+      // if (cldw >= _app.state.cooldown) {
+      //   _app.spawn(_app.state.level + 1);
+      //   cldw = 0;
+      // }
     }
 
     setInterval(tick, 1000 / 60);
@@ -131,7 +139,8 @@ class App extends React.Component {
   spawn(num) {
     for (let i = 0; i < num; i++) {
       if (entities.length < 500)
-        new Heart(Math.floor(Math.random() * (canvas.width + 50)) - 25, canvas.height + Math.floor(Math.random() * canvas.height), hearts);
+        new Palabra(Math.floor(Math.random() * (canvas.width + 50)) - 25, canvas.height + Math.floor(Math.random() * canvas.height));
+        // new Heart(Math.floor(Math.random() * (canvas.width + 50)) - 25, canvas.height + Math.floor(Math.random() * canvas.height), hearts);
       else return
     }
   }
@@ -263,10 +272,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <div style={{ position: "absolute", height: "100%" }}>
+      <div style={{ position: "absolute", width: "100vw", height: "100%" }}>
         {/* <p style={{ position: "absolute", top: "0px", left: "8px"}}>{this.state.cooldown}|{this.state.amount}</p> */}
         <canvas></canvas>
-        <Quiz group={this.getGroup()} isFlipped={this.state.isCardFlipped} onClick={this.cardFlip} word={this.state.word} points={this.state.points} level={this.state.level} answer={(val) => { this.answer(val) }} />
+        {(this.state.screen == 0) ?
+          <Tree setScreen={this.setScreen}></Tree>
+          :
+          <Quiz group={this.getGroup()} setScreen={this.setScreen} isFlipped={this.state.isCardFlipped} onClick={this.cardFlip} word={this.state.word} points={this.state.points} level={this.state.level} answer={(val) => { this.answer(val) }} />}
       </div>
     );
   }

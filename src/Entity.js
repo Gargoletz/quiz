@@ -43,6 +43,30 @@ export class Heart extends Entity {
     }
 }
 
+export class Palabra extends Entity {
+    constructor(x, y, sprite) {
+        super(x, y);
+        this.speed = Math.floor(Math.random(5))+5;
+        this.text = ['el gato', 'el perro', 'la ciudad', 'un poco', 'ay caramba'][Math.floor(Math.random()*5)]
+        this.color = `hsl(${Math.floor(Math.random()*360)}, 100%, 50%)`;
+        this.size = Math.floor(Math.random()*20) + 20;
+    }
+
+    update() {
+        this.y -= this.speed;
+
+        if (this.y <= -50)
+            this.destroyed = true;
+    }
+
+    draw(ctx) {
+        ctx.fillStyle = this.color;
+        ctx.font = `${this.size}px Arial`;
+        ctx.globalAlpha = 0.1
+        ctx.fillText(this.text, this.x, this.y);
+    }
+}
+
 export class Confetti extends Entity {
     constructor(x, y, color) {
         super(x, y);
