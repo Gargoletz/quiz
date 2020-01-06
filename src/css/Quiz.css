@@ -18,15 +18,41 @@
   width: 80%;
 }
 
-#quiz-box{
+#quiz-box-wrapper{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  transform-style: preserve-3d;
+  height: 64px;
+  transition: transform 1s;
+
+}
+
+#quiz-box-wrapper > div{
+  position: absolute;
+}
+
+.card{
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
   background-color: #e6e6e6;
   border: 6px solid #bbb;
   border-radius: 16px;
   padding: 6px 15px;
   margin-bottom: 8px;
-  
+  backface-visibility: hidden;
 }
-#quiz-box p{
+
+#quiz-box-back{
+  transform: rotateY(180deg);
+}
+
+#quiz-box-wrapper.flipped{
+  transform: rotateY(180deg);
+}
+
+.card p{
   margin: 0;
   font-size: 24px;
   font-weight: bold;

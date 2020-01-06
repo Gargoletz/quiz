@@ -55,7 +55,7 @@
 
 @keyframes speech-show{
   from{
-    left: -600px;
+    left: -120%;
     height: 0px;
   }
   to{

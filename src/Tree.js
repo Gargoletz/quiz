@@ -6,7 +6,6 @@ import groups from './data/words';
 class Tree extends React.Component {
     state = {}
     render() {
-        console.log(this.props.groups);
         return (
             <div id="tree-wrapper">
                 <div id="tree-content">

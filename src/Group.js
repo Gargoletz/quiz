@@ -103,17 +103,6 @@ class Group {
     }
 
     wrong() {
-        //Flashing animation
-        // this.app.flash.active = true;
-        // this.app.flash.duration = 0;
-        // this.app.flash.dir = 1;
-
-        //Resetting heart cooldown
-        // this.setState({ cooldown: 60 });
-
-        //Clearing all entities
-        // setEntities([]);
-
         startFlashAnimation();
         //Flipping card
         this.cardFlip();
@@ -125,16 +114,23 @@ class Group {
         if (state) {
             this.app.state.lesson.getWord();
         }
+
+        //Cardflip animation
+        let box = document.getElementById("quiz-box-wrapper");
+        console.log(box.classList.add("flipped"));
+        // box.style.animation = "card-squash 1.6s forwards";
+        setTimeout(() => { box.classList.remove("flipped"); }, 2500)
+
         //Erasing value from input
         //Flipping the card state
-        await this.app.setState({ isCardFlipped: true });
+        // await this.app.setState({ isCardFlipped: true });
 
         if (!state) {
             setTimeout(() => {
                 document.getElementById("quiz-input").value = ""
                 this.app.setState({ isCardFlipped: false });
                 this.getWord();
-            }, 1600);
+            }, 2800);
         }
     }
 

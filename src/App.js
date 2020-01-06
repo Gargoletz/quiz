@@ -27,7 +27,7 @@ class App extends React.Component {
     super();
 
     this.state = {
-      screen: 0,
+      screen: 1,
       word: { key: "", answer: "" },
       lesson: undefined,
       cooldown: 5,
@@ -41,7 +41,7 @@ class App extends React.Component {
   }
 
   async setScreen(screen, title) {
-    await this.setState({ screen, lesson: title });
+    await this.setState({ screen, lesson: title, isCardFlipped: false });
     this.randomize();
   }
 
@@ -68,10 +68,13 @@ class App extends React.Component {
       }
       this.setState({ groups: _groups, lesson: _groups[0] });
     }
-    else {
-      localStorage.setItem("lessons", JSON.stringify(_words.groups));
-      this.setState({ groups: _groups, lesson: _groups[0] });
-    }
+    // else {
+    //   console.log("empty", _words.groups, _groups);
+    //   for (let i = 0; i < _words.groups.length; i++)
+    //     _words.groups[i].experience = Math.floor(Math.random() * 99);
+    //   localStorage.setItem("lessons", JSON.stringify(_words.groups));
+    //   this.setState({ groups: _groups, lesson: _groups[0] });
+    // }
 
     canvas = document.getElementsByTagName("canvas")[0];
     ctx = canvas.getContext("2d");
