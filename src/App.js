@@ -21,12 +21,6 @@ export function startFlashAnimation() {
   flash.dir = 1;
 }
 
-export function playAnim(element, params, duration) {
-  if (element) {
-
-  }
-}
-
 class App extends React.Component {
   flash;
   constructor() {
