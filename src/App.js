@@ -21,6 +21,12 @@ export function startFlashAnimation() {
   flash.dir = 1;
 }
 
+export function playAnim(element, params, duration) {
+  if (element) {
+
+  }
+}
+
 class App extends React.Component {
   flash;
   constructor() {
@@ -37,11 +43,6 @@ class App extends React.Component {
     }
 
     this.randomize = this.randomize.bind(this);
-    // this.answer = this.answer.bind(this);
-    // this.correct = this.correct.bind(this);
-    // this.wrong = this.wrong.bind(this);
-    // this.spawn = this.spawn.bind(this);
-    // this.cardFlip = this.cardFlip.bind(this);
     this.setScreen = this.setScreen.bind(this);
   }
 
@@ -51,24 +52,15 @@ class App extends React.Component {
   }
 
   randomize() {
-    // if (this.getWords()) {
-    //   let w = [];
-    //   for (let i = 0; i < this.getWords().length; i++) {
-    //     if (!this.getWords()[i].done)
-    //       w.push(this.getWords()[i]);
-    //   }
-    //   this.setState({ word: w[Math.floor(Math.random() * w.length)] })
-    // }
     if (this.state.lesson)
       this.state.lesson.getWord();
   }
-
 
   async componentDidMount() {
     //local storage setup
     // let lessons = localStorage.getItem("lessons");
     let _groups = [];
-    if(!localStorage.getItem("lessons")){
+    if (!localStorage.getItem("lessons")) {
       localStorage.setItem("lessons", JSON.stringify(_words.groups));
     }
     let lessons = localStorage.getItem("lessons");
@@ -86,24 +78,6 @@ class App extends React.Component {
       localStorage.setItem("lessons", JSON.stringify(_words.groups));
       this.setState({ groups: _groups, lesson: _groups[0] });
     }
-
-    // for()
-    // await 
-
-    //
-    // words.groups = [..._words.groups];
-    // for (let i = 0; i < words.groups.length; i++) {
-    //   words.groups[i].length = words.groups[i].words.length;
-    // }
-    // let g = { name: "todos las palabras", translation: "wszystkie słowa", color: 325, words: [] }
-    // for (let i = 0; i < words.groups.length; i++) {
-    //   for (let j = 0; j < words.groups[i].words.length; j++) {
-    //     g.words.push(words.groups[i].words[j]);
-    //   }
-    // }
-    // g.length = g.words.length;
-    // words.groups.push(g);
-    // this.randomize();
 
     canvas = document.getElementsByTagName("canvas")[0];
     ctx = canvas.getContext("2d");
@@ -163,78 +137,20 @@ class App extends React.Component {
         }
       }
       setEntities(_temp);
-
-      // //Hearths spawn
-      // cldw++;
-      // if (cldw >= _app.state.cooldown) {
-      //   _app.spawn(_app.state.level + 1);
-      //   cldw = 0;
-      // }
     }
 
     setInterval(tick, 1000 / 60);
   }
 
-
-
-  // //Spawning new hearths
-  // spawn(num) {
-  //   for (let i = 0; i < num; i++) {
-  //     if (entities.length < 500)
-  //       new Palabra(Math.floor(Math.random() * (canvas.width + 50)) - 25, canvas.height + Math.floor(Math.random() * canvas.height));
-  //     // new Heart(Math.floor(Math.random() * (canvas.width + 50)) - 25, canvas.height + Math.floor(Math.random() * canvas.height), hearts);
-  //     else return
-  //   }
-  // }
-
-  // Checking the answer
-  // answer(val) {
-  //   if (this.state.lesson.word.answer instanceof Array) {
-  //     for (let i = 0; i < this.state.lesson.word.answer.length; i++) {
-  //       if (this.state.lesson.word.answer[i].toLowerCase() == val.toLowerCase()) {
-  //         this.correct();
-  //         return;
-  //       }
-  //     }
-  //     this.wrong();
-  //   }
-  //   else {
-  //     if (val.toLowerCase() == this.state.lesson.word.answer.toLowerCase())
-  //       this.correct();
-  //     else
-  //       this.wrong();
-  //   }
-  //   console.log(val, this.state.lesson.word.answer);
-  // }
-
-  // getGroup() {
-  //   // return (words.groups) ? words.groups[this.state.level] : [];
-  //   if (words.groups) {
-  //     for (let i = 0; i < words.groups.length; i++) {
-  //       if (words.groups[i].name == this.state.lesson)
-  //         return words.groups[i];
-  //     }
-  //   }
-  //   return [];
-  // }
-
-  // getWords() {
-  //   return this.getGroup().words;
-  // }
-
-  // setWords(w) {
-  //   words.groups[this.state.level].words = w;
-  // }
-
   render() {
     return (
       <div style={{ position: "absolute", width: "100vw", height: "100%" }}>
         {/* <p style={{ position: "absolute", top: "0px", left: "8px"}}>{this.state.cooldown}|{this.state.amount}</p> */}
-        <canvas></canvas>
+        <canvas style={{}}></canvas>
         {(this.state.screen == 0) ?
           <Tree groups={this.state.groups} setScreen={this.setScreen}></Tree>
           :
-          <Quiz group={this.state.lesson} setScreen={this.setScreen} isFlipped={this.state.isCardFlipped} onClick={this.state.lesson.cardFlip} word={this.state.word} answer={(val) => { this.state.lesson.answer(val) }} />}
+          (this.state.lesson) ? <Quiz group={this.state.lesson} setScreen={this.setScreen} isFlipped={this.state.isCardFlipped} onClick={this.state.lesson.cardFlip} word={this.state.word} answer={(val) => { this.state.lesson.answer(val) }} /> : ""}
       </div>
     );
   }

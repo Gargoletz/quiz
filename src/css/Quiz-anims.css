@@ -52,3 +52,28 @@
     padding: 0;
   }
 }
+
+@keyframes speech-show{
+  from{
+    left: -600px;
+    height: 0px;
+  }
+  to{
+    left: 0px;
+    height: 100px;
+  }
+}
+
+@keyframes speech-hide{
+  from{
+    height: 100px;
+    left: 0px;
+  }
+  30%{
+    height: 100px;
+  }
+  100%{
+    height: 0px;
+    left: -600px;
+  }
+}

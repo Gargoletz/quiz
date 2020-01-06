@@ -1,6 +1,8 @@
 import React from 'react';
 import "./css/Quiz.css";
 import "./css/Quiz-anims.css";
+import ludzik from './gfx/ludzik.svg';
+
 // backgroundColor: "#74bff5", color: "#145596", borderColor: "#145596"
 
 class Quiz extends React.Component {
@@ -12,6 +14,10 @@ class Quiz extends React.Component {
             <div id="quiz-wrapper">
                 <div id="quiz-button-exit" className="" onClick={(e) => { this.props.setScreen(0); }}>X</div>
                 <div className="quiz-content">
+                    <div id="speech-content" style={{ display: "flex", width: "100%", height: "0px", position: "relative", boxSizing: "border-box", left: "-600px", paddingRight: "10px", justifyContent: "center", alignItems: "center"}}>
+                        <img src={ludzik} width={"33%"} style={{ transform: "rotate(20deg)" }} ></img>
+                        <div id="speech-bubble" style={{ width: "100%" }}>Ania Tomal es la mas hermosa del mundo!</div>
+                    </div>
                     <div className="quiz-progress">
                         <div className="quiz-progress-bar"><div style={{ width: `${Math.min(this.props.group.experience, 100)}%` }}></div></div>
                         <div id="quiz-progress-icon" style={{ backgroundColor: "#aaa", color: "#555" }}>{this.props.group.level}</div>
@@ -34,11 +40,11 @@ class Quiz extends React.Component {
                             e.target.value = e.target.value.substring(0, e.target.value.length - 1);
                         }
                     }} onKeyDown={(e) => { if (e.keyCode != 13 && this.props.isFlipped) e.target.value = e.target.value.substring(0, e.target.value.length); }} />
-                    <div className="quiz-popup">
+                    {/* <div className="quiz-popup">
                         <p className="quiz-popup-header">la palabra nueva!</p>
                         <p className="quiz-popup-name">{this.props.group.words[this.props.group.level + 1].key}</p>
                         <p className="quiz-popup-translation">{this.props.group.words[this.props.group.level + 1].answer}</p>
-                    </div>
+                    </div> */}
                 </div>
 
             </div>

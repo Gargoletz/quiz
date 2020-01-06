@@ -11,7 +11,7 @@ class Group {
         this.experience = (!!experience) ? experience : 0;
     }
 
-    getAvalible(){
+    getAvalible() {
         return this.words.slice(0, this.level);
     }
 
@@ -65,7 +65,7 @@ class Group {
         setTimeout(() => { bar.style.animation = "" }, 250);
 
         ////Adding score
-        this.experience += 10;
+        this.experience += 100;
         //Level up check
         if (this.experience >= 100) {
             this.level += 1;
@@ -81,19 +81,25 @@ class Group {
             let iconBCR = icon.getBoundingClientRect();
             new Confetti(iconBCR.left + iconBCR.width / 2, iconBCR.top + iconBCR.height / 2, 69);
             //Showing popup
-            this.showPopup();
+            this.showPopup(3000);
         }
 
         //Randomizing word
         this.getWord();
     }
 
-    showPopup() {
-        let popup = document.getElementsByClassName("quiz-popup")[0];
-        popup.style.display = "block";
-        popup.style.animation = "slidein 5s"
-        popup.style.animationFillMode = "forwards";
-        setTimeout(() => { popup.style.animation = ""; }, 5000);
+    showPopup(duration, text) {
+        let speech = document.getElementById("speech-content");
+        if (speech) {
+            if (text)
+                speech.innerText = text;
+            else
+                document.getElementById("speech-bubble").innerText = "<Wiadomość>";
+            speech.style.animation = "speech-show 1s";
+            speech.style.animationFillMode = "forwards";
+        }
+        console.log(duration);
+        setTimeout(() => { speech.style.animation = "speech-hide 1s" }, (duration) ? duration : 1000);
     }
 
     wrong() {

@@ -9,6 +9,7 @@
 
 .quiz-content{
   position: relative;
+  /* top: -60px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,4 +134,41 @@
     top: 10px;
     right: 10px;
     padding: 5px 10px;
+  }
+
+  #speech-content{
+    animation-fill-mode: forwards;
+  }
+
+  #speech-bubble {
+    position: relative;
+    background-color: #dbdbdb;
+    border: 6px solid #707070;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 16px;
+    /* top: 10px; */
+    left: 4px;
+    color: #707070;
+    font-style: italic;
+  }
+  
+  #speech-bubble:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: #707070;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -10px;
+    margin-left: -20px;
   }

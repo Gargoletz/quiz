@@ -46,10 +46,10 @@ export class Heart extends Entity {
 export class Palabra extends Entity {
     constructor(x, y, sprite) {
         super(x, y);
-        this.speed = Math.floor(Math.random(5))+5;
-        this.text = ['el gato', 'el perro', 'la ciudad', 'un poco', 'ay caramba'][Math.floor(Math.random()*5)]
-        this.color = `hsl(${Math.floor(Math.random()*360)}, 100%, 50%)`;
-        this.size = Math.floor(Math.random()*20) + 20;
+        this.speed = Math.floor(Math.random(5)) + 5;
+        this.text = ['el gato', 'el perro', 'la ciudad', 'un poco', 'ay caramba'][Math.floor(Math.random() * 5)]
+        this.color = `hsl(${Math.floor(Math.random() * 360)}, 100%, 50%)`;
+        this.size = Math.floor(Math.random() * 20) + 20;
     }
 
     update() {
@@ -109,8 +109,10 @@ export class Particle extends Entity {
         this.velocity.y += 0.1;
 
         let canvas = document.getElementsByTagName("canvas")[0];
-        if (this.x < -100 || this.x > canvas.width + 100 || this.y < -100 || this.y > canvas.height + 100) {
-            this.destroyed = true;
+        if (canvas) {
+            if (this.x < -100 || this.x > canvas.width + 100 || this.y < -100 || this.y > canvas.height + 100) {
+                this.destroyed = true;
+            }
         }
     }
 
