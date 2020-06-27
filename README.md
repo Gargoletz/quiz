@@ -1,2 +1,2 @@
 # quiz
-Simply write npm-start in your console and voilà!
+Simply write <code> npm-start </code> in your console and voilà!
