@@ -33,36 +33,38 @@ class Quiz extends React.Component {
                         <div id="quiz-box-back" className="card" style={{ backgroundColor: "#444", color: "white", borderColor: "#2f2f2f" }}
                             onClick={(e) => { /*this.props.onClick();*/ }}
                         >
-                            <p>{(this.props.group.word.answer instanceof Array) ? this.props.group.word.answer.map((e, i) => { return (i < this.props.group.word.answer.length - 1) ? e + "/" : e }) : this.props.group.word.answer}</p>
+                            <p>{(this.props.group.word) ? (this.props.group.word.answer instanceof Array) ? this.props.group.word.answer.map((e, i) => { return (i < this.props.group.word.answer.length - 1) ? e + "/" : e }) : this.props.group.word.answer : ""}</p>
                         </div>
                     </div>
-                    <input id="quiz-input" placeholder={"escriba aqui"} style={(!this.props.isFlipped) ?
-                        {
-                            backgroundColor: (this.state.answer.includes("el ") ? "#99c3ef" : (this.state.answer.includes("la ") ? "#ffc0cb" : "")),
-                            color: (this.state.answer.includes("el ") ? "#0066ff" : (this.state.answer.includes("la ") ? "#f55c76" : "")),
-                            borderColor: (this.state.answer.includes("el ") ? "#0066ff" : (this.state.answer.includes("la ") ? "#f55c76" : ""))
-                        } : { opacity: "0.25" }}
-                        onKeyUp={(e) => {
-                            this.setState({ answer: e.target.value.toLowerCase() });
-                            if (e.keyCode == 13) {
-                                if (e.target.value.trim()) {
-                                    this.props.answer(e.target.value.trim());
-                                    e.target.value = "";
+                    {(this.props.group.word) ?
+                        <input id="quiz-input" placeholder={"escriba aqui"} style={(!this.props.isFlipped) ?
+                            {
+                                backgroundColor: (this.state.answer.includes("el ") ? "#99c3ef" : (this.state.answer.includes("la ") ? "#ffc0cb" : "")),
+                                color: (this.state.answer.includes("el ") ? "#0066ff" : (this.state.answer.includes("la ") ? "#f55c76" : "")),
+                                borderColor: (this.state.answer.includes("el ") ? "#0066ff" : (this.state.answer.includes("la ") ? "#f55c76" : ""))
+                            } : { opacity: "0.25" }}
+                            onKeyUp={(e) => {
+                                this.setState({ answer: e.target.value.toLowerCase() });
+                                if (e.keyCode == 13) {
+                                    if (e.target.value.trim()) {
+                                        this.props.answer(e.target.value.trim());
+                                        e.target.value = "";
+                                    }
+                                    else if (!this.props.isFlipped) {
+                                        this.props.answer("");
+                                        e.target.value = "";
+                                    }
+                                    this.setState({ answer: "" });
                                 }
-                                else if (!this.props.isFlipped) {
-                                    this.props.answer("");
-                                    e.target.value = "";
+                                else if (this.props.isFlipped) {
+                                    e.target.value = e.target.value.substring(0, e.target.value.length - 1);
                                 }
-                                this.setState({ answer: "" });
-                            }
-                            else if (this.props.isFlipped) {
-                                e.target.value = e.target.value.substring(0, e.target.value.length - 1);
-                            }
-                        }}
-                        onKeyDown={(e) => {
-                            if (e.keyCode != 13 && this.props.isFlipped) { e.target.value = e.target.value.substring(0, e.target.value.length); }
-                        }}
-                    />
+                            }}
+                            onKeyDown={(e) => {
+                                if (e.keyCode != 13 && this.props.isFlipped) { e.target.value = e.target.value.substring(0, e.target.value.length); }
+                            }}
+                        />
+                        : null}
                     {/* <div className="quiz-popup">
                         <p className="quiz-popup-header">la palabra nueva!</p>
                         <p className="quiz-popup-name">{this.props.group.words[this.props.group.level + 1].key}</p>

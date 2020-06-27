@@ -21,8 +21,12 @@ class Group {
             if (!this.words[i].done)
                 w.push(this.words[i]);
         }
-        this.word = w[Math.floor(Math.random() * w.length)];
-        this.reload();
+        if (w.length > 0) {
+            this.word = w[Math.floor(Math.random() * w.length)];
+            this.reload();
+        }
+        else
+            return "Quiz zakończony!";
     }
 
     answer(val) {
@@ -65,27 +69,34 @@ class Group {
         setTimeout(() => { bar.style.animation = "" }, 250);
 
         ////Adding score
-        this.experience += 100;
-        //Level up check
-        if (this.experience >= 100) {
-            this.level += 1;
-            this.experience = 0;
-            //Undone all words
-            for (let i = 0; i < this.words.length; i++)
-                this.words[i].done = false;
-            //Score-icon animation
-            let icon = document.getElementById("quiz-progress-icon");
-            icon.style.animation = "enlarge-big .125s";
-            setTimeout(() => { icon.style.animation = "" }, 250);
-            //Confetti animation
-            let iconBCR = icon.getBoundingClientRect();
-            new Confetti(iconBCR.left + iconBCR.width / 2, iconBCR.top + iconBCR.height / 2, 69);
-            //Showing popup
-            this.showPopup(3000);
-        }
+        this.experience += 100 / this.words.length;
+        // //Level up check
+        // if (this.experience >= 100) {
+        //     this.level += 1;
+        //     this.experience = 0;
+        //     //Undone all words
+        //     for (let i = 0; i < this.words.length; i++)
+        //         this.words[i].done = false;
+
+        //     //Showing popup
+        //     this.showPopup(3000);
+        // }
+
+        //Score-icon animation
+        let icon = document.getElementById("quiz-progress-icon");
+        icon.style.animation = "enlarge-big .125s";
+        setTimeout(() => { icon.style.animation = "" }, 250);
+        //Confetti animation
+        let iconBCR = icon.getBoundingClientRect();
+        new Confetti(iconBCR.left + iconBCR.width / 2, iconBCR.top + iconBCR.height / 2, 69);
 
         //Randomizing word
-        this.getWord();
+        if (this.experience < 99.99)
+            this.getWord();
+        else{
+            this.word = undefined
+            this.reload();
+        }
     }
 
     showPopup(duration, text) {

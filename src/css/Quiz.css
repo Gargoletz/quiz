@@ -42,6 +42,7 @@
   padding: 6px 15px;
   margin-bottom: 8px;
   backface-visibility: hidden;
+  height: 56px;
 }
 
 #quiz-box-back{
@@ -58,6 +59,7 @@
   font-weight: bold;
   text-align: center;
   user-select: none;
+  white-space: nowrap;
 }
 
 .quiz-progress{
@@ -75,6 +77,7 @@
   border-radius: 8px;
   box-sizing: border-box;
   width: 100%;
+  max-width: 260px;
   height: 18px;
   margin-right: 12px;
 }
