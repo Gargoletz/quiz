@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/quiz/static/css/main.fba46d8b.chunk.css",
-    "main.js": "/quiz/static/js/main.f526ae67.chunk.js",
-    "main.js.map": "/quiz/static/js/main.f526ae67.chunk.js.map",
+    "main.css": "/quiz/static/css/main.4ca2e731.chunk.css",
+    "main.js": "/quiz/static/js/main.adaebb43.chunk.js",
+    "main.js.map": "/quiz/static/js/main.adaebb43.chunk.js.map",
     "runtime~main.js": "/quiz/static/js/runtime~main.e6ae5a1e.js",
     "runtime~main.js.map": "/quiz/static/js/runtime~main.e6ae5a1e.js.map",
     "static/js/2.b7ff7981.chunk.js": "/quiz/static/js/2.b7ff7981.chunk.js",
     "static/js/2.b7ff7981.chunk.js.map": "/quiz/static/js/2.b7ff7981.chunk.js.map",
     "index.html": "/quiz/index.html",
-    "precache-manifest.cb70f29e11ceabe728df13857f0d2984.js": "/quiz/precache-manifest.cb70f29e11ceabe728df13857f0d2984.js",
+    "precache-manifest.a94660aa7213b5b3e50fe24d483e274a.js": "/quiz/precache-manifest.a94660aa7213b5b3e50fe24d483e274a.js",
     "service-worker.js": "/quiz/service-worker.js",
-    "static/css/main.fba46d8b.chunk.css.map": "/quiz/static/css/main.fba46d8b.chunk.css.map",
+    "static/css/main.4ca2e731.chunk.css.map": "/quiz/static/css/main.4ca2e731.chunk.css.map",
     "static/media/correct.mp3": "/quiz/static/media/correct.9b0c1283.mp3",
     "static/media/incorrect.mp3": "/quiz/static/media/incorrect.0a6c6b5f.mp3",
     "static/media/ludzik.svg": "/quiz/static/media/ludzik.1177fb15.svg"
