@@ -17,9 +17,9 @@ export class Entity {
         // console.log("new entity created!", this);
     }
 
-    tick() { }
-    update() { }
-    draw(ctx) { }
+    tick() {}
+    update() {}
+    draw(ctx) {}
 }
 
 export class Heart extends Entity {

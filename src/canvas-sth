@@ -1,0 +1,67 @@
+
+    
+let canvas, ctx;
+let hearts;
+let flash = { active: false, duration: 0, maxdur: 12, dir: 1 };
+let words = {};
+let words_backup;
+
+export function startFlashAnimation() {
+  flash.active = true;
+  flash.duration = 0;
+  flash.dir = 1;
+}
+
+    
+    // hearts = new Image();
+    // hearts.src = _hearts;
+
+    // window.addEventListener("resize", (e) => {
+    //   if (document.getElementById("quiz-wrapper") != undefined)
+    //     canvas.width = document.getElementById("quiz-wrapper").clientWidth;
+    //   // canvas.height = document.getElementById("quiz-wrapper").clientHeight;
+    //   tick();
+    // })
+
+    // let _app = this;
+
+    // let cldw = 0;
+    // function tick() {
+    //   //Cleaning the screen
+    //   ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    //   //Flash animation computing
+    //   if (flash.active) {
+    //     ctx.fillStyle = `rgba(255, 0, 0, ${flash.duration / flash.maxdur})`;
+    //     ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    //     flash.duration += 1 * flash.dir;
+    //     if (flash.duration >= flash.maxdur)
+    //       flash.dir = -1;
+    //     if (flash.duration <= 0) {
+    //       flash.active = false;
+    //       flash.duration = 0;
+    //       flash.dir = 1;
+    //     }
+    //   }
+
+    //   //Entities handling
+    //   for (let i = 0; i < entities.length; i++) {
+    //     entities[i].tick();
+    //     entities[i].update();
+    //     entities[i].draw(ctx);
+    //   }
+
+    //   //Removing toRemove entities
+    //   let _temp = [];
+    //   for (let i = 0; i < entities.length; i++) {
+    //     if (!entities[i].destroyed)
+    //       _temp.push(entities[i]);
+    //     else {
+    //       // console.log("entitiy destroyed!", entities[i]);
+    //     }
+    //   }
+    //   setEntities(_temp);
+    // }
+
+    // setInterval(tick, 1000 / 60);

@@ -14,6 +14,18 @@ body{
   height: 100%;
 }
 
+#container{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+}
+
+#loading-indicator{
+  
+}
+
 #ruler{
   position: absolute;
   height: 100vh;
@@ -22,17 +34,70 @@ body{
 }
 
 .button{
-  background-color: #e6e6e6;
-  border: 6px solid #bbb;
-  border-radius: 8px;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex:1;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 12px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border:2px solid #ccc;
+  /* border-bottom: 2px solid #aaa; */
+  /* background-color: #ccc; */
+  color: #ccc;
+  margin-bottom: 6px;
   font-weight: bold;
-  text-align: center;
   user-select: none;
-  padding: 5px;
+}
+
+.button--red{
+  border-color: #e55e57;
+  color: #e55e57;
+  /* border-color: #e55e57; */
+}
+/* .button--red::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 12px;
+  background-color: yellow;
+  width: 100%;
+  height: 110%;
+  z-index: 0;
+} */
+.button--green{
+  color: #b2d582;
+  border-color: #b2d582;
+}
+
+.button:active{
+  border-bottom-width: 2px;
+}
+.button p{
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  text-align: center;
+}
+.button img{
+  width: 18px;
+  right: 8px;
+  position: absolute;
 }
 .button:hover{
   cursor: pointer;
-  background-color: #c4c4c4;
-  border: 6px solid #aaa;
+  /* background-color: #f6f6f6; */
 }
 
+.button--disabled{
+  color: #f4f4f4;
+  border-color: #f4f4f4;
+  cursor: initial !important;
+}
+
+.button--disabled img{
+  display: none;
+}
