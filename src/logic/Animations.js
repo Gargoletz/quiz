@@ -73,7 +73,7 @@ export async function cardFlip(app, onEnd) {
                 app.setState({ isCardFlipped: false }, () => {
                     setTimeout(() => {
                         onEnd();
-                    }, 300);
+                    }, 225);
                 });
             }, 1000);
         });

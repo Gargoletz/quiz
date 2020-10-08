@@ -1,0 +1,16 @@
+{
+    // The following will hide the js and map files in the editor
+    "files.exclude": {
+        "node_modules": true,
+        "build": true,
+        "": true,
+        "*/serviceWorker.js": true,
+        "*/App.test.js": true,
+        "*/index.js": true,
+        "*/index.css": true,
+        ".gitattributes": true,
+        ".gitignore": true,
+        "package.json": true,
+        "package-lock.json": true,
+    }
+}

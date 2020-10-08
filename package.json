@@ -1,15 +1,14 @@
 {
   "name": "quiz",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
-  "homepage": "https://gargoletz.github.io/quiz",
+  "homepage": "https://szymmis.github.io/quiz",
   "dependencies": {
-    "firebase": "^7.22.0",
-    "gh-pages": "^2.0.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
-    "uifx": "^2.0.7"
+    "firebase": "^7.22.1",
+    "gh-pages": "^2.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.11.0"
   }
 }

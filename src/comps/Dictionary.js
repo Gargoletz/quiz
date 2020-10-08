@@ -1,12 +1,11 @@
 import React, { useDebugValue } from 'react';
-import "./css/App.css";
-import "./css/Quiz.css";
-import "./css/Dictionary.css";
-import { getDeterminer } from './App';
-import { getGenderStyleClass } from './Quiz';
-import DictionaryWord from './DictionaryWord';
-import icons from './gfx/icons';
-import ICONS from './gfx/icons';
+import "../css/App.css";
+import "../css/Quiz.css";
+import "../css/Dictionary.css";
+import { getDeterminer } from '../App';
+import Word from './dictionary/DictionaryWord';
+import DictionaryToolbar from './dictionary/DictionaryToolbar';
+import DictionarySearchbar from './dictionary/DictionarySearchbar';
 
 class Dictionary extends React.Component {
     constructor(props) {
@@ -28,6 +27,7 @@ class Dictionary extends React.Component {
 
         this.search = this.search.bind(this);
         this.formatByLetter = this.formatByLetter.bind(this);
+        this.modifyState = this.modifyState.bind(this);
     }
 
     search() {
@@ -60,9 +60,10 @@ class Dictionary extends React.Component {
             //         elements.push(<div className={"dictionary-divider"}><p>{letter.toUpperCase()}</p></div>)
             //     }
             // }
-            elements.push(<DictionaryWord
+            elements.push(<Word
                 word={word}
                 isSelected={this.state.edited == word}
+                key={i}
                 select={(word) => {
                     if (this.state.editMode != 2) {
                         if (this.state.edited != undefined)
@@ -81,9 +82,13 @@ class Dictionary extends React.Component {
                 enableDelete={(this.state.editMode == 2)}
                 isChecked={this.state.selected.includes(word)}
                 onChange={(value) => { this.props.onChange(this.state.edited, value); }}
-            ></DictionaryWord>);
+            ></Word>);
         }
         return elements;
+    }
+
+    modifyState(obj, callback) {
+        this.setState(obj, callback);
     }
 
     render() {
@@ -95,63 +100,15 @@ class Dictionary extends React.Component {
                     }
                 }}>
                 <div id="dictionary-search">
-                    {(true) ? <div id="dictionary-search-buttons">
-                        <div className={"button " + (((this.state.editMode == 2 && this.state.selected.length == 0) || (this.state.editMode == 1 && (!this.state.added.es || !this.state.added.pl))) ? "button--disabled" : "button--green")}
-                            style={{ backgroundColor: (this.state.editMode == 2 && this.state.selected.length == 0) ? "" : "" }}
-                            onClick={() => {
-                                if (this.state.editMode == 0) {
-                                    // if (this.state.added == undefined)
-                                    this.setState({ added: { pl: "", es: "" } });
-                                    this.setState({ editMode: 1, })
-                                }
-                                else if (this.state.editMode == 1) {
-                                    if (this.state.added.es && this.state.added.pl) {
-                                        this.props.addWord(this.state.added);
-                                        this.setState({ editMode: 0 }, () => {
-                                            this.search();
-                                        });
-                                    }
-                                }
-                                else if (this.state.editMode == 2) {
-                                    if (this.props.removeWords) {
-                                        this.props.removeWords(this.state.selected);
-                                        this.setState({ selected: [], editMode: 0 }, () => {
-                                            this.search();
-                                        });
-                                    }
-                                }
-                            }}>
-                            <p>{(this.state.editMode == 0) ? "añadir" : "acteptar"}</p>
-                            <img src={(this.state.editMode == 0) ? icons.add_green : icons.accept_green} />
-                        </div>
-                        <div className="button button--red"
-                            style={{ backgroundColor: "" }}
-                            onClick={() => {
-                                if (this.state.editMode == 0) {
-                                    this.state.endEdit();
-                                    this.setState({ editMode: 2 });
-                                }
-                                else if (this.state.editMode == 1)
-                                    this.setState({ editMode: 0, added: undefined });
-                                else
-                                    this.setState({ editMode: 0, selected: [] });
-                            }}>
-                            <p>{(this.state.editMode == 0) ? "eliminar" : "cancelar"}</p>
-                            <img style={{ width: (this.state.editMode == 1) ? "14px" : "" }} src={(this.state.editMode == 0) ? icons.trash_red : icons.decline_red} />
-                        </div>
-                    </div> : ""}
+                    <DictionaryToolbar mode={this.state.editMode} added={this.state.added} addWord={this.props.addWord} selected={this.state.selected} removeWords={this.props.removeWords} search={this.search} onEditDone={this.state.endEdit} modifyState={this.modifyState} />
                     {(this.state.editMode == 1 && this.state.added) ? <div style={{ display: "flex", padding: "0 0px", justifyContent: "center", alignItems: "center" }}>
-                        <DictionaryWord
+                        <Word
                             word={this.state.added}
                             isSelected={true}
                             onChange={(value) => { this.props.onChange(this.state.added, value, true); }}
-                        ></DictionaryWord>
-
+                        ></Word>
                     </div> : ""}
-                    <div id="dictionary-search-bar">
-                        <input type="text" value={this.state.search} onChange={(e) => { this.setState({ search: e.target.value.toLowerCase() }, () => { this.search(); }) }}></input>
-                        <img src={ICONS.search} />
-                    </div>
+                    <DictionarySearchbar search={this.search} searchValue={this.state.search} modifyState={this.modifyState} />
                 </div>
                 <div id="dictionary-content" style={{}}>
                     <div>

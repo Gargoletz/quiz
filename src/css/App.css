@@ -101,3 +101,67 @@ body{
 .button--disabled img{
   display: none;
 }
+
+#nav{
+  display: flex;
+  justify-content: center;
+  /* position: absolute; */
+  top: 0px;
+  width: 100%;
+  /* padding: 10px 0px; */
+  background-color: #fafafa;
+  border-bottom: 2px solid #eee;
+}
+
+#nav > div{
+  display: flex;
+  position: relative;
+  top: 2px;
+  width: min(100%, 500px);
+  justify-content: center;
+}
+
+.nav-button{
+  /* width: 30%; */
+  position: relative;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  /* border: 2px solid transparent; */
+  padding: 8px 8px;
+  margin: 0 5px;
+  transition: transform .25s;
+  user-select: none;
+}
+
+.--active{
+  border-bottom: 2px solid black !important;
+  /* transform: translateY(-2px); */
+  /* border-bottom-color: black; */
+}
+.nav-button:hover{
+  cursor: pointer;
+  /* border-bottom: 2px solid #aaa; */
+}
+
+.nav-button img{
+  position: relative;
+  width: 30px;
+  color: black;
+  user-select: none;
+}
+
+.nav-button p{
+  margin: 0;
+  padding: 0;
+  /* padding-bottom: 4px; */
+  position: relative;
+  color:black;
+  margin-left: 6px;
+  user-select: none;
+}
