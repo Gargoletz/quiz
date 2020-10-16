@@ -1,18 +1,21 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import { getDeterminer } from '../../App';
+import AppContext from '../../AppContext';
 
 export default function QuizCard(props) {
-    return props.word ? <div className={"quiz-box-enlarger " + ((props.isEnlarged) ? "enlarged" : "")}>
-        <div id="quiz-box-wrapper" className={((props.isFlipped) ? "flipped" : "")}>
+    const { word, isEnlarged, isCardFlipped } = useContext(AppContext);
+
+    return word ? <div className={"quiz-box-enlarger " + ((isEnlarged) ? "enlarged" : "")}>
+        <div id="quiz-box-wrapper" className={((isCardFlipped) ? "flipped" : "")}>
             <div id="quiz-box" className="card">
-                <p className={"paragraph-definition"}>{props.word?.pl}</p>
+                <p className={"paragraph-definition"}>{word?.pl}</p>
             </div>
             <div id="quiz-box-back" className="card">
-                <p className={"paragraph-definition " + (getDeterminer(props.word) ? `--${props.word.gender}` : "")}>
-                    {(props.word?.es instanceof Array) ? props.word.es.map((e, i) => {
-                        return (i < props.word.es.length - 1) ? e + "/" : e
-                    }) : `${((getDeterminer(props.word)) ? getDeterminer(props.word) + " " : "")}${props.word?.es}`}
+                <p className={"paragraph-definition " + (getDeterminer(word) ? `--${word.gender}` : "")}>
+                    {(word?.es instanceof Array) ? word.es.map((e, i) => {
+                        return (i < word.es.length - 1) ? e + "/" : e
+                    }) : `${((getDeterminer(word)) ? getDeterminer(word) + " " : "")}${word?.es}`}
                 </p>
             </div>
         </div>

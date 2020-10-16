@@ -1,0 +1,20 @@
+#login-container{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
+}
+
+#login-container p{
+    font-style:  italic;
+    padding: 0 12px;
+}
+
+#login-container h1{
+    border-radius: 12px;
+    background-color: #e6e6e6;
+    padding: 14px;
+    font-size: 24px;
+    text-align:center
+}

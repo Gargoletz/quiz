@@ -1,0 +1,19 @@
+#groups-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    place-items: center;
+    place-content: center;
+}
+.group-element input{
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    text-align:center;
+    padding: 6px 0;
+    outline: none;   
+    border: 2px solid #eee;
+    font-size: 16px;
+    font-weight: bold;
+}

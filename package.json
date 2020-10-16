@@ -4,10 +4,10 @@
   "private": true,
   "homepage": "https://szymmis.github.io/quiz",
   "dependencies": {
-    "firebase": "^7.22.1",
-    "gh-pages": "^2.2.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "firebase": "^7.22.0",
+    "gh-pages": "^2.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-scripts": "^3.3.0"
   },
   "scripts": {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Firebase from './logic/Firebase.js';
+import { Firebase, initFirebaseStuff, loginGoogle } from './logic/Firebase.js';
 import firebase from 'firebase';
 
 import './css/App.css';
@@ -7,7 +7,10 @@ import Quiz from './comps/Quiz';
 import Dictionary from './comps/Dictionary';
 import { cardEnlarge, cardFlip, CORRECT_COLOUR, INCORRECT_COLOUR, initCanvas, resizeCanvas, startFlashAnimation } from './logic/Animations.js';
 import SOUNDS from './gfx/sounds';
-import { Navigation } from './comps/navigation/Navigation.js';
+import LoginScreen from './comps/login/LoginScreen';
+import AppContent from './comps/AppContent.js';
+import AppContext from './AppContext';
+import Navigation from './comps/navigation/Navigation.js';
 
 export function getDeterminer(word) {
   if (word && word.gender) {
@@ -25,8 +28,12 @@ class App extends React.Component {
   constructor() {
     super();
 
+    this.dictRef = React.createRef();
+
     this.state = {
-      screen: 1,
+      conected: false,
+      screen: 2,
+      groups: [],
       dictionary: [],
       questions: [],
       counter: 0,
@@ -34,68 +41,34 @@ class App extends React.Component {
       word: undefined,
       isCardFlipped: false,
       isEnlarged: false,
-      edited: undefined
+      edited: undefined,
+      randomize: this.randomize,
+      changeScreen: this.changeScreen,
+      onAnswer: this.onAnswer,
+      onCorrect: this.onCorrect,
+      onWrong: this.onWrong,
+      onChange: this.onChange,
+      addWord: this.addWord,
+      addGroup: this.addGroup,
+      removeWords: this.removeWords,
+      removeGroups: this.removeGroups,
+      setQuestions: this.setQuestions,
+      onEditEnter: this.onEditEnter,
+      onEditDone: this.onEditDone,
+      onGroupChange: this.onGroupChange,
     }
 
-    this.dictRef = React.createRef();
-
-    this.randomize = this.randomize.bind(this);
-    this.changeScreen = this.changeScreen.bind(this);
-    this.onAnswer = this.onAnswer.bind(this);
-    this.onCorrect = this.onCorrect.bind(this);
-    this.onWrong = this.onWrong.bind(this);
-    this.onChange = this.onChange.bind(this);
-    this.addWord = this.addWord.bind(this);
-    this.setQuestions = this.setQuestions.bind(this);
-    this.onEditEnter = this.onEditEnter.bind(this);
-    this.onEditDone = this.onEditDone.bind(this);
-
-    firebase.auth().onAuthStateChanged((a) => {
-      if (a) {
-        let uid = a.uid;
-        console.log("logged in", { uid });
-      }
-    })
-
-    firebase.auth().getRedirectResult().then((result) => {
-      if (result && result.user && result.user.uid) {
-        let uid = result.user.uid;
-        console.log({ uid });
-        firebase.database().ref(`users/${uid}`).set({ test: { string: 'User creating test!' } });
-      }
-    }).catch((reason) => {
-      console.log("error", reason);
-    })
-
-    Firebase.database().ref("words").on("child_added", (a) => {
-      let word = Object.assign(a.val(), { key: a.key });
-      this.setState({ dictionary: [...this.state.dictionary, Object.assign(a.val(), { key: a.key })] }, () => {
-        if (this.state.dictionary.length - 2 >= 0 && word.es.charAt(0) < this.state.dictionary[this.state.dictionary.length - 2].es.charAt(0)) {
-          this.setState({
-            dictionary: this.state.dictionary.sort((a, b) => {
-              return (a.es.trim() < b.es.trim()) ? -1 : 1;
-            })
-          }, () => {
-            if (!this.state.isStarted) {
-              this.setQuestions();
-            }
-          })
-        }
-        else if (!this.state.isStarted) {
-          this.setQuestions();
-        }
-      });
-    })
-  }
-
-  login() {
-    let provider = new firebase.auth.GoogleAuthProvider();
-    firebase.auth().signInWithRedirect(provider);
-  }
-
-  setQuestions() {
-    this.setState({ questions: [...this.state.dictionary], counter: this.state.dictionary.length }, () => {
-      this.randomize();
+    initFirebaseStuff(() => this.setState({ conected: true }), (user) => {
+      this.setState({ user });
+    }, (dictionary) => {
+      console.log("set dictionary");
+      this.setState({ dictionary }, () => {
+        this.setQuestions();
+      })
+    }, (groups) => {
+      this.setState({ groups })
+    }, () => {
+      this.setState({ user: undefined });
     });
   }
 
@@ -104,24 +77,32 @@ class App extends React.Component {
     resizeCanvas();
   }
 
-  randomize() {
+  setQuestions = () => {
+    this.setState({ questions: [...this.state.dictionary], counter: this.state.dictionary.length }, () => {
+      this.randomize();
+    });
+  }
+
+  randomize = () => {
     if (this.state.questions.length > 0) {
       this.setState({ word: this.state.questions[Math.floor(Math.random() * this.state.questions.length)] }, () => { });
     }
     else {
-      this.setState({ questions: [...this.state.dictionary] }, () => {
-        this.randomize();
-      });
+      if (this.state.dictionary.length > 0) {
+        this.setState({ questions: [...this.state.dictionary] }, () => {
+          this.randomize();
+        });
+      }
     }
   }
 
-  changeScreen(screen) {
+  changeScreen = (screen) => {
     this.setState({ screen });
     if (this.dictRef.current)
       this.dictRef.current.state.endEdit();
   }
 
-  onAnswer(value) {
+  onAnswer = (value) => {
     if (!this.state.isCardFlipped) {
       if (!this.state.isStarted)
         this.setState({ isStarted: true });
@@ -136,13 +117,13 @@ class App extends React.Component {
     }
   }
 
-  removeQuestion(question, onRemoved) {
+  removeQuestion = (question, onRemoved) => {
     this.setState({ questions: this.state.questions.filter((v) => v.es != question.es) }, () => {
       onRemoved();
     });
   }
 
-  onCorrect() {
+  onCorrect = () => {
     this.removeQuestion(this.state.word, () => {
       if (SOUNDS.correct.paused)
         SOUNDS.correct.play();
@@ -154,7 +135,7 @@ class App extends React.Component {
     });
   }
 
-  onWrong(doRandomize) {
+  onWrong = (doRandomize) => {
     if (doRandomize) {
       if (SOUNDS.incorrect.paused)
         SOUNDS.incorrect.play();
@@ -169,8 +150,8 @@ class App extends React.Component {
     });
   }
 
-  addWord(word, callback) {
-    if (word && word.es && word.pl) {
+  addWord = (word, callback) => {
+    if (this.state.user && word && word.es && word.pl) {
       this.onEditDone(word);
       let filter = this.state.dictionary.filter((e) => e.es.trim() == word.es.trim());
       if (filter.length == 1) {
@@ -179,31 +160,47 @@ class App extends React.Component {
       }
       if (callback)
         callback();
-      Firebase.database().ref(`words/${word.es.trim()}`).set(word);
+      Firebase.database().ref(`dicts/${this.state.user}/${word.es.trim()}`).set(word);
     }
   }
 
-  removeWords(words) {
-    this.setState({
-      dictionary: this.state.dictionary.filter((e) => !words.includes(e))
-    }, () => {
-      words.forEach((e) => {
-        if (e.key) {
-          Firebase.database().ref(`words/${e.key}`).set(null);
-        }
-      })
-    });
+  addGroup = (group, callback) => {
+    if (this.state.user && group.title) {
+      Firebase.database().ref(`groups/${this.state.user}`).push(group);
+      if (callback)
+        callback();
+    }
   }
 
-  onEditEnter(word) {
+  removeWords = (words) => {
+    if (this.state.user) {
+      words.forEach((e) => {
+        if (e.key) {
+          Firebase.database().ref(`dicts/${this.state.user}/${e.key}`).set(null);
+        }
+      })
+    }
+  }
+
+  removeGroups = (groups) => {
+    if (this.state.user) {
+      groups.forEach((g) => {
+        if (g.key) {
+          Firebase.database().ref(`groups/${this.state.user}/${g.key}`).set(null);
+        }
+      })
+    }
+  };
+
+  onEditEnter = (word) => {
     if (word) {
       word.es = `${getDeterminer(word)} ${word.es}`;
       this.setState({ dictionary: [...this.state.dictionary] });
     }
   }
 
-  onEditDone(word) {
-    if (word) {
+  onEditDone = (word) => {
+    if (this.state.user && word) {
       let es = word.es.trim();
       let determiner = es.substring(0, es.indexOf(" ", 0)).trim().toLocaleLowerCase();
       word.es = es.substring(es.indexOf(" ") + 1, es.length).trim();
@@ -225,39 +222,41 @@ class App extends React.Component {
         let copy = { ...word };
         delete copy.key;
         if (word.key)
-          Firebase.database().ref(`words/${word.key}`).set(copy);
+          Firebase.database().ref(`dicts/${this.state.user}/${word.key}`).set(copy);
       });
     }
   }
 
-  onChange(word, value) {
+  onGroupChange = (group, obj) => {
+    Object.assign(group, obj);
+    this.setState({ groups: [...this.state.groups] }, () => {
+      if (group.key) {
+        let __copy = { ...group };
+        delete __copy.key;
+        Firebase.database().ref(`groups/${this.state.user}/${group.key}`).set(__copy);
+      }
+    });
+  }
+
+  onChange = (word, value) => {
     Object.assign(word, value);
     this.setState({ dictionary: [...this.state.dictionary] });
   }
 
   render() {
     return (
-      <div id="container"
-        onMouseDown={(e) => {
-          if (e.target.id == "container" || e.target.id == "nav")
-            if (this.dictRef.current)
-              this.dictRef.current.state.endEdit();
-        }}>
-        <canvas style={{}}></canvas>
-        <Navigation change={this.changeScreen} />
-        {(this.state.screen == 0) ?
-          <Quiz word={this.state.word} isEnlarged={this.state.isEnlarged} isFlipped={this.state.isCardFlipped} onAnswer={this.onAnswer} getProgress={() => {
-            return ((this.state.counter - this.state.questions.length) / this.state.counter)
-          }} getWordsLeft={() => this.state.questions.length}></Quiz>
-          : <Dictionary ref={this.dictRef} dictionary={this.state.dictionary}
-            onChange={(word, value, preventSending) => { this.onChange(word, value, preventSending) }}
-            addWord={this.addWord}
-            removeWords={(words) => { this.removeWords(words); }}
-            onEditEnter={(word) => { this.onEditEnter(word); }}
-            onEditDone={(word) => { this.onEditDone(word); }}
-          ></Dictionary>}
-
-      </div >
+      <AppContext.Provider value={this.state}>
+        <div id="container"
+          onMouseDown={(e) => {
+            if (e.target.id == "container" || e.target.id == "nav")
+              if (this.dictRef.current)
+                this.dictRef.current.state.endEdit();
+          }}>
+          <canvas style={{}}></canvas>
+          <Navigation />
+          <AppContent />
+        </div >
+      </AppContext.Provider>
     );
   }
 }

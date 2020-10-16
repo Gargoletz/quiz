@@ -48,7 +48,7 @@ class DictionaryWord extends React.Component {
                     <p>{this.props.word.pl}</p>
                     {(this.props.enableDelete) ?
                         <div
-                            className={"dictionary-word-delete " + ((this.props.isChecked) ? "dictionary-word-delete--checked" : "")}
+                            className={"checkbox " + ((this.props.isChecked) ? "checkbox--checked" : "")}
                             onMouseDown={() => { this.props.check(this.props.word) }}>
                             {(this.props.isChecked) ? <img src={ICONS.accept}></img> : ""}
                         </div> : ""}

@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import ICONS from '../../gfx/icons';
+import AppContext from '../../AppContext';
 
 export default function QuizTip(props) {
-    return props?.tip ?
+    const { word } = useContext(AppContext);
+
+    return word?.description ?
         <div id="quiz-tip" >
             <img src={ICONS.lightBulb_gray}></img>
-            <p>{props.tip}</p>
+            <p>{word.description}</p>
         </div>
         : '';
 }

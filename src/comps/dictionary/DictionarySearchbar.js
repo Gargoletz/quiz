@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import ICONS from '../../gfx/icons';
+import AppContext from '../../AppContext';
 
 export default function DictionarySearchbar(props) {
-    return (
+    const { dictionary } = useContext(AppContext);
+
+    return dictionary.length > 0 ? (
         <div id="dictionary-search-bar">
             <input type="text" value={props.searchValue}
                 onChange={(e) => {
@@ -11,5 +14,5 @@ export default function DictionarySearchbar(props) {
                 }}></input>
             <img src={ICONS.search} />
         </div>
-    );
+    ) : null;
 }
