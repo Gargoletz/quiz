@@ -46,12 +46,6 @@ class DictionaryWord extends React.Component {
                     <p style={(this.props.word.es) ? {} : { fontWeight: "initial", fontStyle: "italic", color: "#555" }}>{((getDeterminer(this.props.word)) ? `${getDeterminer(this.props.word)} ` : "") + (this.props.word.es)}</p>
                     <img src={arrow_img} />
                     <p>{this.props.word.pl}</p>
-                    {(this.props.enableDelete) ?
-                        <div
-                            className={"checkbox " + ((this.props.isChecked) ? "checkbox--checked" : "")}
-                            onMouseDown={() => { this.props.check(this.props.word) }}>
-                            {(this.props.isChecked) ? <img src={ICONS.accept}></img> : ""}
-                        </div> : ""}
                 </div>
 
         );

@@ -44,7 +44,7 @@
     justify-content: center;
     align-items: center;
     /* background-color: #f4f4f4; */
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 img{
     user-select: none;
@@ -134,26 +134,6 @@ img{
     user-select: none;
 }
 
-.checkbox{
-    border-radius: 6px;
-    border: 3px solid #dcdcdc;
-    width: 18px;
-    height: 18px;
-    margin-right: 10px;
-    user-select: none;
-}
-.checkbox--checked{
-    background-color: #dcdcdc;
-}
-.checkbox img{
-    width: 20px;
-    position: relative;
-    left: -1px;
-    user-select: none;
-}
-.checkbox:hover{
-    background-color: #cdcdcd;
-}
 
 .dictionary-word.--feminine p{
     background-color: #ffebef;

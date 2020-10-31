@@ -32,7 +32,7 @@ class App extends React.Component {
 
     this.state = {
       conected: false,
-      screen: 2,
+      screen: 1,
       groups: [],
       dictionary: [],
       questions: [],
