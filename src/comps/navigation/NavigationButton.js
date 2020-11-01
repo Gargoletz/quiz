@@ -6,10 +6,10 @@ export function NavigationButton(props) {
     let { screen, changeScreen } = useContext(AppContext);
 
     return (
-        <div className={"nav-button " + (screen === props.value ? "--active" : "")}
+        <button className={(screen === props.value ? "--active" : "")}
             onClick={() => { changeScreen(props.value); }}>
-            <img src={props.icon} alt="" />
+            <img src={props.icon} draggable={false} alt="" />
             {/* <p>{props.title}</p> */}
-        </div>
+        </button>
     );
 }

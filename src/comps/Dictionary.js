@@ -9,6 +9,7 @@ import DictionarySearchbar from './dictionary/DictionarySearchbar';
 import AppContext from '../AppContext';
 import Tip from './generic/Tip';
 import DictionaryList from './dictionary/DictionaryList';
+import Screen from './generic/Screen'
 
 export const DictionaryContext = React.createContext();
 
@@ -34,6 +35,12 @@ class Dictionary extends React.Component {
         }
     }
 
+    componentDidMount() {
+        window.addEventListener("mousedown", (e) => {
+            this.clearSelection(e.target)
+        })
+    }
+
     search = () => {
         if (this.state.search) {
             this.setState({
@@ -51,7 +58,8 @@ class Dictionary extends React.Component {
     }
 
     clearSelection = (e) => {
-        if (e.id == "dictionary-wrapper" || e.id == "dictionary-content" || e.classList.contains("dictionary-divider")) {
+        if (["container", "dictionary-content"].includes(e.id)
+            || e.classList.contains("dictionary-divider")) {
             this.state.endEdit();
         }
     }
@@ -59,17 +67,17 @@ class Dictionary extends React.Component {
     render() {
         return (
             <DictionaryContext.Provider value={this.state}>
-                <div id="dictionary-wrapper" onMouseDown={(e) => this.clearSelection(e.target)}>
+                <Screen>
                     <DictionaryTip />
                     <div id="dictionary-search">
                         <DictionaryToolbar mode={this.state.editMode} added={this.state.added} selected={this.state.selected} search={this.search} onEditDone={this.state.endEdit} modifyState={this.modifyState} />
-                        <AddedWord />
                         <DictionarySearchbar search={this.search} searchValue={this.state.search} modifyState={this.modifyState} />
                     </div>
                     <div id="dictionary-content">
+                        <AddedWord />
                         {<DictionaryList elements={(this.state.search) ? this.state.found : this.context.dictionary} />}
                     </div>
-                </div >
+                </Screen>
             </DictionaryContext.Provider>
         );
     }

@@ -20,20 +20,12 @@
     padding: 5px 0;
     /* width: min(100%, 500px); */
     width: 100%;
-    overflow-x: hidden;
-}
-
-@media (max-width: 500px){
-    #dictionary-list{
-        width: 100%;
-        left: 0px !important;
-    }
+    /* overflow-x: hidden; */
 }
 
 #dictionary-list{
-    width: min(100%, 500px);
+    width: 100%;
     position: relative;
-    left: 10px;
 }
 
 .dictionary-word{

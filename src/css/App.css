@@ -135,25 +135,6 @@ body{
   display: none;
 }
 
-#nav{
-  display: flex;
-  justify-content: center;
-  /* position: absolute; */
-  top: 0px;
-  width: 100%;
-  /* padding: 10px 0px; */
-  background-color: #fafafa;
-  border-bottom: 2px solid #eee;
-}
-
-#nav > div{
-  display: flex;
-  position: relative;
-  top: 2px;
-  width: min(100%, 500px);
-  justify-content: center;
-}
-
 .nav-button{
   /* width: 30%; */
   position: relative;
@@ -215,6 +196,7 @@ body{
   align-items: center;
   margin-bottom: 5px;
   padding-right: 10px;
+  cursor: pointer;
   /* width: min(100%, 500px); */
 }
 

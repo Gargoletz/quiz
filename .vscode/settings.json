@@ -8,6 +8,7 @@
         "*/App.test.js": true,
         "*/index.js": true,
         "*/index.css": true,
+        "*/*/*.css.map": true,
         ".gitattributes": true,
         ".gitignore": true,
         "package.json": true,

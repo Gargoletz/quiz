@@ -1,0 +1,64 @@
+$maxHeight: 500px;
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    top: 0px;
+    width: 100%;
+    background-color: #fafafa;
+    border-bottom: 2px solid #eee;
+    > div {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 2px;
+        width: Min($maxHeight, 100%);
+        place-items: center;
+    }
+
+    button {
+        position: relative;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        border: none;
+        border-bottom: 2px solid transparent;
+        outline: none;
+        padding: 8px 8px;
+        margin: 0 5px;
+        transition: transform 0.25s;
+        user-select: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        img {
+            user-select: none;
+            width: 30px;
+        }
+
+        &.--active {
+            img {
+                position: relative;
+                top: -2px;
+            }
+        }
+    }
+}
+
+.screen-container {
+    align-self: center;
+    width: Min($maxHeight, 100%);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    place-items: center;
+    overflow: hidden;
+}

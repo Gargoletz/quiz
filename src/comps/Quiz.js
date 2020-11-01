@@ -1,12 +1,11 @@
 import React from 'react';
-import "../css/Quiz.css";
-import "../css/Quiz-anims.css";
 import AppContext from '../AppContext';
 import QuizTip from './quiz/QuizTip';
 import QuizInput from './quiz/QuizInput';
 import QuizCard from './quiz/QuizCard';
 import QuizProgress from './quiz/QuizProgress';
 import Tip from './generic/Tip';
+import Screen from './generic/Screen'
 
 export function getGenderStyleClass(answer) {
     let words = answer.trim().split(" ");
@@ -28,16 +27,14 @@ export default class Quiz extends React.Component {
     }
     render() {
         return this.context?.word ? (
-            <div id="quiz-wrapper">
-                <div className="quiz-content">
-                    <QuizProgress getProgress={() => 0.5} />
-                    <QuizCard />
-                    <QuizInput />
-                    <QuizTip />
-                </div>
-            </div>
-        ) : <div style={{}} className="flex-centered">
+            <Screen centered={true}>
+                <QuizProgress getProgress={() => 0.5} />
+                <QuizCard />
+                <QuizInput />
+                <QuizTip />
+            </Screen>
+        ) : <Screen centered={true}>
                 <Tip style={{ margin: "0 10%" }} value="Brak słow w słowniku, dodaj jakieś by móc zacząć ćwiczyć słownictwo!" />
-            </div>
+            </Screen>
     }
 }
